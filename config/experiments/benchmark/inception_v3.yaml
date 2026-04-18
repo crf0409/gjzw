@@ -1,0 +1,9 @@
+# InceptionV3 实验配置
+
+model:
+  name: "inception_v3"
+
+optimizer:
+  type: "adam"
+  learning_rate: 0.0001
+  schedule: "cosine"

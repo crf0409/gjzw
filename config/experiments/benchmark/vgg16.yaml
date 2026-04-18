@@ -1,0 +1,9 @@
+# VGG16 实验配置
+
+model:
+  name: "vgg16"
+
+optimizer:
+  type: "adam"
+  learning_rate: 0.0001
+  schedule: "cosine"

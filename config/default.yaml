@@ -1,0 +1,49 @@
+# 默认配置 - 所有实验继承此配置
+
+project:
+  name: "ancient-character-classification"
+  seed: 42
+
+paths:
+  root: "${PROJECT_ROOT}"
+  data: "${PROJECT_ROOT}/data/processed/images"
+  weights: "${PROJECT_ROOT}/data/weights"
+  outputs: "${PROJECT_ROOT}/outputs"
+
+data:
+  img_height: null  # null表示自动检测
+  img_width: null
+  test_split: 0.3
+  train_mapping: "train_mapping.csv"
+  test_mapping: "test_mapping.csv"
+  augmentation:
+    rotation: 0.15
+    translation: 0.1
+    zoom: 0.15
+    brightness: 0.1
+    contrast_lower: 0.9
+    contrast_upper: 1.1
+
+training:
+  batch_size: 32
+  epochs: 100
+  early_stopping_patience: 15
+  reduce_lr_patience: 8
+  reduce_lr_factor: 0.5
+  min_lr: 0.0000001
+
+model:
+  name: "base"
+  weights: "imagenet"
+  weights_path: null
+  fine_tune_ratio: 0.8
+  dropout1: 0.3
+  dropout2: 0.2
+  fc_units: 256
+  l2_reg: 0.0001
+
+optimizer:
+  type: "adam"
+  learning_rate: 0.0001
+  momentum: 0.9
+  schedule: "cosine"  # cosine, exponential, constant

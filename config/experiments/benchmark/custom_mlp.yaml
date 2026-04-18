@@ -1,0 +1,24 @@
+# 自定义MLP实验配置
+# 原始图像经过双线性插值缩放至224×224
+# 标准化至[0,1]
+# 隐藏层神经元数量300，Dropout 0.2，L2正则化0.05
+
+model:
+  name: "custom_mlp"
+  fc_units: 300
+  dropout1: 0.2
+  dropout2: 0.2
+  l2_reg: 0.05
+
+data:
+  img_height: 224
+  img_width: 224
+
+optimizer:
+  type: "adam"
+  learning_rate: 0.001
+  schedule: "cosine"
+
+training:
+  batch_size: 32
+  epochs: 100
