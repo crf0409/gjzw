@@ -1,11 +1,10 @@
 # gjzw | 古建筑物图像分类系统 (Ancient-Building Image Classification)
 
-基于深度学习的古建筑物自动识别与分类系统, 配套 SCI Q2 论文 *AAFNet: An
-Architectural-Aware Fusion Network with Implicit Neural Texture Compression
-for Robust Ancient-Building Image Classification* 的实验代码.
+基于深度学习的古建筑物自动识别与分类系统, 包含 AAFNet、多主干对比、
+鲁棒性评估、跨数据集泛化和 INR 探索实验代码.
 
 本开源仓库只包含代码、配置与必要入口说明; 原始/处理后数据集、模型权重、训练输出、
-论文 Markdown/Word/PPT/PDF 文档及其生成脚本不随仓库发布.
+文档草稿、Office/PDF 文档及其生成脚本不随仓库发布.
 
 ## 功能特性
 

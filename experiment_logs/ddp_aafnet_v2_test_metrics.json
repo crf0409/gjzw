@@ -1,0 +1,66 @@
+{
+  "test_accuracy": 0.993421052631579,
+  "test_loss": 0.06787289234629848,
+  "macro_precision": 0.992729716520039,
+  "macro_recall": 0.9950109005534126,
+  "macro_f1": 0.9938186810804361,
+  "weighted_precision": 0.9935376151155014,
+  "weighted_recall": 0.993421052631579,
+  "weighted_f1": 0.9934343118578416,
+  "confusion_matrix": [
+    [
+      60,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      133,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      83,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      32,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      58,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      87
+    ]
+  ],
+  "classification_report_text": "              precision    recall  f1-score   support\n\n           0       0.97      1.00      0.98        60\n           1       1.00      0.99      1.00       134\n           2       1.00      1.00      1.00        83\n           3       1.00      1.00      1.00        32\n           4       1.00      1.00      1.00        58\n           5       0.99      0.98      0.98        89\n\n    accuracy                           0.99       456\n   macro avg       0.99      1.00      0.99       456\nweighted avg       0.99      0.99      0.99       456\n",
+  "run_id": "20260508_125340",
+  "model": "resnet50",
+  "dataset": "AL6",
+  "num_classes": 6,
+  "world_size": 4
+}

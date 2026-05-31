@@ -88,6 +88,11 @@ outputs/
 log/
 logs/
 
+# Curated, lightweight logs that are safe to publish.
+!experiment_logs/
+!experiment_logs/**/*.json
+!experiment_logs/**/*.log
+
 # Documentation and paper artifacts
 # Keep README.md as the repository entry point, but do not publish paper/report
 # markdown drafts or generated office documents.

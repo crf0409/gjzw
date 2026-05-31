@@ -1,0 +1,28 @@
+Ancient-building image classification experiment log snapshot
+Generated from curated local outputs; raw images, model weights, caches, and full output directories are not included.
+
+[DDP AAFNet v2 / AL6]
+run_id=20260508_125340
+model=resnet50 dataset=AL6 world_size=4
+epochs_completed=40 best_val_accuracy=99.45% best_val_epoch=25
+test_accuracy=99.34% macro_f1=0.9938186810804361 weighted_f1=0.9934343118578416
+
+[5-fold CV / AL6 / seed 42]
+baseline_mean=98.86% std=0.32% folds=5/5
+aafnet_v2_mean=99.12% std=0.31% folds=5/5
+
+[Multi-model significance / AL6 / 15 folds per model]
+models=baseline, aafnet, rn50_aug_only, efficientnet_v2_s, convnext_tiny, capsnet
+friedman_statistic=42.9637096774194 p_value=3.758189215089614e-08
+baseline_mean=98.68% aafnet_mean=99.14% capsnet_mean=90.00%
+
+[ASP / AS25 clean split summary]
+ASP_clean.baseline: n_seeds=3 test_acc_mean=70.96% macro_f1_mean=0.7098167380425506
+ASP_clean.aafnet: n_seeds=3 test_acc_mean=72.43% macro_f1_mean=0.7260768646497545
+AS25_clean.baseline: n_seeds=3 test_acc_mean=64.71% macro_f1_mean=0.6453500524680226
+AS25_clean.aafnet: n_seeds=3 test_acc_mean=64.53% macro_f1_mean=0.6437585688221984
+
+[Cross-dataset summary]
+run_id=20260508_161338 mode=within
+
+Files in this directory are sanitized snapshots for reproducibility checks and result inspection.
