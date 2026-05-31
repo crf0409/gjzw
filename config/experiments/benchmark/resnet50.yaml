@@ -1,0 +1,10 @@
+# ResNet50 实验配置
+
+model:
+  name: "resnet50"
+  fine_tune_layers: ["conv4_block", "conv5_block"]
+
+optimizer:
+  type: "adam"
+  learning_rate: 0.0001
+  schedule: "cosine"

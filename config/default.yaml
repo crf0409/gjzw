@@ -1,0 +1,87 @@
+# 默认配置 - 所有实验继承此配置
+
+project:
+  name: "ancient-character-classification"
+  seed: 42
+
+paths:
+  root: "${PROJECT_ROOT}"
+  data: "${PROJECT_ROOT}/data/processed/${data.dataset}"  # 按 data.dataset 选择数据集
+  weights: "${PROJECT_ROOT}/data/weights"
+  outputs: "${PROJECT_ROOT}/outputs"
+
+data:
+  dataset: "AL6"           # AL6 (古建筑6类) | ASP (styles-periods) | AS25 (architectural-styles-25)
+  img_height: null         # null表示自动检测
+  img_width: null
+  test_split: 0.3
+  train_mapping: "train_mapping.csv"
+  test_mapping: "test_mapping.csv"
+  augmentation:
+    rotation: 0.15
+    translation: 0.1
+    zoom: 0.15
+    brightness: 0.1
+    contrast_lower: 0.9
+    contrast_upper: 1.1
+    # ArchAug 域内增强开关（详见 src/data/arch_aug.py）
+    arch_aug:
+      enabled: false       # 总开关
+      perspective: 0.0     # >0 启用 PerspectiveJitter，建议 0.3
+      arch_occlusion: 0.0  # >0 启用 ArchOcclusion (Grad-CAM 显著区遮挡)
+      weather: 0.0         # >0 启用 WeatherSim
+      mixup: 0.0           # >0 启用 StylePreservingMixUp
+      cutmix: 0.0
+      randaugment: false
+
+training:
+  batch_size: 32
+  epochs: 100
+  early_stopping_patience: 15
+  reduce_lr_patience: 8
+  reduce_lr_factor: 0.5
+  min_lr: 0.0000001
+
+model:
+  name: "base"
+  weights: "imagenet"
+  weights_path: null
+  fine_tune_ratio: 0.8
+  dropout1: 0.3
+  dropout2: 0.2
+  fc_units: 256
+  l2_reg: 0.0001
+
+optimizer:
+  type: "adam"             # adam | adamw | sgd
+  learning_rate: 0.0001
+  momentum: 0.9
+  schedule: "cosine"       # cosine | exponential | constant | plateau
+
+# AAFNet 框架开关（消融时切此处）
+aafnet:
+  msa:
+    enabled: false         # 多尺度风格注意力 (MSSA + CSGF)
+    fused_dim: 512
+    style_dim: 128
+    placement: "after_layer4"   # after_layer3 | after_layer4 | before_head
+  loss:
+    type: "ce"             # ce | focal | focalls | focalls_supcon | focalls_supcon_kd
+    focal_gamma: 2.0
+    label_smoothing: 0.05
+    supcon_weight: 0.0     # >0 启用 SupCon
+    supcon_temp: 0.07
+    proj_dim: 128
+    kd_weight: 0.0         # >0 启用 KD
+    kd_temp: 4.0
+    teacher_ckpt: null     # 教师权重路径
+  ensemble:
+    enabled: false
+    mode: "soft_vote"      # soft_vote | diversity_weighted | moe
+    members: []            # 例: ["resnet50","efficientnet_b3","convnext_tiny"]
+
+# 交叉验证（默认关闭，启用时由 cv_runner 接管）
+cv:
+  enabled: false
+  n_folds: 5
+  seeds: [42, 1337, 2024]
