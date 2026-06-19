@@ -1,0 +1,13 @@
+model,phase,condition,ece
+baseline,pre,clean,0.0064697881364612405
+baseline,pre,noise_0_05,0.8546382164508761
+baseline,pre,noise_0_10,0.8678414096916299
+baseline,post,clean,0.008164724720732224
+baseline,post,noise_0_05,0.8568689393183209
+baseline,post,noise_0_10,0.8678414096916299
+aafnet,pre,clean,0.23698998948288386
+aafnet,pre,noise_0_05,0.23189534437288797
+aafnet,pre,noise_0_10,0.2368343108157229
+aafnet,post,clean,0.004296265903548523
+aafnet,post,noise_0_05,0.015573906347089942
+aafnet,post,noise_0_10,0.022719962743935652

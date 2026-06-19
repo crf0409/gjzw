@@ -1,0 +1,7 @@
+figure,model,sample_dataset,sample_index,true_domain,pred_domain,p_AL6,p_ASP_clean,p_AS25_clean,display_rotation_deg
+F_Q2f_domain_probe_effect,baseline,AL6,155,AL6,AL6,0.9999970224679408,2.6049388097838516e-10,2.977271565207346e-06,90
+F_Q2f_domain_probe_effect,baseline,ASP_clean,784,ASP_clean,AS25_clean,5.5507727580756456e-05,0.16541190380801177,0.8345325884644075,0
+F_Q2f_domain_probe_effect,baseline,AS25_clean,464,AS25_clean,AS25_clean,8.343610193745015e-05,0.37599203869185577,0.6239245252062068,270
+F_Q2f_domain_probe_effect,aafnet,AL6,155,AL6,AL6,0.9999999999023856,3.345254685258549e-11,6.416172261789174e-11,90
+F_Q2f_domain_probe_effect,aafnet,ASP_clean,784,ASP_clean,ASP_clean,1.5602326671464617e-11,0.9999999997485727,2.3582496138529854e-10,0
+F_Q2f_domain_probe_effect,aafnet,AS25_clean,464,AS25_clean,AS25_clean,1.8444568969131647e-09,1.977491576524583e-11,0.9999999981357681,270

@@ -1,0 +1,5 @@
+figure,model,sample_type,dataset,sample_index,energy_score,id_95_percentile_threshold,decision,display_rotation_deg
+F_Q2b_ood_asp_effect,baseline,ID,AL6,322,-7.479890823364258,-4.8473052978515625,ID,90
+F_Q2b_ood_asp_effect,baseline,OOD,ASP_clean,162,-2.7622861862182617,-4.8473052978515625,OOD,0
+F_Q2b_ood_asp_effect,aafnet,ID,AL6,322,-2.62459135055542,-2.3232994079589844,ID,90
+F_Q2b_ood_asp_effect,aafnet,OOD,ASP_clean,162,-1.6414570808410645,-2.3232994079589844,OOD,0

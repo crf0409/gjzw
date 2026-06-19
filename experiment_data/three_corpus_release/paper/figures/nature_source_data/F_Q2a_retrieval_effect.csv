@@ -1,0 +1,11 @@
+figure,model,query_index,rank,retrieved_index,query_label,retrieved_label,cosine,same_class,query_display_rotation_deg,retrieved_display_rotation_deg
+F_Q2a_retrieval_effect,baseline,109,1,270,2,2,0.8449710011482239,True,270,270
+F_Q2a_retrieval_effect,baseline,109,2,237,2,0,0.5978231430053711,False,270,270
+F_Q2a_retrieval_effect,baseline,109,3,264,2,0,0.5607542395591736,False,270,270
+F_Q2a_retrieval_effect,baseline,109,4,336,2,2,0.5531909465789795,True,270,90
+F_Q2a_retrieval_effect,baseline,109,5,374,2,0,0.5461781620979309,False,270,0
+F_Q2a_retrieval_effect,aafnet,109,1,270,2,2,0.957753598690033,True,270,270
+F_Q2a_retrieval_effect,aafnet,109,2,110,2,2,0.889826774597168,True,270,90
+F_Q2a_retrieval_effect,aafnet,109,3,336,2,2,0.8680970072746277,True,270,90
+F_Q2a_retrieval_effect,aafnet,109,4,204,2,2,0.8586018681526184,True,270,90
+F_Q2a_retrieval_effect,aafnet,109,5,229,2,2,0.8566436171531677,True,270,0

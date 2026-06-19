@@ -1,0 +1,1486 @@
+{
+  "status": [
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "task": "asp_baseline",
+      "robustness_complete": 15,
+      "calibration_complete": 15,
+      "rotation_complete": 15,
+      "target_cells": 15
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "task": "asp_aafnet",
+      "robustness_complete": 15,
+      "calibration_complete": 15,
+      "rotation_complete": 15,
+      "target_cells": 15
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "task": "as25_baseline",
+      "robustness_complete": 15,
+      "calibration_complete": 15,
+      "rotation_complete": 15,
+      "target_cells": 15
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "task": "as25_aafnet",
+      "robustness_complete": 15,
+      "calibration_complete": 15,
+      "rotation_complete": 15,
+      "target_cells": 15
+    }
+  ],
+  "robustness_summary": [
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "metric": "all_corruption_mean",
+      "n": "15",
+      "mean": "0.58305746",
+      "std": "0.00637978"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "metric": "brightness_mean",
+      "n": "15",
+      "mean": "0.64716507",
+      "std": "0.00614991"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "metric": "gauss_noise_mean",
+      "n": "15",
+      "mean": "0.59308032",
+      "std": "0.00619530"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "metric": "jpeg_compress_mean",
+      "n": "15",
+      "mean": "0.66379363",
+      "std": "0.00683414"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "metric": "motion_blur_mean",
+      "n": "15",
+      "mean": "0.38090230",
+      "std": "0.01999091"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "metric": "occlusion_mean",
+      "n": "15",
+      "mean": "0.63034598",
+      "std": "0.00524731"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "metric": "all_corruption_mean",
+      "n": "15",
+      "mean": "0.43664380",
+      "std": "0.00563370"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "metric": "brightness_mean",
+      "n": "15",
+      "mean": "0.61305441",
+      "std": "0.00755842"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "metric": "gauss_noise_mean",
+      "n": "15",
+      "mean": "0.03802012",
+      "std": "0.00387915"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "metric": "jpeg_compress_mean",
+      "n": "15",
+      "mean": "0.62431032",
+      "std": "0.00727882"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "metric": "motion_blur_mean",
+      "n": "15",
+      "mean": "0.31119494",
+      "std": "0.01699366"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "metric": "occlusion_mean",
+      "n": "15",
+      "mean": "0.59663923",
+      "std": "0.00665694"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "metric": "all_corruption_mean",
+      "n": "15",
+      "mean": "0.64243707",
+      "std": "0.00673702"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "metric": "brightness_mean",
+      "n": "15",
+      "mean": "0.70925873",
+      "std": "0.00479434"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "metric": "gauss_noise_mean",
+      "n": "15",
+      "mean": "0.65499795",
+      "std": "0.01074397"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "metric": "jpeg_compress_mean",
+      "n": "15",
+      "mean": "0.71895536",
+      "std": "0.00424604"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "metric": "motion_blur_mean",
+      "n": "15",
+      "mean": "0.42895126",
+      "std": "0.02288824"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "metric": "occlusion_mean",
+      "n": "15",
+      "mean": "0.70002205",
+      "std": "0.00400440"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "metric": "all_corruption_mean",
+      "n": "15",
+      "mean": "0.51425133",
+      "std": "0.00876147"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "metric": "brightness_mean",
+      "n": "15",
+      "mean": "0.67885833",
+      "std": "0.00495453"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "metric": "gauss_noise_mean",
+      "n": "15",
+      "mean": "0.12118577",
+      "std": "0.01723265"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "metric": "jpeg_compress_mean",
+      "n": "15",
+      "mean": "0.69397978",
+      "std": "0.00593810"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "metric": "motion_blur_mean",
+      "n": "15",
+      "mean": "0.40253284",
+      "std": "0.02820468"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "metric": "occlusion_mean",
+      "n": "15",
+      "mean": "0.67469993",
+      "std": "0.00437867"
+    }
+  ],
+  "calibration_summary": [
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "clean",
+      "stage": "post",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.67658893",
+      "std": "0.00591928"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "clean",
+      "stage": "post",
+      "metric": "brier",
+      "n": "15",
+      "mean": "0.46192367",
+      "std": "0.00874218"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "clean",
+      "stage": "post",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.08923018",
+      "std": "0.00876048"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "clean",
+      "stage": "post",
+      "metric": "nll",
+      "n": "15",
+      "mean": "1.12035577",
+      "std": "0.02024844"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "clean",
+      "stage": "pre",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.67658893",
+      "std": "0.00591928"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "clean",
+      "stage": "pre",
+      "metric": "brier",
+      "n": "15",
+      "mean": "0.45619448",
+      "std": "0.00656540"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "clean",
+      "stage": "pre",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.06565418",
+      "std": "0.00660836"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "clean",
+      "stage": "pre",
+      "metric": "nll",
+      "n": "15",
+      "mean": "1.12033610",
+      "std": "0.01460647"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "noise_0_05",
+      "stage": "post",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.66268861",
+      "std": "0.00577491"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "noise_0_05",
+      "stage": "post",
+      "metric": "brier",
+      "n": "15",
+      "mean": "0.48278327",
+      "std": "0.00748276"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "noise_0_05",
+      "stage": "post",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.10002583",
+      "std": "0.00952561"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "noise_0_05",
+      "stage": "post",
+      "metric": "nll",
+      "n": "15",
+      "mean": "1.17734261",
+      "std": "0.01767241"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "noise_0_05",
+      "stage": "pre",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.66268861",
+      "std": "0.00577491"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "noise_0_05",
+      "stage": "pre",
+      "metric": "brier",
+      "n": "15",
+      "mean": "0.47220225",
+      "std": "0.00595139"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "noise_0_05",
+      "stage": "pre",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.05435062",
+      "std": "0.00483910"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "noise_0_05",
+      "stage": "pre",
+      "metric": "nll",
+      "n": "15",
+      "mean": "1.15984790",
+      "std": "0.01377557"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "noise_0_10",
+      "stage": "post",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.63799726",
+      "std": "0.00436809"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "noise_0_10",
+      "stage": "post",
+      "metric": "brier",
+      "n": "15",
+      "mean": "0.51463486",
+      "std": "0.00675347"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "noise_0_10",
+      "stage": "post",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.10818800",
+      "std": "0.00777882"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "noise_0_10",
+      "stage": "post",
+      "metric": "nll",
+      "n": "15",
+      "mean": "1.27511381",
+      "std": "0.01694746"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "noise_0_10",
+      "stage": "pre",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.63799726",
+      "std": "0.00436809"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "noise_0_10",
+      "stage": "pre",
+      "metric": "brier",
+      "n": "15",
+      "mean": "0.50140292",
+      "std": "0.00579651"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "noise_0_10",
+      "stage": "pre",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.05132734",
+      "std": "0.00595635"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "condition": "noise_0_10",
+      "stage": "pre",
+      "metric": "nll",
+      "n": "15",
+      "mean": "1.24684451",
+      "std": "0.01376139"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "clean",
+      "stage": "post",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.66817558",
+      "std": "0.00676062"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "clean",
+      "stage": "post",
+      "metric": "brier",
+      "n": "15",
+      "mean": "0.48487907",
+      "std": "0.00860673"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "clean",
+      "stage": "post",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.13028046",
+      "std": "0.00727638"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "clean",
+      "stage": "post",
+      "metric": "nll",
+      "n": "15",
+      "mean": "1.23334071",
+      "std": "0.02381706"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "clean",
+      "stage": "pre",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.66817558",
+      "std": "0.00676062"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "clean",
+      "stage": "pre",
+      "metric": "brier",
+      "n": "15",
+      "mean": "0.50710951",
+      "std": "0.00795392"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "clean",
+      "stage": "pre",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.17615521",
+      "std": "0.00696634"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "clean",
+      "stage": "pre",
+      "metric": "nll",
+      "n": "15",
+      "mean": "1.39193679",
+      "std": "0.03515728"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "noise_0_05",
+      "stage": "post",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.04652492",
+      "std": "0.00691865"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "noise_0_05",
+      "stage": "post",
+      "metric": "brier",
+      "n": "15",
+      "mean": "1.11742394",
+      "std": "0.04366772"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "noise_0_05",
+      "stage": "post",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.29848593",
+      "std": "0.05901303"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "noise_0_05",
+      "stage": "post",
+      "metric": "nll",
+      "n": "15",
+      "mean": "4.45425440",
+      "std": "0.26019206"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "noise_0_05",
+      "stage": "pre",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.04652492",
+      "std": "0.00691865"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "noise_0_05",
+      "stage": "pre",
+      "metric": "brier",
+      "n": "15",
+      "mean": "1.18604960",
+      "std": "0.07167848"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "noise_0_05",
+      "stage": "pre",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.37555688",
+      "std": "0.08000346"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "noise_0_05",
+      "stage": "pre",
+      "metric": "nll",
+      "n": "15",
+      "mean": "5.03935061",
+      "std": "0.39173239"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "noise_0_10",
+      "stage": "post",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.03308185",
+      "std": "0.00352155"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "noise_0_10",
+      "stage": "post",
+      "metric": "brier",
+      "n": "15",
+      "mean": "1.90127704",
+      "std": "0.03240377"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "noise_0_10",
+      "stage": "post",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.94436661",
+      "std": "0.02250100"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "noise_0_10",
+      "stage": "post",
+      "metric": "nll",
+      "n": "15",
+      "mean": "25.85270958",
+      "std": "0.71652449"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "noise_0_10",
+      "stage": "pre",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.03308185",
+      "std": "0.00352155"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "noise_0_10",
+      "stage": "pre",
+      "metric": "brier",
+      "n": "15",
+      "mean": "1.90717788",
+      "std": "0.02693644"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "noise_0_10",
+      "stage": "pre",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.94844499",
+      "std": "0.01862676"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "condition": "noise_0_10",
+      "stage": "pre",
+      "metric": "nll",
+      "n": "15",
+      "mean": "26.04861056",
+      "std": "0.59113655"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "clean",
+      "stage": "post",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.73575276",
+      "std": "0.00516611"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "clean",
+      "stage": "post",
+      "metric": "brier",
+      "n": "15",
+      "mean": "0.38499319",
+      "std": "0.00532726"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "clean",
+      "stage": "post",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.07758045",
+      "std": "0.01324141"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "clean",
+      "stage": "post",
+      "metric": "nll",
+      "n": "15",
+      "mean": "0.83520242",
+      "std": "0.01499929"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "clean",
+      "stage": "pre",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.73575276",
+      "std": "0.00516611"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "clean",
+      "stage": "pre",
+      "metric": "brier",
+      "n": "15",
+      "mean": "0.38626263",
+      "std": "0.00475820"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "clean",
+      "stage": "pre",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.09163497",
+      "std": "0.00854331"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "clean",
+      "stage": "pre",
+      "metric": "nll",
+      "n": "15",
+      "mean": "0.84732967",
+      "std": "0.00646725"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "noise_0_05",
+      "stage": "post",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.71972403",
+      "std": "0.00756110"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "noise_0_05",
+      "stage": "post",
+      "metric": "brier",
+      "n": "15",
+      "mean": "0.40645048",
+      "std": "0.00832370"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "noise_0_05",
+      "stage": "post",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.08545330",
+      "std": "0.01355715"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "noise_0_05",
+      "stage": "post",
+      "metric": "nll",
+      "n": "15",
+      "mean": "0.88021012",
+      "std": "0.01720436"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "noise_0_05",
+      "stage": "pre",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.71972403",
+      "std": "0.00756110"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "noise_0_05",
+      "stage": "pre",
+      "metric": "brier",
+      "n": "15",
+      "mean": "0.40425645",
+      "std": "0.00922951"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "noise_0_05",
+      "stage": "pre",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.08616817",
+      "std": "0.00933091"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "noise_0_05",
+      "stage": "pre",
+      "metric": "nll",
+      "n": "15",
+      "mean": "0.88286767",
+      "std": "0.01348262"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "noise_0_10",
+      "stage": "post",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.69280786",
+      "std": "0.01011036"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "noise_0_10",
+      "stage": "post",
+      "metric": "brier",
+      "n": "15",
+      "mean": "0.43793570",
+      "std": "0.01127519"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "noise_0_10",
+      "stage": "post",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.09022353",
+      "std": "0.01278367"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "noise_0_10",
+      "stage": "post",
+      "metric": "nll",
+      "n": "15",
+      "mean": "0.94809589",
+      "std": "0.02117064"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "noise_0_10",
+      "stage": "pre",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.69280786",
+      "std": "0.01011036"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "noise_0_10",
+      "stage": "pre",
+      "metric": "brier",
+      "n": "15",
+      "mean": "0.43468062",
+      "std": "0.01224526"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "noise_0_10",
+      "stage": "pre",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.08602752",
+      "std": "0.00896503"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "condition": "noise_0_10",
+      "stage": "pre",
+      "metric": "nll",
+      "n": "15",
+      "mean": "0.94954752",
+      "std": "0.01990796"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "clean",
+      "stage": "post",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.73030904",
+      "std": "0.00471735"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "clean",
+      "stage": "post",
+      "metric": "brier",
+      "n": "15",
+      "mean": "0.40348925",
+      "std": "0.00656740"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "clean",
+      "stage": "post",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.11209816",
+      "std": "0.00705648"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "clean",
+      "stage": "post",
+      "metric": "nll",
+      "n": "15",
+      "mean": "0.91326718",
+      "std": "0.02318062"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "clean",
+      "stage": "pre",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.73030904",
+      "std": "0.00471735"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "clean",
+      "stage": "pre",
+      "metric": "brier",
+      "n": "15",
+      "mean": "0.43271343",
+      "std": "0.00756363"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "clean",
+      "stage": "pre",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.16647431",
+      "std": "0.00896649"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "clean",
+      "stage": "pre",
+      "metric": "nll",
+      "n": "15",
+      "mean": "1.15115890",
+      "std": "0.04563362"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "noise_0_05",
+      "stage": "post",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.13529912",
+      "std": "0.01460470"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "noise_0_05",
+      "stage": "post",
+      "metric": "brier",
+      "n": "15",
+      "mean": "1.09385182",
+      "std": "0.05867967"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "noise_0_05",
+      "stage": "post",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.34994011",
+      "std": "0.06524287"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "noise_0_05",
+      "stage": "post",
+      "metric": "nll",
+      "n": "15",
+      "mean": "3.10325351",
+      "std": "0.27858638"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "noise_0_05",
+      "stage": "pre",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.13529912",
+      "std": "0.01460470"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "noise_0_05",
+      "stage": "pre",
+      "metric": "brier",
+      "n": "15",
+      "mean": "1.20988836",
+      "std": "0.07774544"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "noise_0_05",
+      "stage": "pre",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.46431627",
+      "std": "0.07620541"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "noise_0_05",
+      "stage": "pre",
+      "metric": "nll",
+      "n": "15",
+      "mean": "3.88768865",
+      "std": "0.47267544"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "noise_0_10",
+      "stage": "post",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.11626500",
+      "std": "0.02386157"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "noise_0_10",
+      "stage": "post",
+      "metric": "brier",
+      "n": "15",
+      "mean": "1.74648306",
+      "std": "0.05956158"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "noise_0_10",
+      "stage": "post",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.86922172",
+      "std": "0.03362854"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "noise_0_10",
+      "stage": "post",
+      "metric": "nll",
+      "n": "15",
+      "mean": "23.26528880",
+      "std": "1.18725000"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "noise_0_10",
+      "stage": "pre",
+      "metric": "accuracy",
+      "n": "15",
+      "mean": "0.11626500",
+      "std": "0.02386157"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "noise_0_10",
+      "stage": "pre",
+      "metric": "brier",
+      "n": "15",
+      "mean": "1.75310439",
+      "std": "0.05441936"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "noise_0_10",
+      "stage": "pre",
+      "metric": "ece",
+      "n": "15",
+      "mean": "0.87380905",
+      "std": "0.02940026"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "condition": "noise_0_10",
+      "stage": "pre",
+      "metric": "nll",
+      "n": "15",
+      "mean": "23.64783859",
+      "std": "1.06081479"
+    }
+  ],
+  "rotation_summary": [
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "metric": "acc@0",
+      "n": "15",
+      "mean": "0.67658893",
+      "std": "0.00591928"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "metric": "acc@180",
+      "n": "15",
+      "mean": "0.50843621",
+      "std": "0.00792352"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "metric": "acc@270",
+      "n": "15",
+      "mean": "0.58571102",
+      "std": "0.00804106"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "metric": "acc@90",
+      "n": "15",
+      "mean": "0.57158208",
+      "std": "0.00919465"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "metric": "angle_accuracy",
+      "n": "360",
+      "mean": "0.59768137",
+      "std": "0.05904045"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "metric": "max",
+      "n": "15",
+      "mean": "0.68321902",
+      "std": "0.00525705"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "metric": "mean",
+      "n": "15",
+      "mean": "0.59768137",
+      "std": "0.00473573"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "metric": "min",
+      "n": "15",
+      "mean": "0.50418381",
+      "std": "0.00769807"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "metric": "std",
+      "n": "15",
+      "mean": "0.05883269",
+      "std": "0.00143603"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "metric": "acc@0",
+      "n": "15",
+      "mean": "0.66817558",
+      "std": "0.00676062"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "metric": "acc@180",
+      "n": "15",
+      "mean": "0.49291267",
+      "std": "0.00860549"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "metric": "acc@270",
+      "n": "15",
+      "mean": "0.56547782",
+      "std": "0.00892464"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "metric": "acc@90",
+      "n": "15",
+      "mean": "0.56700960",
+      "std": "0.00858463"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "metric": "angle_accuracy",
+      "n": "360",
+      "mean": "0.55342173",
+      "std": "0.06183090"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "metric": "max",
+      "n": "15",
+      "mean": "0.66817558",
+      "std": "0.00676062"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "metric": "mean",
+      "n": "15",
+      "mean": "0.55342173",
+      "std": "0.00640046"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "metric": "min",
+      "n": "15",
+      "mean": "0.46088249",
+      "std": "0.00812930"
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "metric": "std",
+      "n": "15",
+      "mean": "0.06141962",
+      "std": "0.00311838"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "metric": "acc@0",
+      "n": "15",
+      "mean": "0.73575276",
+      "std": "0.00516611"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "metric": "acc@180",
+      "n": "15",
+      "mean": "0.56656271",
+      "std": "0.01086934"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "metric": "acc@270",
+      "n": "15",
+      "mean": "0.65027880",
+      "std": "0.00756748"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "metric": "acc@90",
+      "n": "15",
+      "mean": "0.62731311",
+      "std": "0.00892750"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "metric": "angle_accuracy",
+      "n": "360",
+      "mean": "0.65999118",
+      "std": "0.05423297"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "metric": "max",
+      "n": "15",
+      "mean": "0.74113978",
+      "std": "0.00482052"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "metric": "mean",
+      "n": "15",
+      "mean": "0.65999118",
+      "std": "0.00421110"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "metric": "min",
+      "n": "15",
+      "mean": "0.56656271",
+      "std": "0.01086934"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "metric": "std",
+      "n": "15",
+      "mean": "0.05398467",
+      "std": "0.00302277"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "metric": "acc@0",
+      "n": "15",
+      "mean": "0.73030904",
+      "std": "0.00471735"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "metric": "acc@180",
+      "n": "15",
+      "mean": "0.56760231",
+      "std": "0.01129205"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "metric": "acc@270",
+      "n": "15",
+      "mean": "0.64235895",
+      "std": "0.00782507"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "metric": "acc@90",
+      "n": "15",
+      "mean": "0.62697288",
+      "std": "0.00959962"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "metric": "angle_accuracy",
+      "n": "360",
+      "mean": "0.63203383",
+      "std": "0.05592111"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "metric": "max",
+      "n": "15",
+      "mean": "0.73030904",
+      "std": "0.00471735"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "metric": "mean",
+      "n": "15",
+      "mean": "0.63203383",
+      "std": "0.00614268"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "metric": "min",
+      "n": "15",
+      "mean": "0.54718836",
+      "std": "0.01175799"
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "metric": "std",
+      "n": "15",
+      "mean": "0.05551918",
+      "std": "0.00265691"
+    }
+  ]
+}

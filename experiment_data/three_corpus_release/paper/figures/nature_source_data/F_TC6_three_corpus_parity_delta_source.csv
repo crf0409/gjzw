@@ -1,0 +1,16 @@
+dataset,family,delta_aafnet_minus_baseline
+AL6,gauss_noise,0.7481644640234948
+AL6,motion_blur,0.08516886930983836
+AL6,jpeg_compress,-0.01541850220264318
+AL6,brightness,0.037444933920704804
+AL6,occlusion,0.02129221732745956
+ASP_clean,gauss_noise,0.5202721859937623
+ASP_clean,motion_blur,0.09602117002173705
+ASP_clean,jpeg_compress,0.030053870144598815
+ASP_clean,brightness,0.03468481239958421
+ASP_clean,occlusion,0.04196200737170408
+AS25_clean,gauss_noise,0.5170324645633287
+AS25_clean,motion_blur,0.0642432556012803
+AS25_clean,jpeg_compress,0.02491998171010512
+AS25_clean,brightness,0.033150434385002314
+AS25_clean,occlusion,0.022862368541380906

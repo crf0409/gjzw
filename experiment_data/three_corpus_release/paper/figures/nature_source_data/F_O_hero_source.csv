@@ -1,0 +1,16 @@
+panel,model,mean_accuracy_pct,std_pct,n,condition,accuracy_pct
+a,baseline,98.68421052631578,0.4083111123909052,15,,
+a,aafnet,99.13742690058479,0.29385601231347797,15,,
+a,rn50_aug_only,98.93274853801167,0.35691683086940773,15,,
+a,efficientnet_v2_s,98.90350877192982,0.40831111239090684,15,,
+a,convnext_tiny,98.84502923976606,0.2036314075611729,15,,
+a,capsnet,89.99999999999999,1.2217884453670276,15,,
+b,baseline,,,,gauss_noise@0.05,13.215859030837004
+b,baseline,,,,gauss_noise@0.1,13.215859030837004
+b,baseline,,,,gauss_noise@0.2,13.142437591776797
+b,nx_only,,,,gauss_noise@0.05,97.94419970631424
+b,nx_only,,,,gauss_noise@0.1,95.96182085168869
+b,nx_only,,,,gauss_noise@0.2,71.87958883994126
+b,aafnet_full,,,,gauss_noise@0.05,96.98972099853157
+b,aafnet_full,,,,gauss_noise@0.1,95.96182085168869
+b,aafnet_full,,,,gauss_noise@0.2,76.72540381791482

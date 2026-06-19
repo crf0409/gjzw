@@ -88,6 +88,34 @@ outputs/
 log/
 logs/
 
+# Curated, lightweight logs that are safe to publish.
+!experiment_logs/
+!experiment_logs/**/*.json
+!experiment_logs/**/*.log
+
+# Documentation and paper artifacts
+# Keep README.md as the repository entry point, but do not publish paper/report
+# markdown drafts or generated office documents.
+*.md
+!README.md
+paper/
+*.doc
+*.docx
+*.docx.bak
+*.ppt
+*.pptx
+*.pptx.bak
+*.pdf
+
+# Paper/report generation helpers
+scripts/build_docx.py
+scripts/build_pptx.py
+scripts/fill_midterm_progress.py
+scripts/finalize_manuscript.py
+scripts/finalize_*.sh
+scripts/generate_docx_report.py
+scripts/render_mmdc.sh
+
 # Baiduyun
 *.baiduyun*
 
@@ -116,3 +144,9 @@ logs/
 
 # Project-specific exclusions
 data/
+archive/
+release_packages/
+
+# Curated lightweight experiment metadata for GitHub releases.
+!experiment_data/
+!experiment_data/**

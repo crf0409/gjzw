@@ -1,0 +1,5 @@
+figure,model,dataset,pair,query_index,comparison_index,cosine_similarity,query_display_rotation_deg,comparison_display_rotation_deg
+F_Q2e_augmentation_invariance_effect,baseline,AL6,original_augmented,15,15,0.25677937269210815,90,90
+F_Q2e_augmentation_invariance_effect,baseline,AL6,original_negative,15,1,0.4119846820831299,90,270
+F_Q2e_augmentation_invariance_effect,aafnet,AL6,original_augmented,15,15,0.9331868290901184,90,90
+F_Q2e_augmentation_invariance_effect,aafnet,AL6,original_negative,15,1,0.6991241574287415,90,270

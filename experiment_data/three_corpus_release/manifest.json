@@ -1,0 +1,428 @@
+{
+  "generated_at_epoch": 1781872294.5133655,
+  "description": "Lightweight GitHub metadata for the completed three-corpus AAFNet experiment release.",
+  "package": {
+    "path": "release_packages/three_corpus_release_final_manual.zip",
+    "bytes": 368815033,
+    "sha256": "d39a9f5683dc7348599104d3640533c73bfa59b6994eedccdae3889bd5d19748",
+    "github_release_asset": "three_corpus_release_final_manual.zip"
+  },
+  "audit_complete": true,
+  "audit_summary": {
+    "pass": 110,
+    "warn": 3,
+    "fail": 0
+  },
+  "copied_file_count": 68,
+  "source_data_csv_count": 48,
+  "files": [
+    {
+      "source": "release_packages/three_corpus_release_final_manual.zip.sha256",
+      "path": "experiment_data/three_corpus_release/release_packages/three_corpus_release_final_manual.zip.sha256",
+      "bytes": 104,
+      "sha256": "9870952c81aef19118e3edf0934e508d921baa2e11c70ece5138587cbfaa60d0"
+    },
+    {
+      "source": "release_packages/three_corpus_release_final_manual.zip.manifest.json",
+      "path": "experiment_data/three_corpus_release/release_packages/three_corpus_release_final_manual.zip.manifest.json",
+      "bytes": 160675,
+      "sha256": "65e72b00ceec1cbd49ae06cff2d83babb8de60be06b11adced6aa631ec0049e3"
+    },
+    {
+      "source": "outputs/three_corpus_completion/three_corpus_parity_completion_audit.json",
+      "path": "experiment_data/three_corpus_release/outputs/three_corpus_completion/three_corpus_parity_completion_audit.json",
+      "bytes": 38242,
+      "sha256": "fe9c25813c1c3811750c78fd2f03249bf462e3a1b92b1928bbb5b8b0c3b73972"
+    },
+    {
+      "source": "outputs/three_corpus_completion/three_corpus_parity_completion_audit.md",
+      "path": "experiment_data/three_corpus_release/outputs/three_corpus_completion/three_corpus_parity_completion_audit.md",
+      "bytes": 26759,
+      "sha256": "cdc666e33292c29a8f30b70618b9ac8346342650de7e475d78ad8971a3591b5b"
+    },
+    {
+      "source": "outputs/three_corpus_completion/three_corpus_completion_summary.json",
+      "path": "experiment_data/three_corpus_release/outputs/three_corpus_completion/three_corpus_completion_summary.json",
+      "bytes": 17061,
+      "sha256": "d69a869dce7e2df530ecfc1728e05e71f806f6329d5950c2ad8ddb40be229cce"
+    },
+    {
+      "source": "outputs/three_corpus_completion/three_corpus_completion_summary.md",
+      "path": "experiment_data/three_corpus_release/outputs/three_corpus_completion/three_corpus_completion_summary.md",
+      "bytes": 5328,
+      "sha256": "88e48ff1634418d501b864adf298b28e4bd8fcf4207de0c9b4932f1c5c53a99b"
+    },
+    {
+      "source": "outputs/three_corpus_completion/refresh_three_corpus_public_status.json",
+      "path": "experiment_data/three_corpus_release/outputs/three_corpus_completion/refresh_three_corpus_public_status.json",
+      "bytes": 8294,
+      "sha256": "16991938d878c6bd0fa3a0da4a2d538ab653d0c2a428c6bf20285f07d0ee95dd"
+    },
+    {
+      "source": "outputs/three_corpus_completion/refresh_three_corpus_public_status.md",
+      "path": "experiment_data/three_corpus_release/outputs/three_corpus_completion/refresh_three_corpus_public_status.md",
+      "bytes": 6784,
+      "sha256": "c3434464cf0ef3cac19a8ead1a85b91dc60e40a21168420b9c63b4aad482cb56"
+    },
+    {
+      "source": "outputs/public_cv_parity/status.json",
+      "path": "experiment_data/three_corpus_release/outputs/public_cv_parity/status.json",
+      "bytes": 4499,
+      "sha256": "21274bea195a22cec8720ce19107dc9709fdbf74334595f3dcf9336faa0ef763"
+    },
+    {
+      "source": "outputs/public_cv_parity/status.md",
+      "path": "experiment_data/three_corpus_release/outputs/public_cv_parity/status.md",
+      "bytes": 1188,
+      "sha256": "fbf0977bf281d1ee0a8b209bbe3b03c0331f86d1edac8a0fe1068813dc9d00b7"
+    },
+    {
+      "source": "outputs/public_cv_parity/remaining_queue.json",
+      "path": "experiment_data/three_corpus_release/outputs/public_cv_parity/remaining_queue.json",
+      "bytes": 19117,
+      "sha256": "a17af6a53826afa85841796cbc811ab88f28659d7a225a126efc31cc88a0745c"
+    },
+    {
+      "source": "outputs/public_cv_parity/remaining_queue.md",
+      "path": "experiment_data/three_corpus_release/outputs/public_cv_parity/remaining_queue.md",
+      "bytes": 705,
+      "sha256": "b7f7b5f564eba7c4db91fea5681762d8ea3a0da8cee5b248c6cdcbf1a0feeefc"
+    },
+    {
+      "source": "outputs/public_followup_probes/summary.json",
+      "path": "experiment_data/three_corpus_release/outputs/public_followup_probes/summary.json",
+      "bytes": 32107,
+      "sha256": "43736840514e95f3df344a10ce4df80718841da7b6b9739055596b6d685f6bf4"
+    },
+    {
+      "source": "outputs/public_followup_probes/summary.md",
+      "path": "experiment_data/three_corpus_release/outputs/public_followup_probes/summary.md",
+      "bytes": 736,
+      "sha256": "e15040a923933b45506fdf14862663b0dd54f78ccba5f143ed61d2fc73ee606b"
+    },
+    {
+      "source": "outputs/public_followup_probes/local_calrot_shard0_public_cv_parity_v1_pool.json",
+      "path": "experiment_data/three_corpus_release/outputs/public_followup_probes/local_calrot_shard0_public_cv_parity_v1_pool.json",
+      "bytes": 27757,
+      "sha256": "67c5c43b0f8452085002ae3274b2f2bd8ffd4c3cf01eac644b0ce78590bb213b"
+    },
+    {
+      "source": "outputs/public_followup_probes/local_calrot_shard0_public_cv_parity_v1_pool.md",
+      "path": "experiment_data/three_corpus_release/outputs/public_followup_probes/local_calrot_shard0_public_cv_parity_v1_pool.md",
+      "bytes": 5722,
+      "sha256": "d854223c57bd008a5af54fa2482193cf6bb6ed87344839f0981db42fab9b9dd0"
+    },
+    {
+      "source": "outputs/public_followup_probes/remote_calrot_shard1_public_cv_parity_v1_pool.json",
+      "path": "experiment_data/three_corpus_release/outputs/public_followup_probes/remote_calrot_shard1_public_cv_parity_v1_pool.json",
+      "bytes": 28633,
+      "sha256": "d81bbd89bd55a6cc9e2a70a004eaa0d28b581e44b0eb0ef2124ee7a2f6744149"
+    },
+    {
+      "source": "outputs/public_followup_probes/remote_calrot_shard1_public_cv_parity_v1_pool.md",
+      "path": "experiment_data/three_corpus_release/outputs/public_followup_probes/remote_calrot_shard1_public_cv_parity_v1_pool.md",
+      "bytes": 5632,
+      "sha256": "764f93656750149b8c29f40160e4cca044156b06e29225cd736e11758f8a5c2b"
+    },
+    {
+      "source": "outputs/public_followup_probes/remote_missing_robust_public_cv_parity_v1.json",
+      "path": "experiment_data/three_corpus_release/outputs/public_followup_probes/remote_missing_robust_public_cv_parity_v1.json",
+      "bytes": 17093,
+      "sha256": "05883a7359a76b8ac6f088c7be68e3b93f3f75366fd512b3161fe263bf9d3671"
+    },
+    {
+      "source": "outputs/public_followup_probes/remote_missing_robust_public_cv_parity_v1.md",
+      "path": "experiment_data/three_corpus_release/outputs/public_followup_probes/remote_missing_robust_public_cv_parity_v1.md",
+      "bytes": 1315,
+      "sha256": "3a851b119434c12d81d8ff34c6141481a01d3bb12774508fe835d4e5114b78b8"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_AA_rotation_polar_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_AA_rotation_polar_source.csv",
+      "bytes": 1446,
+      "sha256": "fbbebb03580ebc071eb0346266df1f815ef2dbf71e887dd318ce7db784b395d3"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_A_attrib_heatmap_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_A_attrib_heatmap_source.csv",
+      "bytes": 3754,
+      "sha256": "6e082e017cf0f1e5f658fa4f83209027cadf505b26748ee2555b7e17fa50da28"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_C_robustness_grouped_bar_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_C_robustness_grouped_bar_source.csv",
+      "bytes": 1794,
+      "sha256": "672edd52eed43f77b723018b14b9f11ca442fc22ce76b90a3bf31c9a61fcccbe"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_E_calibration_dual_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_E_calibration_dual_source.csv",
+      "bytes": 529,
+      "sha256": "5676e90908ff8b69f74d1def6b3a82e324363f47dc594b4174ca5ccbd9b188e9"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_L_friedman_cv_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_L_friedman_cv_source.csv",
+      "bytes": 1147,
+      "sha256": "2e2ce030a11576c1285d67d49508d70252ef774283c3ab816fb6c8432fe751f2"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_M_cross_corpus_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_M_cross_corpus_source.csv",
+      "bytes": 366,
+      "sha256": "c061b7c17a43fc5a4fe33a066563ce746466301c404cdedb6dd839d7a64aa187"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_N_pareto_efficiency_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_N_pareto_efficiency_source.csv",
+      "bytes": 391,
+      "sha256": "f545d20373ca1e1d1a7fb0823c50d3186c2aee1d29fab6cc59ac4c85c2b244c3"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_O_hero_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_O_hero_source.csv",
+      "bytes": 844,
+      "sha256": "fae8f5c646cfa6f0661f351c98667202d375b19519507f2452860fbf4aec8658"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_P_strict_eval_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_P_strict_eval_source.csv",
+      "bytes": 538,
+      "sha256": "70c6446cefd4206a14fd7d0c3745cb792e434c7926b15e248056cba2f534ecdc"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_Q2_downstream_inference_cards_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_Q2_downstream_inference_cards_source.csv",
+      "bytes": 889,
+      "sha256": "c35a11e20890f3519c875026803bf7b2995afa73e46a19ca0ce966bfb5773b9f"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_Q2a_retrieval_effect.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_Q2a_retrieval_effect.csv",
+      "bytes": 913,
+      "sha256": "1eed974bf80522bb1bbc670d45c237552aaf9e8bef73d95d9073da38d0b51d40"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_Q2b_ood_asp_effect.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_Q2b_ood_asp_effect.csv",
+      "bytes": 471,
+      "sha256": "f26e86062fc38f6c8245be42b6860864cc53d60c7cc1388628d5c301fd23dab4"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_Q2c_ood_as25_effect.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_Q2c_ood_as25_effect.csv",
+      "bytes": 477,
+      "sha256": "bcd6dce27aa8af62cbae299d0b0b9c7d5635beb3d1401a3eb0412ad1570f2bbd"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_Q2d_selective_rejection_effect.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_Q2d_selective_rejection_effect.csv",
+      "bytes": 361,
+      "sha256": "866e1001b1e3bb4dff69ae757be29efebca1e42d30a2cca3c97d86fd07af5dcc"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_Q2e_augmentation_invariance_effect.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_Q2e_augmentation_invariance_effect.csv",
+      "bytes": 527,
+      "sha256": "ebd0fa813278885bcaf40fb24a7750c0c0322f03a46de7d3bcf0c312a3c1928d"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_Q2f_domain_probe_effect.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_Q2f_domain_probe_effect.csv",
+      "bytes": 893,
+      "sha256": "409a9973ad88189ec02fdcb3c47703d070c2e400c1963dadafaea9bf8659e1fd"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_Q2g_fewshot_asp_effect.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_Q2g_fewshot_asp_effect.csv",
+      "bytes": 1513,
+      "sha256": "221dd0344d1bfd2d54ef774c596b57337a7961723dc0115c7eb1c9584f81e6ed"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_Q2h_fewshot_as25_effect.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_Q2h_fewshot_as25_effect.csv",
+      "bytes": 1522,
+      "sha256": "21fd1bedb12bfe44cd876817abd3dd338725318100d5a828bcf4513fe864bc3c"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_Q_downstream_radar_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_Q_downstream_radar_source.csv",
+      "bytes": 338,
+      "sha256": "2a04a54eb5d341343489038045c3120f4510660d70789271343d3b57b0a78985"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_R_gradcam_comparison_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_R_gradcam_comparison_source.csv",
+      "bytes": 319,
+      "sha256": "53a258578836c2d8ff3f385909d7888a6063b67ab0b31feebd8ab706c7a945d2"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_TC0_three_corpus_samples_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_TC0_three_corpus_samples_source.csv",
+      "bytes": 1510,
+      "sha256": "ecebcd639cb5d82b2e2fbed2e21dd469b4bf5495753d1c68afb373c170c1aa47"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_TC1_three_corpus_audit_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_TC1_three_corpus_audit_source.csv",
+      "bytes": 783,
+      "sha256": "161dda95b5b0ca298a4eec90b7dd87242198ed2f16ea7ead7a04c8a49a024549"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_TC2_three_corpus_performance_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_TC2_three_corpus_performance_source.csv",
+      "bytes": 2848,
+      "sha256": "9422af14788cdbe83daa0559311eb159d455114ff1f71aa03c2d8dbf708bda8b"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_TC3_three_corpus_confusions_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_TC3_three_corpus_confusions_source.csv",
+      "bytes": 122054,
+      "sha256": "fd369e98540a1d8091cc09299bf2aed8cf94f3aab2c6f5a6529ae0de8e0e5dd9"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_TC4_three_corpus_training_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_TC4_three_corpus_training_source.csv",
+      "bytes": 34368,
+      "sha256": "ba0784e98bdaa9881d0247af9719ae4da23fce07e5745a489e610e474d46a2c4"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_TC5_three_corpus_probe_matrix_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_TC5_three_corpus_probe_matrix_source.csv",
+      "bytes": 1566,
+      "sha256": "9dfd4bf612d67cf42fb2f565be5da0b48a8943ef3ef6318743d9eabcf8329d78"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_TC6_three_corpus_parity_calibration_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_TC6_three_corpus_parity_calibration_source.csv",
+      "bytes": 2628,
+      "sha256": "122a141663423cb721b996fe28c3f25cb38b9643588ecf604ac02f94a05bc711"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_TC6_three_corpus_parity_delta_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_TC6_three_corpus_parity_delta_source.csv",
+      "bytes": 646,
+      "sha256": "6a352cdd2a1bf13188b76f3294fd078e183dee729153b0e2147aa6ac3c8d3542"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_TC6_three_corpus_parity_robustness_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_TC6_three_corpus_parity_robustness_source.csv",
+      "bytes": 1771,
+      "sha256": "805bcf550210f3aa308408fe2b4c3733e10370f6a3db1456d183ff10c61e52cd"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_TC6_three_corpus_parity_rotation_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_TC6_three_corpus_parity_rotation_source.csv",
+      "bytes": 1520,
+      "sha256": "b02066d760e9fa4725aeaed125ca9d31353ae35171edb51291a409f1f442677f"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_TC7_public_interpretability_predictions_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_TC7_public_interpretability_predictions_source.csv",
+      "bytes": 1155080,
+      "sha256": "e7ca0e99a703d1da986cf71e08559ec69129bec6dd9e4691c6bad75de4a0e8b4"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_TC7_public_interpretability_selected_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_TC7_public_interpretability_selected_source.csv",
+      "bytes": 1616,
+      "sha256": "56914115f84b0d2c4aca542e3fddb21a3c24f98f25340ae67da47ec3f110759f"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_TC8_public_experiment_coverage_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_TC8_public_experiment_coverage_source.csv",
+      "bytes": 1832,
+      "sha256": "3eae44038b01d3ec56dbc17b3791f863d5763da7dcd3ba95e3eb13308782a42c"
+    },
+    {
+      "source": "paper/figures/nature_source_data/F_TC_training_support_audit.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/F_TC_training_support_audit.csv",
+      "bytes": 3338,
+      "sha256": "bfe69155861a3128cbab7b9b362ef37be20d79bdee2c6245e5ab75c2a0fa91f5"
+    },
+    {
+      "source": "paper/figures/nature_source_data/figure_rotation_audit.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/figure_rotation_audit.csv",
+      "bytes": 8521,
+      "sha256": "df87b7137f508334512ad4ae9f1d6ef3f8fab255a9ba5cdb90e37d14ebac367d"
+    },
+    {
+      "source": "paper/figures/nature_source_data/public_calibration_fold_metrics_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/public_calibration_fold_metrics_source.csv",
+      "bytes": 274862,
+      "sha256": "8e68f136c7a850f0a63448646b45764d8dde7aab60d63a8a7f40b4f71a680995"
+    },
+    {
+      "source": "paper/figures/nature_source_data/public_calibration_rotation_queue_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/public_calibration_rotation_queue_source.csv",
+      "bytes": 17114,
+      "sha256": "6af032d1c61fb44415523100305ac5dc0988e8936f872093e0c5c478949128c6"
+    },
+    {
+      "source": "paper/figures/nature_source_data/public_calibration_summary_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/public_calibration_summary_source.csv",
+      "bytes": 6107,
+      "sha256": "c97bc0dc8ac737d1a6fb1af2f5660d1eca46cd878408456d25e4b2dbe40d9323"
+    },
+    {
+      "source": "paper/figures/nature_source_data/public_cv_parity_status_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/public_cv_parity_status_source.csv",
+      "bytes": 1020,
+      "sha256": "93a12ebd38f6bc063e488bcc5e9504d5c1d0abf26539ba587e5bd750afc17b25"
+    },
+    {
+      "source": "paper/figures/nature_source_data/public_cv_remaining_queue_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/public_cv_remaining_queue_source.csv",
+      "bytes": 9966,
+      "sha256": "cd5af0892c7b4c629bd84c1cb1302bc3be94b9364ac80b6e95f0d7086ef8ffc5"
+    },
+    {
+      "source": "paper/figures/nature_source_data/public_cv_smoke_status_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/public_cv_smoke_status_source.csv",
+      "bytes": 1028,
+      "sha256": "0629575d05536cbc57003ff30618bc8d6d1257e01701026b16612a572886432b"
+    },
+    {
+      "source": "paper/figures/nature_source_data/public_followup_probe_status_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/public_followup_probe_status_source.csv",
+      "bytes": 262,
+      "sha256": "8d952b909a3d11e6a44b6330ad3e322d09cffab63e0780fbb4191017c4b28544"
+    },
+    {
+      "source": "paper/figures/nature_source_data/public_robustness_attribution_queue_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/public_robustness_attribution_queue_source.csv",
+      "bytes": 17153,
+      "sha256": "82edff5b00d4ba883b3bb867b94e29932c214ecec8b33bb180eaf8409bb83f76"
+    },
+    {
+      "source": "paper/figures/nature_source_data/public_robustness_fold_metrics_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/public_robustness_fold_metrics_source.csv",
+      "bytes": 73684,
+      "sha256": "d68898b9c54db37f0a262693b0b3951b48cf1e08008b88ea7d953677645b7f1b"
+    },
+    {
+      "source": "paper/figures/nature_source_data/public_robustness_summary_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/public_robustness_summary_source.csv",
+      "bytes": 1491,
+      "sha256": "64b9754b6cb7446e8cc3c2099d462f4f297f195234ae7bd630a031fbf68ac353"
+    },
+    {
+      "source": "paper/figures/nature_source_data/public_rotation_fold_metrics_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/public_rotation_fold_metrics_source.csv",
+      "bytes": 322231,
+      "sha256": "4e2be0f38671e92722d1f1c3ae84f690d5768aee7d8240c3d071dc6105fcab00"
+    },
+    {
+      "source": "paper/figures/nature_source_data/public_rotation_summary_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/public_rotation_summary_source.csv",
+      "bytes": 1845,
+      "sha256": "d777df2e2a32f17d52c224f02f19f26c44b79df0c11dd027d8eb57dc7163d144"
+    },
+    {
+      "source": "paper/figures/nature_source_data/three_corpus_live_status_source.csv",
+      "path": "experiment_data/three_corpus_release/paper/figures/nature_source_data/three_corpus_live_status_source.csv",
+      "bytes": 659,
+      "sha256": "bdf05eac0325b898861ae2752f8dbfb47f320e3a28d4a4819e6ebbe54634de66"
+    }
+  ]
+}

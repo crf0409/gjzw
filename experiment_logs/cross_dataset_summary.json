@@ -1,0 +1,19 @@
+{
+  "run_id": "20260508_161338",
+  "mode": "within",
+  "model": "resnet50",
+  "results": {
+    "AL6": {
+      "status": "ok",
+      "ckpt": "outputs/cross_dataset/20260508_161338/within_AL6/20260508_161346/resnet50/best_resnet50.pth"
+    },
+    "ASP_clean": {
+      "status": "ok",
+      "ckpt": "outputs/cross_dataset/20260508_161338/within_ASP_clean/20260508_161547/resnet50/best_resnet50.pth"
+    },
+    "AS25_clean": {
+      "status": "ok",
+      "ckpt": "outputs/cross_dataset/20260508_161338/within_AS25_clean/20260508_162437/resnet50/best_resnet50.pth"
+    }
+  }
+}

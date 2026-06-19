@@ -1,0 +1,800 @@
+{
+  "generated_at_epoch": 1781867058.9190404,
+  "complete": true,
+  "pass": 110,
+  "warn": 3,
+  "fail": 0,
+  "checks": [
+    {
+      "category": "public_cv",
+      "requirement": "ASP_clean baseline has 5-fold x 3-seed CV",
+      "status": "pass",
+      "evidence": "outputs/public_cv_parity/status.json",
+      "detail": "15/15 cells; status=complete"
+    },
+    {
+      "category": "public_cv",
+      "requirement": "ASP_clean aafnet has 5-fold x 3-seed CV",
+      "status": "pass",
+      "evidence": "outputs/public_cv_parity/status.json",
+      "detail": "15/15 cells; status=complete"
+    },
+    {
+      "category": "public_cv",
+      "requirement": "AS25_clean baseline has 5-fold x 3-seed CV",
+      "status": "pass",
+      "evidence": "outputs/public_cv_parity/status.json",
+      "detail": "15/15 cells; status=complete"
+    },
+    {
+      "category": "public_cv",
+      "requirement": "AS25_clean aafnet has 5-fold x 3-seed CV",
+      "status": "pass",
+      "evidence": "outputs/public_cv_parity/status.json",
+      "detail": "15/15 cells; status=complete"
+    },
+    {
+      "category": "public_cv",
+      "requirement": "All public-corpus CV cells are complete",
+      "status": "pass",
+      "evidence": "outputs/public_cv_parity/status.json",
+      "detail": "60/60 cells complete"
+    },
+    {
+      "category": "followup_probes",
+      "requirement": "ASP_clean baseline fold-level robustness probes complete",
+      "status": "pass",
+      "evidence": "outputs/public_followup_probes/summary.json",
+      "detail": "15/15 outputs"
+    },
+    {
+      "category": "followup_probes",
+      "requirement": "ASP_clean baseline fold-level calibration probes complete",
+      "status": "pass",
+      "evidence": "outputs/public_followup_probes/summary.json",
+      "detail": "15/15 outputs"
+    },
+    {
+      "category": "followup_probes",
+      "requirement": "ASP_clean baseline fold-level rotation probes complete",
+      "status": "pass",
+      "evidence": "outputs/public_followup_probes/summary.json",
+      "detail": "15/15 outputs"
+    },
+    {
+      "category": "followup_probes",
+      "requirement": "ASP_clean aafnet fold-level robustness probes complete",
+      "status": "pass",
+      "evidence": "outputs/public_followup_probes/summary.json",
+      "detail": "15/15 outputs"
+    },
+    {
+      "category": "followup_probes",
+      "requirement": "ASP_clean aafnet fold-level calibration probes complete",
+      "status": "pass",
+      "evidence": "outputs/public_followup_probes/summary.json",
+      "detail": "15/15 outputs"
+    },
+    {
+      "category": "followup_probes",
+      "requirement": "ASP_clean aafnet fold-level rotation probes complete",
+      "status": "pass",
+      "evidence": "outputs/public_followup_probes/summary.json",
+      "detail": "15/15 outputs"
+    },
+    {
+      "category": "followup_probes",
+      "requirement": "AS25_clean baseline fold-level robustness probes complete",
+      "status": "pass",
+      "evidence": "outputs/public_followup_probes/summary.json",
+      "detail": "15/15 outputs"
+    },
+    {
+      "category": "followup_probes",
+      "requirement": "AS25_clean baseline fold-level calibration probes complete",
+      "status": "pass",
+      "evidence": "outputs/public_followup_probes/summary.json",
+      "detail": "15/15 outputs"
+    },
+    {
+      "category": "followup_probes",
+      "requirement": "AS25_clean baseline fold-level rotation probes complete",
+      "status": "pass",
+      "evidence": "outputs/public_followup_probes/summary.json",
+      "detail": "15/15 outputs"
+    },
+    {
+      "category": "followup_probes",
+      "requirement": "AS25_clean aafnet fold-level robustness probes complete",
+      "status": "pass",
+      "evidence": "outputs/public_followup_probes/summary.json",
+      "detail": "15/15 outputs"
+    },
+    {
+      "category": "followup_probes",
+      "requirement": "AS25_clean aafnet fold-level calibration probes complete",
+      "status": "pass",
+      "evidence": "outputs/public_followup_probes/summary.json",
+      "detail": "15/15 outputs"
+    },
+    {
+      "category": "followup_probes",
+      "requirement": "AS25_clean aafnet fold-level rotation probes complete",
+      "status": "pass",
+      "evidence": "outputs/public_followup_probes/summary.json",
+      "detail": "15/15 outputs"
+    },
+    {
+      "category": "followup_probes",
+      "requirement": "All public-corpus fold-level probes are complete",
+      "status": "pass",
+      "evidence": "outputs/public_followup_probes/summary.json",
+      "detail": "180/180 outputs; robustness=60/60, calibration=60/60, rotation=60/60"
+    },
+    {
+      "category": "figures",
+      "requirement": "F_TC0_three_corpus_samples has PNG, SVG and PDF exports",
+      "status": "pass",
+      "evidence": "paper/figures/F_TC0_three_corpus_samples.png; paper/figures/nature_exports/F_TC0_three_corpus_samples.svg; paper/figures/nature_exports/F_TC0_three_corpus_samples.pdf",
+      "detail": "all exports present"
+    },
+    {
+      "category": "figures",
+      "requirement": "F_TC1_three_corpus_audit has PNG, SVG and PDF exports",
+      "status": "pass",
+      "evidence": "paper/figures/F_TC1_three_corpus_audit.png; paper/figures/nature_exports/F_TC1_three_corpus_audit.svg; paper/figures/nature_exports/F_TC1_three_corpus_audit.pdf",
+      "detail": "all exports present"
+    },
+    {
+      "category": "figures",
+      "requirement": "F_TC2_three_corpus_performance has PNG, SVG and PDF exports",
+      "status": "pass",
+      "evidence": "paper/figures/F_TC2_three_corpus_performance.png; paper/figures/nature_exports/F_TC2_three_corpus_performance.svg; paper/figures/nature_exports/F_TC2_three_corpus_performance.pdf",
+      "detail": "all exports present"
+    },
+    {
+      "category": "figures",
+      "requirement": "F_TC3_three_corpus_confusions has PNG, SVG and PDF exports",
+      "status": "pass",
+      "evidence": "paper/figures/F_TC3_three_corpus_confusions.png; paper/figures/nature_exports/F_TC3_three_corpus_confusions.svg; paper/figures/nature_exports/F_TC3_three_corpus_confusions.pdf",
+      "detail": "all exports present"
+    },
+    {
+      "category": "figures",
+      "requirement": "F_TC4_three_corpus_training has PNG, SVG and PDF exports",
+      "status": "pass",
+      "evidence": "paper/figures/F_TC4_three_corpus_training.png; paper/figures/nature_exports/F_TC4_three_corpus_training.svg; paper/figures/nature_exports/F_TC4_three_corpus_training.pdf",
+      "detail": "all exports present"
+    },
+    {
+      "category": "figures",
+      "requirement": "F_TC5_three_corpus_probe_matrix has PNG, SVG and PDF exports",
+      "status": "pass",
+      "evidence": "paper/figures/F_TC5_three_corpus_probe_matrix.png; paper/figures/nature_exports/F_TC5_three_corpus_probe_matrix.svg; paper/figures/nature_exports/F_TC5_three_corpus_probe_matrix.pdf",
+      "detail": "all exports present"
+    },
+    {
+      "category": "figures",
+      "requirement": "F_TC6_three_corpus_parity has PNG, SVG and PDF exports",
+      "status": "pass",
+      "evidence": "paper/figures/F_TC6_three_corpus_parity.png; paper/figures/nature_exports/F_TC6_three_corpus_parity.svg; paper/figures/nature_exports/F_TC6_three_corpus_parity.pdf",
+      "detail": "all exports present"
+    },
+    {
+      "category": "figures",
+      "requirement": "F_TC7_public_interpretability has PNG, SVG and PDF exports",
+      "status": "pass",
+      "evidence": "paper/figures/F_TC7_public_interpretability.png; paper/figures/nature_exports/F_TC7_public_interpretability.svg; paper/figures/nature_exports/F_TC7_public_interpretability.pdf",
+      "detail": "all exports present"
+    },
+    {
+      "category": "figures",
+      "requirement": "F_TC8_public_experiment_coverage has PNG, SVG and PDF exports",
+      "status": "pass",
+      "evidence": "paper/figures/F_TC8_public_experiment_coverage.png; paper/figures/nature_exports/F_TC8_public_experiment_coverage.svg; paper/figures/nature_exports/F_TC8_public_experiment_coverage.pdf",
+      "detail": "all exports present"
+    },
+    {
+      "category": "export_quality",
+      "requirement": "F_TC0_three_corpus_samples SVG keeps editable text",
+      "status": "pass",
+      "evidence": "paper/figures/nature_exports/F_TC0_three_corpus_samples.svg",
+      "detail": "text_tags=29; path_tags=25; bytes=435760"
+    },
+    {
+      "category": "export_quality",
+      "requirement": "F_TC1_three_corpus_audit SVG keeps editable text",
+      "status": "pass",
+      "evidence": "paper/figures/nature_exports/F_TC1_three_corpus_audit.svg",
+      "detail": "text_tags=77; path_tags=80; bytes=48697"
+    },
+    {
+      "category": "export_quality",
+      "requirement": "F_TC2_three_corpus_performance SVG keeps editable text",
+      "status": "pass",
+      "evidence": "paper/figures/nature_exports/F_TC2_three_corpus_performance.svg",
+      "detail": "text_tags=51; path_tags=73; bytes=53302"
+    },
+    {
+      "category": "export_quality",
+      "requirement": "F_TC3_three_corpus_confusions SVG keeps editable text",
+      "status": "pass",
+      "evidence": "paper/figures/nature_exports/F_TC3_three_corpus_confusions.svg",
+      "detail": "text_tags=169; path_tags=24; bytes=77529"
+    },
+    {
+      "category": "export_quality",
+      "requirement": "F_TC4_three_corpus_training SVG keeps editable text",
+      "status": "pass",
+      "evidence": "paper/figures/nature_exports/F_TC4_three_corpus_training.svg",
+      "detail": "text_tags=53; path_tags=46; bytes=40274"
+    },
+    {
+      "category": "export_quality",
+      "requirement": "F_TC5_three_corpus_probe_matrix SVG keeps editable text",
+      "status": "pass",
+      "evidence": "paper/figures/nature_exports/F_TC5_three_corpus_probe_matrix.svg",
+      "detail": "text_tags=40; path_tags=5; bytes=16009"
+    },
+    {
+      "category": "export_quality",
+      "requirement": "F_TC6_three_corpus_parity SVG keeps editable text",
+      "status": "pass",
+      "evidence": "paper/figures/nature_exports/F_TC6_three_corpus_parity.svg",
+      "detail": "text_tags=95; path_tags=71; bytes=47362"
+    },
+    {
+      "category": "export_quality",
+      "requirement": "F_TC7_public_interpretability SVG keeps editable text",
+      "status": "pass",
+      "evidence": "paper/figures/nature_exports/F_TC7_public_interpretability.svg",
+      "detail": "text_tags=43; path_tags=49; bytes=465684"
+    },
+    {
+      "category": "export_quality",
+      "requirement": "F_TC8_public_experiment_coverage SVG keeps editable text",
+      "status": "pass",
+      "evidence": "paper/figures/nature_exports/F_TC8_public_experiment_coverage.svg",
+      "detail": "text_tags=55; path_tags=5; bytes=19123"
+    },
+    {
+      "category": "source_data",
+      "requirement": "F_TC0_three_corpus_samples_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC0_three_corpus_samples_source.csv",
+      "detail": "1535 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "F_TC1_three_corpus_audit_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC1_three_corpus_audit_source.csv",
+      "detail": "792 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "F_TC2_three_corpus_performance_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC2_three_corpus_performance_source.csv",
+      "detail": "2855 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "F_TC3_three_corpus_confusions_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC3_three_corpus_confusions_source.csv",
+      "detail": "123539 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "F_TC4_three_corpus_training_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC4_three_corpus_training_source.csv",
+      "detail": "34569 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "F_TC5_three_corpus_probe_matrix_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC5_three_corpus_probe_matrix_source.csv",
+      "detail": "1588 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "F_TC6_three_corpus_parity_calibration_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC6_three_corpus_parity_calibration_source.csv",
+      "detail": "2647 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "F_TC6_three_corpus_parity_delta_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC6_three_corpus_parity_delta_source.csv",
+      "detail": "662 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "F_TC6_three_corpus_parity_robustness_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC6_three_corpus_parity_robustness_source.csv",
+      "detail": "1808 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "F_TC6_three_corpus_parity_rotation_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC6_three_corpus_parity_rotation_source.csv",
+      "detail": "1557 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "F_TC7_public_interpretability_predictions_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC7_public_interpretability_predictions_source.csv",
+      "detail": "1167967 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "F_TC7_public_interpretability_selected_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC7_public_interpretability_selected_source.csv",
+      "detail": "1625 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "F_TC8_public_experiment_coverage_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC8_public_experiment_coverage_source.csv",
+      "detail": "1861 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "F_TC_training_support_audit.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC_training_support_audit.csv",
+      "detail": "3349 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "figure_rotation_audit.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/figure_rotation_audit.csv",
+      "detail": "8568 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "public_cv_parity_status_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/public_cv_parity_status_source.csv",
+      "detail": "1025 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "public_cv_remaining_queue_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/public_cv_remaining_queue_source.csv",
+      "detail": "10027 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "public_robustness_attribution_queue_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/public_robustness_attribution_queue_source.csv",
+      "detail": "17214 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "public_calibration_rotation_queue_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/public_calibration_rotation_queue_source.csv",
+      "detail": "17175 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "public_followup_probe_status_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/public_followup_probe_status_source.csv",
+      "detail": "267 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "public_robustness_fold_metrics_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/public_robustness_fold_metrics_source.csv",
+      "detail": "74045 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "public_calibration_fold_metrics_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/public_calibration_fold_metrics_source.csv",
+      "detail": "276303 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "public_rotation_fold_metrics_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/public_rotation_fold_metrics_source.csv",
+      "detail": "324152 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "public_robustness_summary_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/public_robustness_summary_source.csv",
+      "detail": "1516 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "public_calibration_summary_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/public_calibration_summary_source.csv",
+      "detail": "6204 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "public_rotation_summary_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/public_rotation_summary_source.csv",
+      "detail": "1882 bytes"
+    },
+    {
+      "category": "source_data",
+      "requirement": "three_corpus_live_status_source.csv is present",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/three_corpus_live_status_source.csv",
+      "detail": "664 bytes"
+    },
+    {
+      "category": "source_coverage",
+      "requirement": "F_TC0_three_corpus_samples_source.csv covers expected dataset set",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC0_three_corpus_samples_source.csv",
+      "detail": "field=dataset; observed=['AL6', 'AS25_clean', 'ASP_clean']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_coverage",
+      "requirement": "F_TC1_three_corpus_audit_source.csv covers expected dataset set",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC1_three_corpus_audit_source.csv",
+      "detail": "field=raw_dataset; observed=['AL6', 'AS25', 'ASP']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_coverage",
+      "requirement": "F_TC2_three_corpus_performance_source.csv covers expected dataset set",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC2_three_corpus_performance_source.csv",
+      "detail": "field=dataset; observed=['AL6', 'AS25_clean', 'ASP_clean']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_coverage",
+      "requirement": "F_TC3_three_corpus_confusions_source.csv covers expected dataset set",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC3_three_corpus_confusions_source.csv",
+      "detail": "field=dataset; observed=['AL6', 'AS25_clean', 'ASP_clean']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_coverage",
+      "requirement": "F_TC4_three_corpus_training_source.csv covers expected dataset set",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC4_three_corpus_training_source.csv",
+      "detail": "field=dataset; observed=['AL6', 'AS25_clean', 'ASP_clean']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_coverage",
+      "requirement": "F_TC5_three_corpus_probe_matrix_source.csv covers expected dataset set",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC5_three_corpus_probe_matrix_source.csv",
+      "detail": "field=dataset; observed=['AL6', 'AS25_clean', 'ASP_clean']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_coverage",
+      "requirement": "F_TC6_three_corpus_parity_calibration_source.csv covers expected dataset set",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC6_three_corpus_parity_calibration_source.csv",
+      "detail": "field=dataset; observed=['AL6', 'AS25_clean', 'ASP_clean']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_coverage",
+      "requirement": "F_TC6_three_corpus_parity_delta_source.csv covers expected dataset set",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC6_three_corpus_parity_delta_source.csv",
+      "detail": "field=dataset; observed=['AL6', 'AS25_clean', 'ASP_clean']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_coverage",
+      "requirement": "F_TC6_three_corpus_parity_robustness_source.csv covers expected dataset set",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC6_three_corpus_parity_robustness_source.csv",
+      "detail": "field=dataset; observed=['AL6', 'AS25_clean', 'ASP_clean']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_coverage",
+      "requirement": "F_TC6_three_corpus_parity_rotation_source.csv covers expected dataset set",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC6_three_corpus_parity_rotation_source.csv",
+      "detail": "field=dataset; observed=['AL6', 'AS25_clean', 'ASP_clean']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_coverage",
+      "requirement": "F_TC7_public_interpretability_predictions_source.csv covers expected dataset set",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC7_public_interpretability_predictions_source.csv",
+      "detail": "field=dataset; observed=['AS25_clean', 'ASP_clean']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_coverage",
+      "requirement": "F_TC7_public_interpretability_selected_source.csv covers expected dataset set",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC7_public_interpretability_selected_source.csv",
+      "detail": "field=dataset; observed=['AS25_clean', 'ASP_clean']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_coverage",
+      "requirement": "F_TC8_public_experiment_coverage_source.csv covers expected dataset set",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC8_public_experiment_coverage_source.csv",
+      "detail": "field=dataset; observed=['AS25_clean', 'ASP_clean']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_coverage",
+      "requirement": "three_corpus_live_status_source.csv covers expected dataset set",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/three_corpus_live_status_source.csv",
+      "detail": "field=dataset; observed=['AS25_clean', 'ASP_clean']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_model_coverage",
+      "requirement": "F_TC2_three_corpus_performance_source.csv covers baseline and AAFNet",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC2_three_corpus_performance_source.csv",
+      "detail": "field=model; observed=['aafnet', 'baseline']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_model_coverage",
+      "requirement": "F_TC3_three_corpus_confusions_source.csv covers baseline and AAFNet",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC3_three_corpus_confusions_source.csv",
+      "detail": "field=model; observed=['aafnet', 'baseline']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_model_coverage",
+      "requirement": "F_TC4_three_corpus_training_source.csv covers baseline and AAFNet",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC4_three_corpus_training_source.csv",
+      "detail": "field=model; observed=['aafnet', 'baseline']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_model_coverage",
+      "requirement": "F_TC6_three_corpus_parity_calibration_source.csv covers baseline and AAFNet",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC6_three_corpus_parity_calibration_source.csv",
+      "detail": "field=model; observed=['aafnet', 'baseline']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_model_coverage",
+      "requirement": "F_TC6_three_corpus_parity_robustness_source.csv covers baseline and AAFNet",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC6_three_corpus_parity_robustness_source.csv",
+      "detail": "field=model; observed=['aafnet', 'baseline']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_model_coverage",
+      "requirement": "F_TC6_three_corpus_parity_rotation_source.csv covers baseline and AAFNet",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC6_three_corpus_parity_rotation_source.csv",
+      "detail": "field=model; observed=['aafnet', 'baseline']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_model_coverage",
+      "requirement": "F_TC7_public_interpretability_predictions_source.csv covers baseline and AAFNet",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC7_public_interpretability_predictions_source.csv",
+      "detail": "field=model; observed=['aafnet', 'baseline']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_model_coverage",
+      "requirement": "F_TC8_public_experiment_coverage_source.csv covers baseline and AAFNet",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC8_public_experiment_coverage_source.csv",
+      "detail": "field=role; observed=['aafnet', 'baseline']; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_pair_coverage",
+      "requirement": "F_TC2_three_corpus_performance_source.csv covers each expected dataset-model pair",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC2_three_corpus_performance_source.csv",
+      "detail": "dataset_field=dataset; model_field=model; observed=6 pairs; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_pair_coverage",
+      "requirement": "F_TC3_three_corpus_confusions_source.csv covers each expected dataset-model pair",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC3_three_corpus_confusions_source.csv",
+      "detail": "dataset_field=dataset; model_field=model; observed=6 pairs; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_pair_coverage",
+      "requirement": "F_TC4_three_corpus_training_source.csv covers each expected dataset-model pair",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC4_three_corpus_training_source.csv",
+      "detail": "dataset_field=dataset; model_field=model; observed=6 pairs; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_pair_coverage",
+      "requirement": "F_TC6_three_corpus_parity_calibration_source.csv covers each expected dataset-model pair",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC6_three_corpus_parity_calibration_source.csv",
+      "detail": "dataset_field=dataset; model_field=model; observed=6 pairs; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_pair_coverage",
+      "requirement": "F_TC6_three_corpus_parity_robustness_source.csv covers each expected dataset-model pair",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC6_three_corpus_parity_robustness_source.csv",
+      "detail": "dataset_field=dataset; model_field=model; observed=6 pairs; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_pair_coverage",
+      "requirement": "F_TC6_three_corpus_parity_rotation_source.csv covers each expected dataset-model pair",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC6_three_corpus_parity_rotation_source.csv",
+      "detail": "dataset_field=dataset; model_field=model; observed=6 pairs; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_pair_coverage",
+      "requirement": "F_TC7_public_interpretability_predictions_source.csv covers each expected dataset-model pair",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC7_public_interpretability_predictions_source.csv",
+      "detail": "dataset_field=dataset; model_field=model; observed=4 pairs; missing=[]; extra=[]"
+    },
+    {
+      "category": "source_pair_coverage",
+      "requirement": "F_TC8_public_experiment_coverage_source.csv covers each expected dataset-model pair",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC8_public_experiment_coverage_source.csv",
+      "detail": "dataset_field=dataset; model_field=role; observed=4 pairs; missing=[]; extra=[]"
+    },
+    {
+      "category": "performance_freshness",
+      "requirement": "F_TC2 performance row is fresh for ASP_clean baseline",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC2_three_corpus_performance_source.csv; outputs/public_cv_parity/status.json",
+      "detail": "F_TC2 repeats=15; public-CV completed=15/15; source=5-fold x 3-seed CV; source_path=outputs/cv_asp_baseline/public_cv_parity_v1/resnet50/cv_summary.json"
+    },
+    {
+      "category": "performance_freshness",
+      "requirement": "F_TC2 performance row is fresh for ASP_clean aafnet",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC2_three_corpus_performance_source.csv; outputs/public_cv_parity/status.json",
+      "detail": "F_TC2 repeats=15; public-CV completed=15/15; source=5-fold x 3-seed CV; source_path=outputs/cv_asp_aafnet/public_cv_parity_v1/resnet50/cv_summary.json"
+    },
+    {
+      "category": "performance_freshness",
+      "requirement": "F_TC2 performance row is fresh for AS25_clean baseline",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC2_three_corpus_performance_source.csv; outputs/public_cv_parity/status.json",
+      "detail": "F_TC2 repeats=15; public-CV completed=15/15; source=5-fold x 3-seed CV; source_path=outputs/cv_as25_baseline/public_cv_parity_v1/resnet50/cv_summary.json"
+    },
+    {
+      "category": "performance_freshness",
+      "requirement": "F_TC2 performance row is fresh for AS25_clean aafnet",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC2_three_corpus_performance_source.csv; outputs/public_cv_parity/status.json",
+      "detail": "F_TC2 repeats=15; public-CV completed=15/15; source=5-fold x 3-seed CV; source_path=outputs/cv_as25_aafnet/public_cv_parity_v1/resnet50/cv_summary.json"
+    },
+    {
+      "category": "coverage_freshness",
+      "requirement": "F_TC8 coverage row set is fresh for ASP_clean baseline",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC8_public_experiment_coverage_source.csv; paper/figures/nature_source_data/public_cv_remaining_queue_source.csv; paper/figures/nature_source_data/public_robustness_attribution_queue_source.csv; paper/figures/nature_source_data/public_calibration_rotation_queue_source.csv; paper/figures/nature_source_data/public_followup_probe_status_source.csv",
+      "detail": "all coverage cells match queue/follow-up sources"
+    },
+    {
+      "category": "coverage_freshness",
+      "requirement": "F_TC8 coverage row set is fresh for ASP_clean aafnet",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC8_public_experiment_coverage_source.csv; paper/figures/nature_source_data/public_cv_remaining_queue_source.csv; paper/figures/nature_source_data/public_robustness_attribution_queue_source.csv; paper/figures/nature_source_data/public_calibration_rotation_queue_source.csv; paper/figures/nature_source_data/public_followup_probe_status_source.csv",
+      "detail": "all coverage cells match queue/follow-up sources"
+    },
+    {
+      "category": "coverage_freshness",
+      "requirement": "F_TC8 coverage row set is fresh for AS25_clean baseline",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC8_public_experiment_coverage_source.csv; paper/figures/nature_source_data/public_cv_remaining_queue_source.csv; paper/figures/nature_source_data/public_robustness_attribution_queue_source.csv; paper/figures/nature_source_data/public_calibration_rotation_queue_source.csv; paper/figures/nature_source_data/public_followup_probe_status_source.csv",
+      "detail": "all coverage cells match queue/follow-up sources"
+    },
+    {
+      "category": "coverage_freshness",
+      "requirement": "F_TC8 coverage row set is fresh for AS25_clean aafnet",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/F_TC8_public_experiment_coverage_source.csv; paper/figures/nature_source_data/public_cv_remaining_queue_source.csv; paper/figures/nature_source_data/public_robustness_attribution_queue_source.csv; paper/figures/nature_source_data/public_calibration_rotation_queue_source.csv; paper/figures/nature_source_data/public_followup_probe_status_source.csv",
+      "detail": "all coverage cells match queue/follow-up sources"
+    },
+    {
+      "category": "checkpoint_readiness",
+      "requirement": "Public-CV, robustness and calibration/rotation queues enumerate the same cells",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/public_cv_remaining_queue_source.csv; paper/figures/nature_source_data/public_robustness_attribution_queue_source.csv; paper/figures/nature_source_data/public_calibration_rotation_queue_source.csv",
+      "detail": "60 CV cells; queue keys match"
+    },
+    {
+      "category": "checkpoint_readiness",
+      "requirement": "Completed public-CV cells expose metrics and probe-ready checkpoints",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/public_cv_remaining_queue_source.csv; paper/figures/nature_source_data/public_robustness_attribution_queue_source.csv; paper/figures/nature_source_data/public_calibration_rotation_queue_source.csv",
+      "detail": "60 completed cells linked to metrics/checkpoints"
+    },
+    {
+      "category": "checkpoint_readiness",
+      "requirement": "Incomplete public-CV cells remain blocked in downstream probe queues",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/public_cv_remaining_queue_source.csv; paper/figures/nature_source_data/public_robustness_attribution_queue_source.csv; paper/figures/nature_source_data/public_calibration_rotation_queue_source.csv",
+      "detail": "0 incomplete cells still waiting for CV"
+    },
+    {
+      "category": "rotation_qa",
+      "requirement": "Display-only rotation entries are valid right-angle corrections",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/figure_rotation_audit.csv",
+      "detail": "46 rows; invalid=0"
+    },
+    {
+      "category": "runbook",
+      "requirement": "Missing-experiment runbook has auto-synchronized live status",
+      "status": "pass",
+      "evidence": "outputs/three_corpus_completion/missing_experiment_runbook.md",
+      "detail": "live status block present"
+    },
+    {
+      "category": "runbook",
+      "requirement": "Runbook live status matches current machine-readable queues",
+      "status": "pass",
+      "evidence": "paper/figures/nature_source_data/three_corpus_live_status_source.csv; outputs/public_cv_parity/status.json; paper/figures/nature_source_data/public_robustness_attribution_queue_source.csv; paper/figures/nature_source_data/public_calibration_rotation_queue_source.csv; paper/figures/nature_source_data/public_followup_probe_status_source.csv",
+      "detail": "live CSV and Markdown totals match current status"
+    },
+    {
+      "category": "automation",
+      "requirement": "Post-CV launcher post_cv_followups_public_cv_parity_v1_auto is tracked",
+      "status": "warn",
+      "evidence": "outputs/public_followup_probes/post_cv_followups_public_cv_parity_v1_auto_launcher.json",
+      "detail": "pid=3983134; alive=False; log=outputs/public_followup_probes/logs/post_cv_followups_public_cv_parity_v1_auto.log"
+    },
+    {
+      "category": "automation",
+      "requirement": "Post-CV launcher post_cv_followups_public_cv_parity_v1_auto waits for full CV and runs probes",
+      "status": "pass",
+      "evidence": "outputs/public_followup_probes/post_cv_followups_public_cv_parity_v1_auto_launcher.json",
+      "detail": "command has --wait and --run-probes without --allow-partial"
+    },
+    {
+      "category": "automation",
+      "requirement": "Post-CV launcher post_cv_followups_public_cv_parity_v1_pool is tracked",
+      "status": "warn",
+      "evidence": "outputs/public_followup_probes/post_cv_followups_public_cv_parity_v1_pool_launcher.json",
+      "detail": "pid=4143835; alive=False; log=outputs/public_followup_probes/logs/post_cv_followups_public_cv_parity_v1_pool.log"
+    },
+    {
+      "category": "automation",
+      "requirement": "Post-CV launcher post_cv_followups_public_cv_parity_v1_pool waits for full CV and runs probes",
+      "status": "pass",
+      "evidence": "outputs/public_followup_probes/post_cv_followups_public_cv_parity_v1_pool_launcher.json",
+      "detail": "command has --wait and --run-probes without --allow-partial"
+    },
+    {
+      "category": "release_automation",
+      "requirement": "Final package/upload finalizer is tracked",
+      "status": "warn",
+      "evidence": "outputs/three_corpus_completion/three_corpus_release_final_auto_launcher.json",
+      "detail": "pid=4160026; alive=False; log=outputs/three_corpus_completion/logs/three_corpus_release_final_auto.log"
+    },
+    {
+      "category": "release_automation",
+      "requirement": "Final package/upload finalizer waits for full evidence and creates a 3-day link",
+      "status": "pass",
+      "evidence": "outputs/three_corpus_completion/three_corpus_release_final_auto_launcher.json",
+      "detail": "command waits for CV/probes and uses config-doc plus expires-days"
+    }
+  ]
+}

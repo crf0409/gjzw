@@ -1,0 +1,25 @@
+dataset,split,panel_row,panel_col,label,class_name,file_name
+AL6,train,0,0,1,class_1,1/train_0002_label1.png
+AL6,train,0,1,2,class_2,2/train_0003_label2.png
+AL6,train,0,2,3,class_3,3/train_0005_label3.png
+AL6,train,0,3,4,class_4,4/train_0052_label4.png
+AL6,train,0,4,5,class_5,5/train_0048_label5.png
+AL6,train,0,5,6,class_6,6/train_0001_label6.png
+AL6,train,0,6,4,class_4,4/train_0101_label4.png
+AL6,train,0,7,6,class_6,6/train_0034_label6.png
+ASP_clean,train,1,0,1,21st_Century,1/train_6703_label1.png
+ASP_clean,train,1,1,2,Baroque,2/train_1264_label2.png
+ASP_clean,train,1,2,3,Classical,3/train_0315_label3.png
+ASP_clean,train,1,3,4,Early_Christian_Medieval,4/train_6981_label4.png
+ASP_clean,train,1,4,5,Eclecticism,5/train_2461_label5.png
+ASP_clean,train,1,5,6,Modernism,6/train_3201_label6.png
+ASP_clean,train,1,6,7,Neoclassicism,7/train_2299_label7.png
+ASP_clean,train,1,7,8,Renaissance_and_Colonialism,8/train_1305_label8.png
+AS25_clean,train,2,0,1,Achaemenid architecture,1/train_0954_label1.png
+AS25_clean,train,2,1,2,American Foursquare architecture,2/train_4227_label2.png
+AS25_clean,train,2,2,3,American craftsman style,3/train_3726_label3.png
+AS25_clean,train,2,3,4,Ancient Egyptian architecture,4/train_0454_label4.png
+AS25_clean,train,2,4,5,Art Deco architecture,5/train_0256_label5.png
+AS25_clean,train,2,5,6,Art Nouveau architecture,6/train_1063_label6.png
+AS25_clean,train,2,6,7,Baroque architecture,7/train_2446_label7.png
+AS25_clean,train,2,7,8,Bauhaus architecture,8/train_2190_label8.png

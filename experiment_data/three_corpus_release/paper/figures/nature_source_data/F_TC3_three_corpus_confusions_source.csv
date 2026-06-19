@@ -1,0 +1,1485 @@
+dataset,model,true_class_index,pred_class_index,true_class_name,pred_class_name,count,row_normalized
+AL6,baseline,1,1,class_1,class_1,60,1.0
+AL6,baseline,1,2,class_1,class_2,0,0.0
+AL6,baseline,1,3,class_1,class_3,0,0.0
+AL6,baseline,1,4,class_1,class_4,0,0.0
+AL6,baseline,1,5,class_1,class_5,0,0.0
+AL6,baseline,1,6,class_1,class_6,0,0.0
+AL6,baseline,2,1,class_2,class_1,0,0.0
+AL6,baseline,2,2,class_2,class_2,133,0.9925373134328358
+AL6,baseline,2,3,class_2,class_3,0,0.0
+AL6,baseline,2,4,class_2,class_4,0,0.0
+AL6,baseline,2,5,class_2,class_5,1,0.007462686567164179
+AL6,baseline,2,6,class_2,class_6,0,0.0
+AL6,baseline,3,1,class_3,class_1,0,0.0
+AL6,baseline,3,2,class_3,class_2,0,0.0
+AL6,baseline,3,3,class_3,class_3,82,1.0
+AL6,baseline,3,4,class_3,class_4,0,0.0
+AL6,baseline,3,5,class_3,class_5,0,0.0
+AL6,baseline,3,6,class_3,class_6,0,0.0
+AL6,baseline,4,1,class_4,class_1,0,0.0
+AL6,baseline,4,2,class_4,class_2,0,0.0
+AL6,baseline,4,3,class_4,class_3,0,0.0
+AL6,baseline,4,4,class_4,class_4,32,1.0
+AL6,baseline,4,5,class_4,class_5,0,0.0
+AL6,baseline,4,6,class_4,class_6,0,0.0
+AL6,baseline,5,1,class_5,class_1,0,0.0
+AL6,baseline,5,2,class_5,class_2,0,0.0
+AL6,baseline,5,3,class_5,class_3,0,0.0
+AL6,baseline,5,4,class_5,class_4,0,0.0
+AL6,baseline,5,5,class_5,class_5,58,1.0
+AL6,baseline,5,6,class_5,class_6,0,0.0
+AL6,baseline,6,1,class_6,class_1,2,0.022727272727272728
+AL6,baseline,6,2,class_6,class_2,0,0.0
+AL6,baseline,6,3,class_6,class_3,0,0.0
+AL6,baseline,6,4,class_6,class_4,0,0.0
+AL6,baseline,6,5,class_6,class_5,0,0.0
+AL6,baseline,6,6,class_6,class_6,86,0.9772727272727273
+AL6,aafnet,1,1,class_1,class_1,60,1.0
+AL6,aafnet,1,2,class_1,class_2,0,0.0
+AL6,aafnet,1,3,class_1,class_3,0,0.0
+AL6,aafnet,1,4,class_1,class_4,0,0.0
+AL6,aafnet,1,5,class_1,class_5,0,0.0
+AL6,aafnet,1,6,class_1,class_6,0,0.0
+AL6,aafnet,2,1,class_2,class_1,0,0.0
+AL6,aafnet,2,2,class_2,class_2,133,0.9925373134328358
+AL6,aafnet,2,3,class_2,class_3,0,0.0
+AL6,aafnet,2,4,class_2,class_4,0,0.0
+AL6,aafnet,2,5,class_2,class_5,0,0.0
+AL6,aafnet,2,6,class_2,class_6,1,0.007462686567164179
+AL6,aafnet,3,1,class_3,class_1,0,0.0
+AL6,aafnet,3,2,class_3,class_2,0,0.0
+AL6,aafnet,3,3,class_3,class_3,83,1.0
+AL6,aafnet,3,4,class_3,class_4,0,0.0
+AL6,aafnet,3,5,class_3,class_5,0,0.0
+AL6,aafnet,3,6,class_3,class_6,0,0.0
+AL6,aafnet,4,1,class_4,class_1,0,0.0
+AL6,aafnet,4,2,class_4,class_2,0,0.0
+AL6,aafnet,4,3,class_4,class_3,0,0.0
+AL6,aafnet,4,4,class_4,class_4,32,1.0
+AL6,aafnet,4,5,class_4,class_5,0,0.0
+AL6,aafnet,4,6,class_4,class_6,0,0.0
+AL6,aafnet,5,1,class_5,class_1,0,0.0
+AL6,aafnet,5,2,class_5,class_2,0,0.0
+AL6,aafnet,5,3,class_5,class_3,0,0.0
+AL6,aafnet,5,4,class_5,class_4,0,0.0
+AL6,aafnet,5,5,class_5,class_5,58,1.0
+AL6,aafnet,5,6,class_5,class_6,0,0.0
+AL6,aafnet,6,1,class_6,class_1,2,0.02247191011235955
+AL6,aafnet,6,2,class_6,class_2,0,0.0
+AL6,aafnet,6,3,class_6,class_3,0,0.0
+AL6,aafnet,6,4,class_6,class_4,0,0.0
+AL6,aafnet,6,5,class_6,class_5,0,0.0
+AL6,aafnet,6,6,class_6,class_6,87,0.9775280898876404
+ASP_clean,baseline,1,1,21st_Century,21st_Century,256,0.7485380116959064
+ASP_clean,baseline,1,2,21st_Century,Baroque,2,0.005847953216374269
+ASP_clean,baseline,1,3,21st_Century,Classical,0,0.0
+ASP_clean,baseline,1,4,21st_Century,Early_Christian_Medieval,5,0.014619883040935672
+ASP_clean,baseline,1,5,21st_Century,Eclecticism,3,0.008771929824561403
+ASP_clean,baseline,1,6,21st_Century,Modernism,68,0.19883040935672514
+ASP_clean,baseline,1,7,21st_Century,Neoclassicism,2,0.005847953216374269
+ASP_clean,baseline,1,8,21st_Century,Renaissance_and_Colonialism,3,0.008771929824561403
+ASP_clean,baseline,1,9,21st_Century,Revivalism,3,0.008771929824561403
+ASP_clean,baseline,2,1,Baroque,21st_Century,3,0.00974025974025974
+ASP_clean,baseline,2,2,Baroque,Baroque,181,0.5876623376623377
+ASP_clean,baseline,2,3,Baroque,Classical,3,0.00974025974025974
+ASP_clean,baseline,2,4,Baroque,Early_Christian_Medieval,23,0.07467532467532467
+ASP_clean,baseline,2,5,Baroque,Eclecticism,4,0.012987012987012988
+ASP_clean,baseline,2,6,Baroque,Modernism,3,0.00974025974025974
+ASP_clean,baseline,2,7,Baroque,Neoclassicism,17,0.05519480519480519
+ASP_clean,baseline,2,8,Baroque,Renaissance_and_Colonialism,50,0.16233766233766234
+ASP_clean,baseline,2,9,Baroque,Revivalism,24,0.07792207792207792
+ASP_clean,baseline,3,1,Classical,21st_Century,10,0.03546099290780142
+ASP_clean,baseline,3,2,Classical,Baroque,2,0.0070921985815602835
+ASP_clean,baseline,3,3,Classical,Classical,238,0.8439716312056738
+ASP_clean,baseline,3,4,Classical,Early_Christian_Medieval,12,0.0425531914893617
+ASP_clean,baseline,3,5,Classical,Eclecticism,0,0.0
+ASP_clean,baseline,3,6,Classical,Modernism,6,0.02127659574468085
+ASP_clean,baseline,3,7,Classical,Neoclassicism,5,0.01773049645390071
+ASP_clean,baseline,3,8,Classical,Renaissance_and_Colonialism,5,0.01773049645390071
+ASP_clean,baseline,3,9,Classical,Revivalism,4,0.014184397163120567
+ASP_clean,baseline,4,1,Early_Christian_Medieval,21st_Century,3,0.0076726342710997444
+ASP_clean,baseline,4,2,Early_Christian_Medieval,Baroque,13,0.03324808184143223
+ASP_clean,baseline,4,3,Early_Christian_Medieval,Classical,5,0.01278772378516624
+ASP_clean,baseline,4,4,Early_Christian_Medieval,Early_Christian_Medieval,311,0.7953964194373402
+ASP_clean,baseline,4,5,Early_Christian_Medieval,Eclecticism,1,0.0025575447570332483
+ASP_clean,baseline,4,6,Early_Christian_Medieval,Modernism,4,0.010230179028132993
+ASP_clean,baseline,4,7,Early_Christian_Medieval,Neoclassicism,3,0.0076726342710997444
+ASP_clean,baseline,4,8,Early_Christian_Medieval,Renaissance_and_Colonialism,28,0.07161125319693094
+ASP_clean,baseline,4,9,Early_Christian_Medieval,Revivalism,23,0.058823529411764705
+ASP_clean,baseline,5,1,Eclecticism,21st_Century,2,0.005154639175257732
+ASP_clean,baseline,5,2,Eclecticism,Baroque,8,0.020618556701030927
+ASP_clean,baseline,5,3,Eclecticism,Classical,0,0.0
+ASP_clean,baseline,5,4,Eclecticism,Early_Christian_Medieval,11,0.028350515463917526
+ASP_clean,baseline,5,5,Eclecticism,Eclecticism,272,0.7010309278350515
+ASP_clean,baseline,5,6,Eclecticism,Modernism,16,0.041237113402061855
+ASP_clean,baseline,5,7,Eclecticism,Neoclassicism,11,0.028350515463917526
+ASP_clean,baseline,5,8,Eclecticism,Renaissance_and_Colonialism,20,0.05154639175257732
+ASP_clean,baseline,5,9,Eclecticism,Revivalism,48,0.12371134020618557
+ASP_clean,baseline,6,1,Modernism,21st_Century,66,0.12177121771217712
+ASP_clean,baseline,6,2,Modernism,Baroque,4,0.007380073800738007
+ASP_clean,baseline,6,3,Modernism,Classical,3,0.005535055350553505
+ASP_clean,baseline,6,4,Modernism,Early_Christian_Medieval,4,0.007380073800738007
+ASP_clean,baseline,6,5,Modernism,Eclecticism,13,0.023985239852398525
+ASP_clean,baseline,6,6,Modernism,Modernism,426,0.7859778597785978
+ASP_clean,baseline,6,7,Modernism,Neoclassicism,7,0.012915129151291513
+ASP_clean,baseline,6,8,Modernism,Renaissance_and_Colonialism,9,0.016605166051660517
+ASP_clean,baseline,6,9,Modernism,Revivalism,10,0.01845018450184502
+ASP_clean,baseline,7,1,Neoclassicism,21st_Century,2,0.005633802816901409
+ASP_clean,baseline,7,2,Neoclassicism,Baroque,10,0.028169014084507043
+ASP_clean,baseline,7,3,Neoclassicism,Classical,3,0.008450704225352112
+ASP_clean,baseline,7,4,Neoclassicism,Early_Christian_Medieval,1,0.0028169014084507044
+ASP_clean,baseline,7,5,Neoclassicism,Eclecticism,13,0.036619718309859155
+ASP_clean,baseline,7,6,Neoclassicism,Modernism,17,0.04788732394366197
+ASP_clean,baseline,7,7,Neoclassicism,Neoclassicism,216,0.6084507042253521
+ASP_clean,baseline,7,8,Neoclassicism,Renaissance_and_Colonialism,55,0.15492957746478872
+ASP_clean,baseline,7,9,Neoclassicism,Revivalism,38,0.10704225352112676
+ASP_clean,baseline,8,1,Renaissance_and_Colonialism,21st_Century,4,0.010899182561307902
+ASP_clean,baseline,8,2,Renaissance_and_Colonialism,Baroque,28,0.07629427792915532
+ASP_clean,baseline,8,3,Renaissance_and_Colonialism,Classical,6,0.01634877384196185
+ASP_clean,baseline,8,4,Renaissance_and_Colonialism,Early_Christian_Medieval,30,0.08174386920980926
+ASP_clean,baseline,8,5,Renaissance_and_Colonialism,Eclecticism,16,0.043596730245231606
+ASP_clean,baseline,8,6,Renaissance_and_Colonialism,Modernism,8,0.021798365122615803
+ASP_clean,baseline,8,7,Renaissance_and_Colonialism,Neoclassicism,37,0.1008174386920981
+ASP_clean,baseline,8,8,Renaissance_and_Colonialism,Renaissance_and_Colonialism,203,0.553133514986376
+ASP_clean,baseline,8,9,Renaissance_and_Colonialism,Revivalism,35,0.09536784741144415
+ASP_clean,baseline,9,1,Revivalism,21st_Century,5,0.009041591320072333
+ASP_clean,baseline,9,2,Revivalism,Baroque,15,0.027124773960216998
+ASP_clean,baseline,9,3,Revivalism,Classical,2,0.003616636528028933
+ASP_clean,baseline,9,4,Revivalism,Early_Christian_Medieval,12,0.0216998191681736
+ASP_clean,baseline,9,5,Revivalism,Eclecticism,62,0.11211573236889692
+ASP_clean,baseline,9,6,Revivalism,Modernism,16,0.028933092224231464
+ASP_clean,baseline,9,7,Revivalism,Neoclassicism,16,0.028933092224231464
+ASP_clean,baseline,9,8,Revivalism,Renaissance_and_Colonialism,42,0.0759493670886076
+ASP_clean,baseline,9,9,Revivalism,Revivalism,383,0.6925858951175407
+ASP_clean,aafnet,1,1,21st_Century,21st_Century,274,0.8011695906432749
+ASP_clean,aafnet,1,2,21st_Century,Baroque,1,0.0029239766081871343
+ASP_clean,aafnet,1,3,21st_Century,Classical,2,0.005847953216374269
+ASP_clean,aafnet,1,4,21st_Century,Early_Christian_Medieval,1,0.0029239766081871343
+ASP_clean,aafnet,1,5,21st_Century,Eclecticism,4,0.011695906432748537
+ASP_clean,aafnet,1,6,21st_Century,Modernism,47,0.13742690058479531
+ASP_clean,aafnet,1,7,21st_Century,Neoclassicism,2,0.005847953216374269
+ASP_clean,aafnet,1,8,21st_Century,Renaissance_and_Colonialism,9,0.02631578947368421
+ASP_clean,aafnet,1,9,21st_Century,Revivalism,2,0.005847953216374269
+ASP_clean,aafnet,2,1,Baroque,21st_Century,2,0.006493506493506494
+ASP_clean,aafnet,2,2,Baroque,Baroque,208,0.6753246753246753
+ASP_clean,aafnet,2,3,Baroque,Classical,1,0.003246753246753247
+ASP_clean,aafnet,2,4,Baroque,Early_Christian_Medieval,17,0.05519480519480519
+ASP_clean,aafnet,2,5,Baroque,Eclecticism,6,0.01948051948051948
+ASP_clean,aafnet,2,6,Baroque,Modernism,2,0.006493506493506494
+ASP_clean,aafnet,2,7,Baroque,Neoclassicism,16,0.05194805194805195
+ASP_clean,aafnet,2,8,Baroque,Renaissance_and_Colonialism,42,0.13636363636363635
+ASP_clean,aafnet,2,9,Baroque,Revivalism,14,0.045454545454545456
+ASP_clean,aafnet,3,1,Classical,21st_Century,8,0.028368794326241134
+ASP_clean,aafnet,3,2,Classical,Baroque,2,0.0070921985815602835
+ASP_clean,aafnet,3,3,Classical,Classical,240,0.851063829787234
+ASP_clean,aafnet,3,4,Classical,Early_Christian_Medieval,13,0.04609929078014184
+ASP_clean,aafnet,3,5,Classical,Eclecticism,1,0.0035460992907801418
+ASP_clean,aafnet,3,6,Classical,Modernism,4,0.014184397163120567
+ASP_clean,aafnet,3,7,Classical,Neoclassicism,1,0.0035460992907801418
+ASP_clean,aafnet,3,8,Classical,Renaissance_and_Colonialism,13,0.04609929078014184
+ASP_clean,aafnet,3,9,Classical,Revivalism,0,0.0
+ASP_clean,aafnet,4,1,Early_Christian_Medieval,21st_Century,6,0.015345268542199489
+ASP_clean,aafnet,4,2,Early_Christian_Medieval,Baroque,12,0.030690537084398978
+ASP_clean,aafnet,4,3,Early_Christian_Medieval,Classical,3,0.0076726342710997444
+ASP_clean,aafnet,4,4,Early_Christian_Medieval,Early_Christian_Medieval,309,0.7902813299232737
+ASP_clean,aafnet,4,5,Early_Christian_Medieval,Eclecticism,4,0.010230179028132993
+ASP_clean,aafnet,4,6,Early_Christian_Medieval,Modernism,6,0.015345268542199489
+ASP_clean,aafnet,4,7,Early_Christian_Medieval,Neoclassicism,7,0.017902813299232736
+ASP_clean,aafnet,4,8,Early_Christian_Medieval,Renaissance_and_Colonialism,21,0.05370843989769821
+ASP_clean,aafnet,4,9,Early_Christian_Medieval,Revivalism,23,0.058823529411764705
+ASP_clean,aafnet,5,1,Eclecticism,21st_Century,2,0.005154639175257732
+ASP_clean,aafnet,5,2,Eclecticism,Baroque,4,0.010309278350515464
+ASP_clean,aafnet,5,3,Eclecticism,Classical,0,0.0
+ASP_clean,aafnet,5,4,Eclecticism,Early_Christian_Medieval,7,0.01804123711340206
+ASP_clean,aafnet,5,5,Eclecticism,Eclecticism,262,0.6752577319587629
+ASP_clean,aafnet,5,6,Eclecticism,Modernism,16,0.041237113402061855
+ASP_clean,aafnet,5,7,Eclecticism,Neoclassicism,23,0.059278350515463915
+ASP_clean,aafnet,5,8,Eclecticism,Renaissance_and_Colonialism,18,0.04639175257731959
+ASP_clean,aafnet,5,9,Eclecticism,Revivalism,56,0.14432989690721648
+ASP_clean,aafnet,6,1,Modernism,21st_Century,75,0.13837638376383765
+ASP_clean,aafnet,6,2,Modernism,Baroque,2,0.0036900369003690036
+ASP_clean,aafnet,6,3,Modernism,Classical,0,0.0
+ASP_clean,aafnet,6,4,Modernism,Early_Christian_Medieval,3,0.005535055350553505
+ASP_clean,aafnet,6,5,Modernism,Eclecticism,15,0.027675276752767528
+ASP_clean,aafnet,6,6,Modernism,Modernism,430,0.7933579335793358
+ASP_clean,aafnet,6,7,Modernism,Neoclassicism,3,0.005535055350553505
+ASP_clean,aafnet,6,8,Modernism,Renaissance_and_Colonialism,8,0.014760147601476014
+ASP_clean,aafnet,6,9,Modernism,Revivalism,6,0.01107011070110701
+ASP_clean,aafnet,7,1,Neoclassicism,21st_Century,4,0.011267605633802818
+ASP_clean,aafnet,7,2,Neoclassicism,Baroque,10,0.028169014084507043
+ASP_clean,aafnet,7,3,Neoclassicism,Classical,0,0.0
+ASP_clean,aafnet,7,4,Neoclassicism,Early_Christian_Medieval,2,0.005633802816901409
+ASP_clean,aafnet,7,5,Neoclassicism,Eclecticism,17,0.04788732394366197
+ASP_clean,aafnet,7,6,Neoclassicism,Modernism,16,0.04507042253521127
+ASP_clean,aafnet,7,7,Neoclassicism,Neoclassicism,235,0.6619718309859155
+ASP_clean,aafnet,7,8,Neoclassicism,Renaissance_and_Colonialism,47,0.1323943661971831
+ASP_clean,aafnet,7,9,Neoclassicism,Revivalism,24,0.0676056338028169
+ASP_clean,aafnet,8,1,Renaissance_and_Colonialism,21st_Century,6,0.01634877384196185
+ASP_clean,aafnet,8,2,Renaissance_and_Colonialism,Baroque,50,0.1362397820163488
+ASP_clean,aafnet,8,3,Renaissance_and_Colonialism,Classical,3,0.008174386920980926
+ASP_clean,aafnet,8,4,Renaissance_and_Colonialism,Early_Christian_Medieval,24,0.0653950953678474
+ASP_clean,aafnet,8,5,Renaissance_and_Colonialism,Eclecticism,14,0.03814713896457766
+ASP_clean,aafnet,8,6,Renaissance_and_Colonialism,Modernism,5,0.013623978201634877
+ASP_clean,aafnet,8,7,Renaissance_and_Colonialism,Neoclassicism,41,0.11171662125340599
+ASP_clean,aafnet,8,8,Renaissance_and_Colonialism,Renaissance_and_Colonialism,195,0.5313351498637602
+ASP_clean,aafnet,8,9,Renaissance_and_Colonialism,Revivalism,29,0.07901907356948229
+ASP_clean,aafnet,9,1,Revivalism,21st_Century,5,0.009041591320072333
+ASP_clean,aafnet,9,2,Revivalism,Baroque,14,0.02531645569620253
+ASP_clean,aafnet,9,3,Revivalism,Classical,1,0.0018083182640144665
+ASP_clean,aafnet,9,4,Revivalism,Early_Christian_Medieval,11,0.019891500904159132
+ASP_clean,aafnet,9,5,Revivalism,Eclecticism,42,0.0759493670886076
+ASP_clean,aafnet,9,6,Revivalism,Modernism,13,0.023508137432188065
+ASP_clean,aafnet,9,7,Revivalism,Neoclassicism,12,0.0216998191681736
+ASP_clean,aafnet,9,8,Revivalism,Renaissance_and_Colonialism,54,0.09764918625678119
+ASP_clean,aafnet,9,9,Revivalism,Revivalism,401,0.7251356238698011
+AS25_clean,baseline,1,1,Achaemenid architecture,Achaemenid architecture,97,0.8434782608695652
+AS25_clean,baseline,1,2,Achaemenid architecture,American Foursquare architecture,0,0.0
+AS25_clean,baseline,1,3,Achaemenid architecture,American craftsman style,0,0.0
+AS25_clean,baseline,1,4,Achaemenid architecture,Ancient Egyptian architecture,10,0.08695652173913043
+AS25_clean,baseline,1,5,Achaemenid architecture,Art Deco architecture,0,0.0
+AS25_clean,baseline,1,6,Achaemenid architecture,Art Nouveau architecture,0,0.0
+AS25_clean,baseline,1,7,Achaemenid architecture,Baroque architecture,1,0.008695652173913044
+AS25_clean,baseline,1,8,Achaemenid architecture,Bauhaus architecture,0,0.0
+AS25_clean,baseline,1,9,Achaemenid architecture,Beaux-Arts architecture,0,0.0
+AS25_clean,baseline,1,10,Achaemenid architecture,Byzantine architecture,0,0.0
+AS25_clean,baseline,1,11,Achaemenid architecture,Chicago school architecture,0,0.0
+AS25_clean,baseline,1,12,Achaemenid architecture,Colonial architecture,0,0.0
+AS25_clean,baseline,1,13,Achaemenid architecture,Deconstructivism,1,0.008695652173913044
+AS25_clean,baseline,1,14,Achaemenid architecture,Edwardian architecture,0,0.0
+AS25_clean,baseline,1,15,Achaemenid architecture,Georgian architecture,0,0.0
+AS25_clean,baseline,1,16,Achaemenid architecture,Gothic architecture,0,0.0
+AS25_clean,baseline,1,17,Achaemenid architecture,Greek Revival architecture,0,0.0
+AS25_clean,baseline,1,18,Achaemenid architecture,International style,0,0.0
+AS25_clean,baseline,1,19,Achaemenid architecture,Novelty architecture,1,0.008695652173913044
+AS25_clean,baseline,1,20,Achaemenid architecture,Palladian architecture,1,0.008695652173913044
+AS25_clean,baseline,1,21,Achaemenid architecture,Postmodern architecture,0,0.0
+AS25_clean,baseline,1,22,Achaemenid architecture,Queen Anne architecture,0,0.0
+AS25_clean,baseline,1,23,Achaemenid architecture,Romanesque architecture,4,0.034782608695652174
+AS25_clean,baseline,1,24,Achaemenid architecture,Russian Revival architecture,0,0.0
+AS25_clean,baseline,1,25,Achaemenid architecture,Tudor Revival architecture,0,0.0
+AS25_clean,baseline,2,1,American Foursquare architecture,Achaemenid architecture,0,0.0
+AS25_clean,baseline,2,2,American Foursquare architecture,American Foursquare architecture,69,0.6388888888888888
+AS25_clean,baseline,2,3,American Foursquare architecture,American craftsman style,16,0.14814814814814814
+AS25_clean,baseline,2,4,American Foursquare architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,2,5,American Foursquare architecture,Art Deco architecture,0,0.0
+AS25_clean,baseline,2,6,American Foursquare architecture,Art Nouveau architecture,0,0.0
+AS25_clean,baseline,2,7,American Foursquare architecture,Baroque architecture,0,0.0
+AS25_clean,baseline,2,8,American Foursquare architecture,Bauhaus architecture,0,0.0
+AS25_clean,baseline,2,9,American Foursquare architecture,Beaux-Arts architecture,0,0.0
+AS25_clean,baseline,2,10,American Foursquare architecture,Byzantine architecture,0,0.0
+AS25_clean,baseline,2,11,American Foursquare architecture,Chicago school architecture,0,0.0
+AS25_clean,baseline,2,12,American Foursquare architecture,Colonial architecture,6,0.05555555555555555
+AS25_clean,baseline,2,13,American Foursquare architecture,Deconstructivism,0,0.0
+AS25_clean,baseline,2,14,American Foursquare architecture,Edwardian architecture,0,0.0
+AS25_clean,baseline,2,15,American Foursquare architecture,Georgian architecture,3,0.027777777777777776
+AS25_clean,baseline,2,16,American Foursquare architecture,Gothic architecture,0,0.0
+AS25_clean,baseline,2,17,American Foursquare architecture,Greek Revival architecture,3,0.027777777777777776
+AS25_clean,baseline,2,18,American Foursquare architecture,International style,2,0.018518518518518517
+AS25_clean,baseline,2,19,American Foursquare architecture,Novelty architecture,0,0.0
+AS25_clean,baseline,2,20,American Foursquare architecture,Palladian architecture,0,0.0
+AS25_clean,baseline,2,21,American Foursquare architecture,Postmodern architecture,0,0.0
+AS25_clean,baseline,2,22,American Foursquare architecture,Queen Anne architecture,8,0.07407407407407407
+AS25_clean,baseline,2,23,American Foursquare architecture,Romanesque architecture,0,0.0
+AS25_clean,baseline,2,24,American Foursquare architecture,Russian Revival architecture,0,0.0
+AS25_clean,baseline,2,25,American Foursquare architecture,Tudor Revival architecture,1,0.009259259259259259
+AS25_clean,baseline,3,1,American craftsman style,Achaemenid architecture,1,0.009174311926605505
+AS25_clean,baseline,3,2,American craftsman style,American Foursquare architecture,34,0.3119266055045872
+AS25_clean,baseline,3,3,American craftsman style,American craftsman style,60,0.5504587155963303
+AS25_clean,baseline,3,4,American craftsman style,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,3,5,American craftsman style,Art Deco architecture,0,0.0
+AS25_clean,baseline,3,6,American craftsman style,Art Nouveau architecture,0,0.0
+AS25_clean,baseline,3,7,American craftsman style,Baroque architecture,0,0.0
+AS25_clean,baseline,3,8,American craftsman style,Bauhaus architecture,1,0.009174311926605505
+AS25_clean,baseline,3,9,American craftsman style,Beaux-Arts architecture,0,0.0
+AS25_clean,baseline,3,10,American craftsman style,Byzantine architecture,0,0.0
+AS25_clean,baseline,3,11,American craftsman style,Chicago school architecture,0,0.0
+AS25_clean,baseline,3,12,American craftsman style,Colonial architecture,2,0.01834862385321101
+AS25_clean,baseline,3,13,American craftsman style,Deconstructivism,0,0.0
+AS25_clean,baseline,3,14,American craftsman style,Edwardian architecture,0,0.0
+AS25_clean,baseline,3,15,American craftsman style,Georgian architecture,0,0.0
+AS25_clean,baseline,3,16,American craftsman style,Gothic architecture,0,0.0
+AS25_clean,baseline,3,17,American craftsman style,Greek Revival architecture,1,0.009174311926605505
+AS25_clean,baseline,3,18,American craftsman style,International style,0,0.0
+AS25_clean,baseline,3,19,American craftsman style,Novelty architecture,1,0.009174311926605505
+AS25_clean,baseline,3,20,American craftsman style,Palladian architecture,0,0.0
+AS25_clean,baseline,3,21,American craftsman style,Postmodern architecture,0,0.0
+AS25_clean,baseline,3,22,American craftsman style,Queen Anne architecture,3,0.027522935779816515
+AS25_clean,baseline,3,23,American craftsman style,Romanesque architecture,0,0.0
+AS25_clean,baseline,3,24,American craftsman style,Russian Revival architecture,0,0.0
+AS25_clean,baseline,3,25,American craftsman style,Tudor Revival architecture,6,0.05504587155963303
+AS25_clean,baseline,4,1,Ancient Egyptian architecture,Achaemenid architecture,12,0.125
+AS25_clean,baseline,4,2,Ancient Egyptian architecture,American Foursquare architecture,0,0.0
+AS25_clean,baseline,4,3,Ancient Egyptian architecture,American craftsman style,0,0.0
+AS25_clean,baseline,4,4,Ancient Egyptian architecture,Ancient Egyptian architecture,80,0.8333333333333334
+AS25_clean,baseline,4,5,Ancient Egyptian architecture,Art Deco architecture,0,0.0
+AS25_clean,baseline,4,6,Ancient Egyptian architecture,Art Nouveau architecture,0,0.0
+AS25_clean,baseline,4,7,Ancient Egyptian architecture,Baroque architecture,0,0.0
+AS25_clean,baseline,4,8,Ancient Egyptian architecture,Bauhaus architecture,1,0.010416666666666666
+AS25_clean,baseline,4,9,Ancient Egyptian architecture,Beaux-Arts architecture,0,0.0
+AS25_clean,baseline,4,10,Ancient Egyptian architecture,Byzantine architecture,0,0.0
+AS25_clean,baseline,4,11,Ancient Egyptian architecture,Chicago school architecture,0,0.0
+AS25_clean,baseline,4,12,Ancient Egyptian architecture,Colonial architecture,0,0.0
+AS25_clean,baseline,4,13,Ancient Egyptian architecture,Deconstructivism,1,0.010416666666666666
+AS25_clean,baseline,4,14,Ancient Egyptian architecture,Edwardian architecture,0,0.0
+AS25_clean,baseline,4,15,Ancient Egyptian architecture,Georgian architecture,0,0.0
+AS25_clean,baseline,4,16,Ancient Egyptian architecture,Gothic architecture,0,0.0
+AS25_clean,baseline,4,17,Ancient Egyptian architecture,Greek Revival architecture,0,0.0
+AS25_clean,baseline,4,18,Ancient Egyptian architecture,International style,0,0.0
+AS25_clean,baseline,4,19,Ancient Egyptian architecture,Novelty architecture,0,0.0
+AS25_clean,baseline,4,20,Ancient Egyptian architecture,Palladian architecture,0,0.0
+AS25_clean,baseline,4,21,Ancient Egyptian architecture,Postmodern architecture,0,0.0
+AS25_clean,baseline,4,22,Ancient Egyptian architecture,Queen Anne architecture,0,0.0
+AS25_clean,baseline,4,23,Ancient Egyptian architecture,Romanesque architecture,2,0.020833333333333332
+AS25_clean,baseline,4,24,Ancient Egyptian architecture,Russian Revival architecture,0,0.0
+AS25_clean,baseline,4,25,Ancient Egyptian architecture,Tudor Revival architecture,0,0.0
+AS25_clean,baseline,5,1,Art Deco architecture,Achaemenid architecture,2,0.011976047904191617
+AS25_clean,baseline,5,2,Art Deco architecture,American Foursquare architecture,1,0.005988023952095809
+AS25_clean,baseline,5,3,Art Deco architecture,American craftsman style,0,0.0
+AS25_clean,baseline,5,4,Art Deco architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,5,5,Art Deco architecture,Art Deco architecture,94,0.562874251497006
+AS25_clean,baseline,5,6,Art Deco architecture,Art Nouveau architecture,9,0.05389221556886228
+AS25_clean,baseline,5,7,Art Deco architecture,Baroque architecture,1,0.005988023952095809
+AS25_clean,baseline,5,8,Art Deco architecture,Bauhaus architecture,13,0.07784431137724551
+AS25_clean,baseline,5,9,Art Deco architecture,Beaux-Arts architecture,5,0.029940119760479042
+AS25_clean,baseline,5,10,Art Deco architecture,Byzantine architecture,1,0.005988023952095809
+AS25_clean,baseline,5,11,Art Deco architecture,Chicago school architecture,8,0.04790419161676647
+AS25_clean,baseline,5,12,Art Deco architecture,Colonial architecture,1,0.005988023952095809
+AS25_clean,baseline,5,13,Art Deco architecture,Deconstructivism,2,0.011976047904191617
+AS25_clean,baseline,5,14,Art Deco architecture,Edwardian architecture,1,0.005988023952095809
+AS25_clean,baseline,5,15,Art Deco architecture,Georgian architecture,2,0.011976047904191617
+AS25_clean,baseline,5,16,Art Deco architecture,Gothic architecture,0,0.0
+AS25_clean,baseline,5,17,Art Deco architecture,Greek Revival architecture,2,0.011976047904191617
+AS25_clean,baseline,5,18,Art Deco architecture,International style,9,0.05389221556886228
+AS25_clean,baseline,5,19,Art Deco architecture,Novelty architecture,2,0.011976047904191617
+AS25_clean,baseline,5,20,Art Deco architecture,Palladian architecture,0,0.0
+AS25_clean,baseline,5,21,Art Deco architecture,Postmodern architecture,10,0.059880239520958084
+AS25_clean,baseline,5,22,Art Deco architecture,Queen Anne architecture,0,0.0
+AS25_clean,baseline,5,23,Art Deco architecture,Romanesque architecture,1,0.005988023952095809
+AS25_clean,baseline,5,24,Art Deco architecture,Russian Revival architecture,1,0.005988023952095809
+AS25_clean,baseline,5,25,Art Deco architecture,Tudor Revival architecture,2,0.011976047904191617
+AS25_clean,baseline,6,1,Art Nouveau architecture,Achaemenid architecture,0,0.0
+AS25_clean,baseline,6,2,Art Nouveau architecture,American Foursquare architecture,0,0.0
+AS25_clean,baseline,6,3,Art Nouveau architecture,American craftsman style,1,0.0056179775280898875
+AS25_clean,baseline,6,4,Art Nouveau architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,6,5,Art Nouveau architecture,Art Deco architecture,7,0.03932584269662921
+AS25_clean,baseline,6,6,Art Nouveau architecture,Art Nouveau architecture,114,0.6404494382022472
+AS25_clean,baseline,6,7,Art Nouveau architecture,Baroque architecture,4,0.02247191011235955
+AS25_clean,baseline,6,8,Art Nouveau architecture,Bauhaus architecture,0,0.0
+AS25_clean,baseline,6,9,Art Nouveau architecture,Beaux-Arts architecture,14,0.07865168539325842
+AS25_clean,baseline,6,10,Art Nouveau architecture,Byzantine architecture,5,0.028089887640449437
+AS25_clean,baseline,6,11,Art Nouveau architecture,Chicago school architecture,2,0.011235955056179775
+AS25_clean,baseline,6,12,Art Nouveau architecture,Colonial architecture,4,0.02247191011235955
+AS25_clean,baseline,6,13,Art Nouveau architecture,Deconstructivism,0,0.0
+AS25_clean,baseline,6,14,Art Nouveau architecture,Edwardian architecture,1,0.0056179775280898875
+AS25_clean,baseline,6,15,Art Nouveau architecture,Georgian architecture,4,0.02247191011235955
+AS25_clean,baseline,6,16,Art Nouveau architecture,Gothic architecture,3,0.016853932584269662
+AS25_clean,baseline,6,17,Art Nouveau architecture,Greek Revival architecture,1,0.0056179775280898875
+AS25_clean,baseline,6,18,Art Nouveau architecture,International style,0,0.0
+AS25_clean,baseline,6,19,Art Nouveau architecture,Novelty architecture,1,0.0056179775280898875
+AS25_clean,baseline,6,20,Art Nouveau architecture,Palladian architecture,0,0.0
+AS25_clean,baseline,6,21,Art Nouveau architecture,Postmodern architecture,1,0.0056179775280898875
+AS25_clean,baseline,6,22,Art Nouveau architecture,Queen Anne architecture,4,0.02247191011235955
+AS25_clean,baseline,6,23,Art Nouveau architecture,Romanesque architecture,6,0.033707865168539325
+AS25_clean,baseline,6,24,Art Nouveau architecture,Russian Revival architecture,2,0.011235955056179775
+AS25_clean,baseline,6,25,Art Nouveau architecture,Tudor Revival architecture,4,0.02247191011235955
+AS25_clean,baseline,7,1,Baroque architecture,Achaemenid architecture,2,0.014814814814814815
+AS25_clean,baseline,7,2,Baroque architecture,American Foursquare architecture,0,0.0
+AS25_clean,baseline,7,3,Baroque architecture,American craftsman style,0,0.0
+AS25_clean,baseline,7,4,Baroque architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,7,5,Baroque architecture,Art Deco architecture,1,0.007407407407407408
+AS25_clean,baseline,7,6,Baroque architecture,Art Nouveau architecture,3,0.022222222222222223
+AS25_clean,baseline,7,7,Baroque architecture,Baroque architecture,85,0.6296296296296297
+AS25_clean,baseline,7,8,Baroque architecture,Bauhaus architecture,0,0.0
+AS25_clean,baseline,7,9,Baroque architecture,Beaux-Arts architecture,10,0.07407407407407407
+AS25_clean,baseline,7,10,Baroque architecture,Byzantine architecture,2,0.014814814814814815
+AS25_clean,baseline,7,11,Baroque architecture,Chicago school architecture,0,0.0
+AS25_clean,baseline,7,12,Baroque architecture,Colonial architecture,6,0.044444444444444446
+AS25_clean,baseline,7,13,Baroque architecture,Deconstructivism,0,0.0
+AS25_clean,baseline,7,14,Baroque architecture,Edwardian architecture,1,0.007407407407407408
+AS25_clean,baseline,7,15,Baroque architecture,Georgian architecture,2,0.014814814814814815
+AS25_clean,baseline,7,16,Baroque architecture,Gothic architecture,1,0.007407407407407408
+AS25_clean,baseline,7,17,Baroque architecture,Greek Revival architecture,2,0.014814814814814815
+AS25_clean,baseline,7,18,Baroque architecture,International style,0,0.0
+AS25_clean,baseline,7,19,Baroque architecture,Novelty architecture,0,0.0
+AS25_clean,baseline,7,20,Baroque architecture,Palladian architecture,2,0.014814814814814815
+AS25_clean,baseline,7,21,Baroque architecture,Postmodern architecture,0,0.0
+AS25_clean,baseline,7,22,Baroque architecture,Queen Anne architecture,1,0.007407407407407408
+AS25_clean,baseline,7,23,Baroque architecture,Romanesque architecture,6,0.044444444444444446
+AS25_clean,baseline,7,24,Baroque architecture,Russian Revival architecture,11,0.08148148148148149
+AS25_clean,baseline,7,25,Baroque architecture,Tudor Revival architecture,0,0.0
+AS25_clean,baseline,8,1,Bauhaus architecture,Achaemenid architecture,0,0.0
+AS25_clean,baseline,8,2,Bauhaus architecture,American Foursquare architecture,1,0.01098901098901099
+AS25_clean,baseline,8,3,Bauhaus architecture,American craftsman style,0,0.0
+AS25_clean,baseline,8,4,Bauhaus architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,8,5,Bauhaus architecture,Art Deco architecture,7,0.07692307692307693
+AS25_clean,baseline,8,6,Bauhaus architecture,Art Nouveau architecture,1,0.01098901098901099
+AS25_clean,baseline,8,7,Bauhaus architecture,Baroque architecture,0,0.0
+AS25_clean,baseline,8,8,Bauhaus architecture,Bauhaus architecture,61,0.6703296703296703
+AS25_clean,baseline,8,9,Bauhaus architecture,Beaux-Arts architecture,2,0.02197802197802198
+AS25_clean,baseline,8,10,Bauhaus architecture,Byzantine architecture,0,0.0
+AS25_clean,baseline,8,11,Bauhaus architecture,Chicago school architecture,1,0.01098901098901099
+AS25_clean,baseline,8,12,Bauhaus architecture,Colonial architecture,0,0.0
+AS25_clean,baseline,8,13,Bauhaus architecture,Deconstructivism,0,0.0
+AS25_clean,baseline,8,14,Bauhaus architecture,Edwardian architecture,0,0.0
+AS25_clean,baseline,8,15,Bauhaus architecture,Georgian architecture,1,0.01098901098901099
+AS25_clean,baseline,8,16,Bauhaus architecture,Gothic architecture,0,0.0
+AS25_clean,baseline,8,17,Bauhaus architecture,Greek Revival architecture,0,0.0
+AS25_clean,baseline,8,18,Bauhaus architecture,International style,9,0.0989010989010989
+AS25_clean,baseline,8,19,Bauhaus architecture,Novelty architecture,0,0.0
+AS25_clean,baseline,8,20,Bauhaus architecture,Palladian architecture,0,0.0
+AS25_clean,baseline,8,21,Bauhaus architecture,Postmodern architecture,4,0.04395604395604396
+AS25_clean,baseline,8,22,Bauhaus architecture,Queen Anne architecture,2,0.02197802197802198
+AS25_clean,baseline,8,23,Bauhaus architecture,Romanesque architecture,0,0.0
+AS25_clean,baseline,8,24,Bauhaus architecture,Russian Revival architecture,0,0.0
+AS25_clean,baseline,8,25,Bauhaus architecture,Tudor Revival architecture,2,0.02197802197802198
+AS25_clean,baseline,9,1,Beaux-Arts architecture,Achaemenid architecture,0,0.0
+AS25_clean,baseline,9,2,Beaux-Arts architecture,American Foursquare architecture,0,0.0
+AS25_clean,baseline,9,3,Beaux-Arts architecture,American craftsman style,0,0.0
+AS25_clean,baseline,9,4,Beaux-Arts architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,9,5,Beaux-Arts architecture,Art Deco architecture,4,0.03278688524590164
+AS25_clean,baseline,9,6,Beaux-Arts architecture,Art Nouveau architecture,8,0.06557377049180328
+AS25_clean,baseline,9,7,Beaux-Arts architecture,Baroque architecture,10,0.08196721311475409
+AS25_clean,baseline,9,8,Beaux-Arts architecture,Bauhaus architecture,1,0.00819672131147541
+AS25_clean,baseline,9,9,Beaux-Arts architecture,Beaux-Arts architecture,62,0.5081967213114754
+AS25_clean,baseline,9,10,Beaux-Arts architecture,Byzantine architecture,2,0.01639344262295082
+AS25_clean,baseline,9,11,Beaux-Arts architecture,Chicago school architecture,4,0.03278688524590164
+AS25_clean,baseline,9,12,Beaux-Arts architecture,Colonial architecture,4,0.03278688524590164
+AS25_clean,baseline,9,13,Beaux-Arts architecture,Deconstructivism,0,0.0
+AS25_clean,baseline,9,14,Beaux-Arts architecture,Edwardian architecture,1,0.00819672131147541
+AS25_clean,baseline,9,15,Beaux-Arts architecture,Georgian architecture,5,0.040983606557377046
+AS25_clean,baseline,9,16,Beaux-Arts architecture,Gothic architecture,0,0.0
+AS25_clean,baseline,9,17,Beaux-Arts architecture,Greek Revival architecture,8,0.06557377049180328
+AS25_clean,baseline,9,18,Beaux-Arts architecture,International style,0,0.0
+AS25_clean,baseline,9,19,Beaux-Arts architecture,Novelty architecture,0,0.0
+AS25_clean,baseline,9,20,Beaux-Arts architecture,Palladian architecture,4,0.03278688524590164
+AS25_clean,baseline,9,21,Beaux-Arts architecture,Postmodern architecture,0,0.0
+AS25_clean,baseline,9,22,Beaux-Arts architecture,Queen Anne architecture,1,0.00819672131147541
+AS25_clean,baseline,9,23,Beaux-Arts architecture,Romanesque architecture,3,0.02459016393442623
+AS25_clean,baseline,9,24,Beaux-Arts architecture,Russian Revival architecture,4,0.03278688524590164
+AS25_clean,baseline,9,25,Beaux-Arts architecture,Tudor Revival architecture,1,0.00819672131147541
+AS25_clean,baseline,10,1,Byzantine architecture,Achaemenid architecture,0,0.0
+AS25_clean,baseline,10,2,Byzantine architecture,American Foursquare architecture,0,0.0
+AS25_clean,baseline,10,3,Byzantine architecture,American craftsman style,0,0.0
+AS25_clean,baseline,10,4,Byzantine architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,10,5,Byzantine architecture,Art Deco architecture,0,0.0
+AS25_clean,baseline,10,6,Byzantine architecture,Art Nouveau architecture,0,0.0
+AS25_clean,baseline,10,7,Byzantine architecture,Baroque architecture,2,0.022222222222222223
+AS25_clean,baseline,10,8,Byzantine architecture,Bauhaus architecture,0,0.0
+AS25_clean,baseline,10,9,Byzantine architecture,Beaux-Arts architecture,0,0.0
+AS25_clean,baseline,10,10,Byzantine architecture,Byzantine architecture,64,0.7111111111111111
+AS25_clean,baseline,10,11,Byzantine architecture,Chicago school architecture,0,0.0
+AS25_clean,baseline,10,12,Byzantine architecture,Colonial architecture,1,0.011111111111111112
+AS25_clean,baseline,10,13,Byzantine architecture,Deconstructivism,0,0.0
+AS25_clean,baseline,10,14,Byzantine architecture,Edwardian architecture,0,0.0
+AS25_clean,baseline,10,15,Byzantine architecture,Georgian architecture,2,0.022222222222222223
+AS25_clean,baseline,10,16,Byzantine architecture,Gothic architecture,0,0.0
+AS25_clean,baseline,10,17,Byzantine architecture,Greek Revival architecture,0,0.0
+AS25_clean,baseline,10,18,Byzantine architecture,International style,0,0.0
+AS25_clean,baseline,10,19,Byzantine architecture,Novelty architecture,0,0.0
+AS25_clean,baseline,10,20,Byzantine architecture,Palladian architecture,0,0.0
+AS25_clean,baseline,10,21,Byzantine architecture,Postmodern architecture,0,0.0
+AS25_clean,baseline,10,22,Byzantine architecture,Queen Anne architecture,0,0.0
+AS25_clean,baseline,10,23,Byzantine architecture,Romanesque architecture,6,0.06666666666666667
+AS25_clean,baseline,10,24,Byzantine architecture,Russian Revival architecture,15,0.16666666666666666
+AS25_clean,baseline,10,25,Byzantine architecture,Tudor Revival architecture,0,0.0
+AS25_clean,baseline,11,1,Chicago school architecture,Achaemenid architecture,0,0.0
+AS25_clean,baseline,11,2,Chicago school architecture,American Foursquare architecture,0,0.0
+AS25_clean,baseline,11,3,Chicago school architecture,American craftsman style,0,0.0
+AS25_clean,baseline,11,4,Chicago school architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,11,5,Chicago school architecture,Art Deco architecture,3,0.037037037037037035
+AS25_clean,baseline,11,6,Chicago school architecture,Art Nouveau architecture,1,0.012345679012345678
+AS25_clean,baseline,11,7,Chicago school architecture,Baroque architecture,0,0.0
+AS25_clean,baseline,11,8,Chicago school architecture,Bauhaus architecture,1,0.012345679012345678
+AS25_clean,baseline,11,9,Chicago school architecture,Beaux-Arts architecture,5,0.06172839506172839
+AS25_clean,baseline,11,10,Chicago school architecture,Byzantine architecture,0,0.0
+AS25_clean,baseline,11,11,Chicago school architecture,Chicago school architecture,58,0.7160493827160493
+AS25_clean,baseline,11,12,Chicago school architecture,Colonial architecture,1,0.012345679012345678
+AS25_clean,baseline,11,13,Chicago school architecture,Deconstructivism,1,0.012345679012345678
+AS25_clean,baseline,11,14,Chicago school architecture,Edwardian architecture,0,0.0
+AS25_clean,baseline,11,15,Chicago school architecture,Georgian architecture,2,0.024691358024691357
+AS25_clean,baseline,11,16,Chicago school architecture,Gothic architecture,1,0.012345679012345678
+AS25_clean,baseline,11,17,Chicago school architecture,Greek Revival architecture,0,0.0
+AS25_clean,baseline,11,18,Chicago school architecture,International style,5,0.06172839506172839
+AS25_clean,baseline,11,19,Chicago school architecture,Novelty architecture,0,0.0
+AS25_clean,baseline,11,20,Chicago school architecture,Palladian architecture,0,0.0
+AS25_clean,baseline,11,21,Chicago school architecture,Postmodern architecture,2,0.024691358024691357
+AS25_clean,baseline,11,22,Chicago school architecture,Queen Anne architecture,1,0.012345679012345678
+AS25_clean,baseline,11,23,Chicago school architecture,Romanesque architecture,0,0.0
+AS25_clean,baseline,11,24,Chicago school architecture,Russian Revival architecture,0,0.0
+AS25_clean,baseline,11,25,Chicago school architecture,Tudor Revival architecture,0,0.0
+AS25_clean,baseline,12,1,Colonial architecture,Achaemenid architecture,0,0.0
+AS25_clean,baseline,12,2,Colonial architecture,American Foursquare architecture,5,0.03759398496240601
+AS25_clean,baseline,12,3,Colonial architecture,American craftsman style,5,0.03759398496240601
+AS25_clean,baseline,12,4,Colonial architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,12,5,Colonial architecture,Art Deco architecture,4,0.03007518796992481
+AS25_clean,baseline,12,6,Colonial architecture,Art Nouveau architecture,3,0.022556390977443608
+AS25_clean,baseline,12,7,Colonial architecture,Baroque architecture,10,0.07518796992481203
+AS25_clean,baseline,12,8,Colonial architecture,Bauhaus architecture,0,0.0
+AS25_clean,baseline,12,9,Colonial architecture,Beaux-Arts architecture,6,0.045112781954887216
+AS25_clean,baseline,12,10,Colonial architecture,Byzantine architecture,3,0.022556390977443608
+AS25_clean,baseline,12,11,Colonial architecture,Chicago school architecture,0,0.0
+AS25_clean,baseline,12,12,Colonial architecture,Colonial architecture,55,0.41353383458646614
+AS25_clean,baseline,12,13,Colonial architecture,Deconstructivism,0,0.0
+AS25_clean,baseline,12,14,Colonial architecture,Edwardian architecture,0,0.0
+AS25_clean,baseline,12,15,Colonial architecture,Georgian architecture,6,0.045112781954887216
+AS25_clean,baseline,12,16,Colonial architecture,Gothic architecture,1,0.007518796992481203
+AS25_clean,baseline,12,17,Colonial architecture,Greek Revival architecture,4,0.03007518796992481
+AS25_clean,baseline,12,18,Colonial architecture,International style,0,0.0
+AS25_clean,baseline,12,19,Colonial architecture,Novelty architecture,1,0.007518796992481203
+AS25_clean,baseline,12,20,Colonial architecture,Palladian architecture,3,0.022556390977443608
+AS25_clean,baseline,12,21,Colonial architecture,Postmodern architecture,0,0.0
+AS25_clean,baseline,12,22,Colonial architecture,Queen Anne architecture,6,0.045112781954887216
+AS25_clean,baseline,12,23,Colonial architecture,Romanesque architecture,8,0.06015037593984962
+AS25_clean,baseline,12,24,Colonial architecture,Russian Revival architecture,5,0.03759398496240601
+AS25_clean,baseline,12,25,Colonial architecture,Tudor Revival architecture,8,0.06015037593984962
+AS25_clean,baseline,13,1,Deconstructivism,Achaemenid architecture,1,0.011111111111111112
+AS25_clean,baseline,13,2,Deconstructivism,American Foursquare architecture,0,0.0
+AS25_clean,baseline,13,3,Deconstructivism,American craftsman style,0,0.0
+AS25_clean,baseline,13,4,Deconstructivism,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,13,5,Deconstructivism,Art Deco architecture,0,0.0
+AS25_clean,baseline,13,6,Deconstructivism,Art Nouveau architecture,0,0.0
+AS25_clean,baseline,13,7,Deconstructivism,Baroque architecture,0,0.0
+AS25_clean,baseline,13,8,Deconstructivism,Bauhaus architecture,4,0.044444444444444446
+AS25_clean,baseline,13,9,Deconstructivism,Beaux-Arts architecture,0,0.0
+AS25_clean,baseline,13,10,Deconstructivism,Byzantine architecture,0,0.0
+AS25_clean,baseline,13,11,Deconstructivism,Chicago school architecture,3,0.03333333333333333
+AS25_clean,baseline,13,12,Deconstructivism,Colonial architecture,0,0.0
+AS25_clean,baseline,13,13,Deconstructivism,Deconstructivism,58,0.6444444444444445
+AS25_clean,baseline,13,14,Deconstructivism,Edwardian architecture,0,0.0
+AS25_clean,baseline,13,15,Deconstructivism,Georgian architecture,1,0.011111111111111112
+AS25_clean,baseline,13,16,Deconstructivism,Gothic architecture,0,0.0
+AS25_clean,baseline,13,17,Deconstructivism,Greek Revival architecture,0,0.0
+AS25_clean,baseline,13,18,Deconstructivism,International style,5,0.05555555555555555
+AS25_clean,baseline,13,19,Deconstructivism,Novelty architecture,5,0.05555555555555555
+AS25_clean,baseline,13,20,Deconstructivism,Palladian architecture,0,0.0
+AS25_clean,baseline,13,21,Deconstructivism,Postmodern architecture,12,0.13333333333333333
+AS25_clean,baseline,13,22,Deconstructivism,Queen Anne architecture,0,0.0
+AS25_clean,baseline,13,23,Deconstructivism,Romanesque architecture,1,0.011111111111111112
+AS25_clean,baseline,13,24,Deconstructivism,Russian Revival architecture,0,0.0
+AS25_clean,baseline,13,25,Deconstructivism,Tudor Revival architecture,0,0.0
+AS25_clean,baseline,14,1,Edwardian architecture,Achaemenid architecture,0,0.0
+AS25_clean,baseline,14,2,Edwardian architecture,American Foursquare architecture,2,0.024390243902439025
+AS25_clean,baseline,14,3,Edwardian architecture,American craftsman style,1,0.012195121951219513
+AS25_clean,baseline,14,4,Edwardian architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,14,5,Edwardian architecture,Art Deco architecture,1,0.012195121951219513
+AS25_clean,baseline,14,6,Edwardian architecture,Art Nouveau architecture,4,0.04878048780487805
+AS25_clean,baseline,14,7,Edwardian architecture,Baroque architecture,4,0.04878048780487805
+AS25_clean,baseline,14,8,Edwardian architecture,Bauhaus architecture,2,0.024390243902439025
+AS25_clean,baseline,14,9,Edwardian architecture,Beaux-Arts architecture,5,0.06097560975609756
+AS25_clean,baseline,14,10,Edwardian architecture,Byzantine architecture,1,0.012195121951219513
+AS25_clean,baseline,14,11,Edwardian architecture,Chicago school architecture,1,0.012195121951219513
+AS25_clean,baseline,14,12,Edwardian architecture,Colonial architecture,6,0.07317073170731707
+AS25_clean,baseline,14,13,Edwardian architecture,Deconstructivism,0,0.0
+AS25_clean,baseline,14,14,Edwardian architecture,Edwardian architecture,19,0.23170731707317074
+AS25_clean,baseline,14,15,Edwardian architecture,Georgian architecture,8,0.0975609756097561
+AS25_clean,baseline,14,16,Edwardian architecture,Gothic architecture,0,0.0
+AS25_clean,baseline,14,17,Edwardian architecture,Greek Revival architecture,0,0.0
+AS25_clean,baseline,14,18,Edwardian architecture,International style,0,0.0
+AS25_clean,baseline,14,19,Edwardian architecture,Novelty architecture,0,0.0
+AS25_clean,baseline,14,20,Edwardian architecture,Palladian architecture,1,0.012195121951219513
+AS25_clean,baseline,14,21,Edwardian architecture,Postmodern architecture,1,0.012195121951219513
+AS25_clean,baseline,14,22,Edwardian architecture,Queen Anne architecture,9,0.10975609756097561
+AS25_clean,baseline,14,23,Edwardian architecture,Romanesque architecture,2,0.024390243902439025
+AS25_clean,baseline,14,24,Edwardian architecture,Russian Revival architecture,3,0.036585365853658534
+AS25_clean,baseline,14,25,Edwardian architecture,Tudor Revival architecture,12,0.14634146341463414
+AS25_clean,baseline,15,1,Georgian architecture,Achaemenid architecture,0,0.0
+AS25_clean,baseline,15,2,Georgian architecture,American Foursquare architecture,4,0.03571428571428571
+AS25_clean,baseline,15,3,Georgian architecture,American craftsman style,2,0.017857142857142856
+AS25_clean,baseline,15,4,Georgian architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,15,5,Georgian architecture,Art Deco architecture,2,0.017857142857142856
+AS25_clean,baseline,15,6,Georgian architecture,Art Nouveau architecture,3,0.026785714285714284
+AS25_clean,baseline,15,7,Georgian architecture,Baroque architecture,0,0.0
+AS25_clean,baseline,15,8,Georgian architecture,Bauhaus architecture,0,0.0
+AS25_clean,baseline,15,9,Georgian architecture,Beaux-Arts architecture,7,0.0625
+AS25_clean,baseline,15,10,Georgian architecture,Byzantine architecture,1,0.008928571428571428
+AS25_clean,baseline,15,11,Georgian architecture,Chicago school architecture,0,0.0
+AS25_clean,baseline,15,12,Georgian architecture,Colonial architecture,13,0.11607142857142858
+AS25_clean,baseline,15,13,Georgian architecture,Deconstructivism,0,0.0
+AS25_clean,baseline,15,14,Georgian architecture,Edwardian architecture,4,0.03571428571428571
+AS25_clean,baseline,15,15,Georgian architecture,Georgian architecture,50,0.44642857142857145
+AS25_clean,baseline,15,16,Georgian architecture,Gothic architecture,0,0.0
+AS25_clean,baseline,15,17,Georgian architecture,Greek Revival architecture,3,0.026785714285714284
+AS25_clean,baseline,15,18,Georgian architecture,International style,0,0.0
+AS25_clean,baseline,15,19,Georgian architecture,Novelty architecture,0,0.0
+AS25_clean,baseline,15,20,Georgian architecture,Palladian architecture,12,0.10714285714285714
+AS25_clean,baseline,15,21,Georgian architecture,Postmodern architecture,1,0.008928571428571428
+AS25_clean,baseline,15,22,Georgian architecture,Queen Anne architecture,4,0.03571428571428571
+AS25_clean,baseline,15,23,Georgian architecture,Romanesque architecture,1,0.008928571428571428
+AS25_clean,baseline,15,24,Georgian architecture,Russian Revival architecture,0,0.0
+AS25_clean,baseline,15,25,Georgian architecture,Tudor Revival architecture,5,0.044642857142857144
+AS25_clean,baseline,16,1,Gothic architecture,Achaemenid architecture,0,0.0
+AS25_clean,baseline,16,2,Gothic architecture,American Foursquare architecture,0,0.0
+AS25_clean,baseline,16,3,Gothic architecture,American craftsman style,0,0.0
+AS25_clean,baseline,16,4,Gothic architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,16,5,Gothic architecture,Art Deco architecture,0,0.0
+AS25_clean,baseline,16,6,Gothic architecture,Art Nouveau architecture,0,0.0
+AS25_clean,baseline,16,7,Gothic architecture,Baroque architecture,1,0.010309278350515464
+AS25_clean,baseline,16,8,Gothic architecture,Bauhaus architecture,0,0.0
+AS25_clean,baseline,16,9,Gothic architecture,Beaux-Arts architecture,0,0.0
+AS25_clean,baseline,16,10,Gothic architecture,Byzantine architecture,2,0.020618556701030927
+AS25_clean,baseline,16,11,Gothic architecture,Chicago school architecture,0,0.0
+AS25_clean,baseline,16,12,Gothic architecture,Colonial architecture,0,0.0
+AS25_clean,baseline,16,13,Gothic architecture,Deconstructivism,0,0.0
+AS25_clean,baseline,16,14,Gothic architecture,Edwardian architecture,0,0.0
+AS25_clean,baseline,16,15,Gothic architecture,Georgian architecture,0,0.0
+AS25_clean,baseline,16,16,Gothic architecture,Gothic architecture,82,0.845360824742268
+AS25_clean,baseline,16,17,Gothic architecture,Greek Revival architecture,0,0.0
+AS25_clean,baseline,16,18,Gothic architecture,International style,0,0.0
+AS25_clean,baseline,16,19,Gothic architecture,Novelty architecture,0,0.0
+AS25_clean,baseline,16,20,Gothic architecture,Palladian architecture,0,0.0
+AS25_clean,baseline,16,21,Gothic architecture,Postmodern architecture,0,0.0
+AS25_clean,baseline,16,22,Gothic architecture,Queen Anne architecture,0,0.0
+AS25_clean,baseline,16,23,Gothic architecture,Romanesque architecture,10,0.10309278350515463
+AS25_clean,baseline,16,24,Gothic architecture,Russian Revival architecture,0,0.0
+AS25_clean,baseline,16,25,Gothic architecture,Tudor Revival architecture,2,0.020618556701030927
+AS25_clean,baseline,17,1,Greek Revival architecture,Achaemenid architecture,1,0.0064516129032258064
+AS25_clean,baseline,17,2,Greek Revival architecture,American Foursquare architecture,2,0.012903225806451613
+AS25_clean,baseline,17,3,Greek Revival architecture,American craftsman style,3,0.01935483870967742
+AS25_clean,baseline,17,4,Greek Revival architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,17,5,Greek Revival architecture,Art Deco architecture,1,0.0064516129032258064
+AS25_clean,baseline,17,6,Greek Revival architecture,Art Nouveau architecture,3,0.01935483870967742
+AS25_clean,baseline,17,7,Greek Revival architecture,Baroque architecture,2,0.012903225806451613
+AS25_clean,baseline,17,8,Greek Revival architecture,Bauhaus architecture,0,0.0
+AS25_clean,baseline,17,9,Greek Revival architecture,Beaux-Arts architecture,6,0.03870967741935484
+AS25_clean,baseline,17,10,Greek Revival architecture,Byzantine architecture,0,0.0
+AS25_clean,baseline,17,11,Greek Revival architecture,Chicago school architecture,0,0.0
+AS25_clean,baseline,17,12,Greek Revival architecture,Colonial architecture,7,0.04516129032258064
+AS25_clean,baseline,17,13,Greek Revival architecture,Deconstructivism,0,0.0
+AS25_clean,baseline,17,14,Greek Revival architecture,Edwardian architecture,1,0.0064516129032258064
+AS25_clean,baseline,17,15,Greek Revival architecture,Georgian architecture,10,0.06451612903225806
+AS25_clean,baseline,17,16,Greek Revival architecture,Gothic architecture,0,0.0
+AS25_clean,baseline,17,17,Greek Revival architecture,Greek Revival architecture,104,0.6709677419354839
+AS25_clean,baseline,17,18,Greek Revival architecture,International style,0,0.0
+AS25_clean,baseline,17,19,Greek Revival architecture,Novelty architecture,1,0.0064516129032258064
+AS25_clean,baseline,17,20,Greek Revival architecture,Palladian architecture,9,0.05806451612903226
+AS25_clean,baseline,17,21,Greek Revival architecture,Postmodern architecture,2,0.012903225806451613
+AS25_clean,baseline,17,22,Greek Revival architecture,Queen Anne architecture,2,0.012903225806451613
+AS25_clean,baseline,17,23,Greek Revival architecture,Romanesque architecture,0,0.0
+AS25_clean,baseline,17,24,Greek Revival architecture,Russian Revival architecture,1,0.0064516129032258064
+AS25_clean,baseline,17,25,Greek Revival architecture,Tudor Revival architecture,0,0.0
+AS25_clean,baseline,18,1,International style,Achaemenid architecture,0,0.0
+AS25_clean,baseline,18,2,International style,American Foursquare architecture,2,0.016260162601626018
+AS25_clean,baseline,18,3,International style,American craftsman style,1,0.008130081300813009
+AS25_clean,baseline,18,4,International style,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,18,5,International style,Art Deco architecture,5,0.04065040650406504
+AS25_clean,baseline,18,6,International style,Art Nouveau architecture,0,0.0
+AS25_clean,baseline,18,7,International style,Baroque architecture,0,0.0
+AS25_clean,baseline,18,8,International style,Bauhaus architecture,24,0.1951219512195122
+AS25_clean,baseline,18,9,International style,Beaux-Arts architecture,0,0.0
+AS25_clean,baseline,18,10,International style,Byzantine architecture,0,0.0
+AS25_clean,baseline,18,11,International style,Chicago school architecture,4,0.032520325203252036
+AS25_clean,baseline,18,12,International style,Colonial architecture,0,0.0
+AS25_clean,baseline,18,13,International style,Deconstructivism,0,0.0
+AS25_clean,baseline,18,14,International style,Edwardian architecture,0,0.0
+AS25_clean,baseline,18,15,International style,Georgian architecture,1,0.008130081300813009
+AS25_clean,baseline,18,16,International style,Gothic architecture,0,0.0
+AS25_clean,baseline,18,17,International style,Greek Revival architecture,0,0.0
+AS25_clean,baseline,18,18,International style,International style,69,0.5609756097560976
+AS25_clean,baseline,18,19,International style,Novelty architecture,1,0.008130081300813009
+AS25_clean,baseline,18,20,International style,Palladian architecture,0,0.0
+AS25_clean,baseline,18,21,International style,Postmodern architecture,16,0.13008130081300814
+AS25_clean,baseline,18,22,International style,Queen Anne architecture,0,0.0
+AS25_clean,baseline,18,23,International style,Romanesque architecture,0,0.0
+AS25_clean,baseline,18,24,International style,Russian Revival architecture,0,0.0
+AS25_clean,baseline,18,25,International style,Tudor Revival architecture,0,0.0
+AS25_clean,baseline,19,1,Novelty architecture,Achaemenid architecture,0,0.0
+AS25_clean,baseline,19,2,Novelty architecture,American Foursquare architecture,0,0.0
+AS25_clean,baseline,19,3,Novelty architecture,American craftsman style,0,0.0
+AS25_clean,baseline,19,4,Novelty architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,19,5,Novelty architecture,Art Deco architecture,0,0.0
+AS25_clean,baseline,19,6,Novelty architecture,Art Nouveau architecture,1,0.009174311926605505
+AS25_clean,baseline,19,7,Novelty architecture,Baroque architecture,0,0.0
+AS25_clean,baseline,19,8,Novelty architecture,Bauhaus architecture,5,0.045871559633027525
+AS25_clean,baseline,19,9,Novelty architecture,Beaux-Arts architecture,0,0.0
+AS25_clean,baseline,19,10,Novelty architecture,Byzantine architecture,0,0.0
+AS25_clean,baseline,19,11,Novelty architecture,Chicago school architecture,0,0.0
+AS25_clean,baseline,19,12,Novelty architecture,Colonial architecture,1,0.009174311926605505
+AS25_clean,baseline,19,13,Novelty architecture,Deconstructivism,8,0.07339449541284404
+AS25_clean,baseline,19,14,Novelty architecture,Edwardian architecture,1,0.009174311926605505
+AS25_clean,baseline,19,15,Novelty architecture,Georgian architecture,0,0.0
+AS25_clean,baseline,19,16,Novelty architecture,Gothic architecture,1,0.009174311926605505
+AS25_clean,baseline,19,17,Novelty architecture,Greek Revival architecture,0,0.0
+AS25_clean,baseline,19,18,Novelty architecture,International style,1,0.009174311926605505
+AS25_clean,baseline,19,19,Novelty architecture,Novelty architecture,85,0.7798165137614679
+AS25_clean,baseline,19,20,Novelty architecture,Palladian architecture,0,0.0
+AS25_clean,baseline,19,21,Novelty architecture,Postmodern architecture,4,0.03669724770642202
+AS25_clean,baseline,19,22,Novelty architecture,Queen Anne architecture,0,0.0
+AS25_clean,baseline,19,23,Novelty architecture,Romanesque architecture,1,0.009174311926605505
+AS25_clean,baseline,19,24,Novelty architecture,Russian Revival architecture,1,0.009174311926605505
+AS25_clean,baseline,19,25,Novelty architecture,Tudor Revival architecture,0,0.0
+AS25_clean,baseline,20,1,Palladian architecture,Achaemenid architecture,0,0.0
+AS25_clean,baseline,20,2,Palladian architecture,American Foursquare architecture,0,0.0
+AS25_clean,baseline,20,3,Palladian architecture,American craftsman style,0,0.0
+AS25_clean,baseline,20,4,Palladian architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,20,5,Palladian architecture,Art Deco architecture,0,0.0
+AS25_clean,baseline,20,6,Palladian architecture,Art Nouveau architecture,1,0.01020408163265306
+AS25_clean,baseline,20,7,Palladian architecture,Baroque architecture,4,0.04081632653061224
+AS25_clean,baseline,20,8,Palladian architecture,Bauhaus architecture,0,0.0
+AS25_clean,baseline,20,9,Palladian architecture,Beaux-Arts architecture,9,0.09183673469387756
+AS25_clean,baseline,20,10,Palladian architecture,Byzantine architecture,0,0.0
+AS25_clean,baseline,20,11,Palladian architecture,Chicago school architecture,0,0.0
+AS25_clean,baseline,20,12,Palladian architecture,Colonial architecture,10,0.10204081632653061
+AS25_clean,baseline,20,13,Palladian architecture,Deconstructivism,0,0.0
+AS25_clean,baseline,20,14,Palladian architecture,Edwardian architecture,3,0.030612244897959183
+AS25_clean,baseline,20,15,Palladian architecture,Georgian architecture,7,0.07142857142857142
+AS25_clean,baseline,20,16,Palladian architecture,Gothic architecture,0,0.0
+AS25_clean,baseline,20,17,Palladian architecture,Greek Revival architecture,10,0.10204081632653061
+AS25_clean,baseline,20,18,Palladian architecture,International style,0,0.0
+AS25_clean,baseline,20,19,Palladian architecture,Novelty architecture,0,0.0
+AS25_clean,baseline,20,20,Palladian architecture,Palladian architecture,51,0.5204081632653061
+AS25_clean,baseline,20,21,Palladian architecture,Postmodern architecture,0,0.0
+AS25_clean,baseline,20,22,Palladian architecture,Queen Anne architecture,0,0.0
+AS25_clean,baseline,20,23,Palladian architecture,Romanesque architecture,1,0.01020408163265306
+AS25_clean,baseline,20,24,Palladian architecture,Russian Revival architecture,1,0.01020408163265306
+AS25_clean,baseline,20,25,Palladian architecture,Tudor Revival architecture,1,0.01020408163265306
+AS25_clean,baseline,21,1,Postmodern architecture,Achaemenid architecture,0,0.0
+AS25_clean,baseline,21,2,Postmodern architecture,American Foursquare architecture,0,0.0
+AS25_clean,baseline,21,3,Postmodern architecture,American craftsman style,0,0.0
+AS25_clean,baseline,21,4,Postmodern architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,21,5,Postmodern architecture,Art Deco architecture,7,0.07692307692307693
+AS25_clean,baseline,21,6,Postmodern architecture,Art Nouveau architecture,1,0.01098901098901099
+AS25_clean,baseline,21,7,Postmodern architecture,Baroque architecture,0,0.0
+AS25_clean,baseline,21,8,Postmodern architecture,Bauhaus architecture,7,0.07692307692307693
+AS25_clean,baseline,21,9,Postmodern architecture,Beaux-Arts architecture,1,0.01098901098901099
+AS25_clean,baseline,21,10,Postmodern architecture,Byzantine architecture,1,0.01098901098901099
+AS25_clean,baseline,21,11,Postmodern architecture,Chicago school architecture,4,0.04395604395604396
+AS25_clean,baseline,21,12,Postmodern architecture,Colonial architecture,0,0.0
+AS25_clean,baseline,21,13,Postmodern architecture,Deconstructivism,2,0.02197802197802198
+AS25_clean,baseline,21,14,Postmodern architecture,Edwardian architecture,1,0.01098901098901099
+AS25_clean,baseline,21,15,Postmodern architecture,Georgian architecture,0,0.0
+AS25_clean,baseline,21,16,Postmodern architecture,Gothic architecture,0,0.0
+AS25_clean,baseline,21,17,Postmodern architecture,Greek Revival architecture,0,0.0
+AS25_clean,baseline,21,18,Postmodern architecture,International style,15,0.16483516483516483
+AS25_clean,baseline,21,19,Postmodern architecture,Novelty architecture,0,0.0
+AS25_clean,baseline,21,20,Postmodern architecture,Palladian architecture,0,0.0
+AS25_clean,baseline,21,21,Postmodern architecture,Postmodern architecture,50,0.5494505494505495
+AS25_clean,baseline,21,22,Postmodern architecture,Queen Anne architecture,0,0.0
+AS25_clean,baseline,21,23,Postmodern architecture,Romanesque architecture,0,0.0
+AS25_clean,baseline,21,24,Postmodern architecture,Russian Revival architecture,0,0.0
+AS25_clean,baseline,21,25,Postmodern architecture,Tudor Revival architecture,2,0.02197802197802198
+AS25_clean,baseline,22,1,Queen Anne architecture,Achaemenid architecture,0,0.0
+AS25_clean,baseline,22,2,Queen Anne architecture,American Foursquare architecture,8,0.037209302325581395
+AS25_clean,baseline,22,3,Queen Anne architecture,American craftsman style,18,0.08372093023255814
+AS25_clean,baseline,22,4,Queen Anne architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,22,5,Queen Anne architecture,Art Deco architecture,0,0.0
+AS25_clean,baseline,22,6,Queen Anne architecture,Art Nouveau architecture,3,0.013953488372093023
+AS25_clean,baseline,22,7,Queen Anne architecture,Baroque architecture,1,0.004651162790697674
+AS25_clean,baseline,22,8,Queen Anne architecture,Bauhaus architecture,0,0.0
+AS25_clean,baseline,22,9,Queen Anne architecture,Beaux-Arts architecture,0,0.0
+AS25_clean,baseline,22,10,Queen Anne architecture,Byzantine architecture,2,0.009302325581395349
+AS25_clean,baseline,22,11,Queen Anne architecture,Chicago school architecture,0,0.0
+AS25_clean,baseline,22,12,Queen Anne architecture,Colonial architecture,3,0.013953488372093023
+AS25_clean,baseline,22,13,Queen Anne architecture,Deconstructivism,0,0.0
+AS25_clean,baseline,22,14,Queen Anne architecture,Edwardian architecture,8,0.037209302325581395
+AS25_clean,baseline,22,15,Queen Anne architecture,Georgian architecture,2,0.009302325581395349
+AS25_clean,baseline,22,16,Queen Anne architecture,Gothic architecture,0,0.0
+AS25_clean,baseline,22,17,Queen Anne architecture,Greek Revival architecture,6,0.027906976744186046
+AS25_clean,baseline,22,18,Queen Anne architecture,International style,0,0.0
+AS25_clean,baseline,22,19,Queen Anne architecture,Novelty architecture,0,0.0
+AS25_clean,baseline,22,20,Queen Anne architecture,Palladian architecture,3,0.013953488372093023
+AS25_clean,baseline,22,21,Queen Anne architecture,Postmodern architecture,0,0.0
+AS25_clean,baseline,22,22,Queen Anne architecture,Queen Anne architecture,137,0.6372093023255814
+AS25_clean,baseline,22,23,Queen Anne architecture,Romanesque architecture,3,0.013953488372093023
+AS25_clean,baseline,22,24,Queen Anne architecture,Russian Revival architecture,2,0.009302325581395349
+AS25_clean,baseline,22,25,Queen Anne architecture,Tudor Revival architecture,19,0.08837209302325581
+AS25_clean,baseline,23,1,Romanesque architecture,Achaemenid architecture,0,0.0
+AS25_clean,baseline,23,2,Romanesque architecture,American Foursquare architecture,0,0.0
+AS25_clean,baseline,23,3,Romanesque architecture,American craftsman style,0,0.0
+AS25_clean,baseline,23,4,Romanesque architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,23,5,Romanesque architecture,Art Deco architecture,0,0.0
+AS25_clean,baseline,23,6,Romanesque architecture,Art Nouveau architecture,1,0.011235955056179775
+AS25_clean,baseline,23,7,Romanesque architecture,Baroque architecture,0,0.0
+AS25_clean,baseline,23,8,Romanesque architecture,Bauhaus architecture,0,0.0
+AS25_clean,baseline,23,9,Romanesque architecture,Beaux-Arts architecture,1,0.011235955056179775
+AS25_clean,baseline,23,10,Romanesque architecture,Byzantine architecture,4,0.0449438202247191
+AS25_clean,baseline,23,11,Romanesque architecture,Chicago school architecture,0,0.0
+AS25_clean,baseline,23,12,Romanesque architecture,Colonial architecture,2,0.02247191011235955
+AS25_clean,baseline,23,13,Romanesque architecture,Deconstructivism,0,0.0
+AS25_clean,baseline,23,14,Romanesque architecture,Edwardian architecture,0,0.0
+AS25_clean,baseline,23,15,Romanesque architecture,Georgian architecture,0,0.0
+AS25_clean,baseline,23,16,Romanesque architecture,Gothic architecture,9,0.10112359550561797
+AS25_clean,baseline,23,17,Romanesque architecture,Greek Revival architecture,0,0.0
+AS25_clean,baseline,23,18,Romanesque architecture,International style,0,0.0
+AS25_clean,baseline,23,19,Romanesque architecture,Novelty architecture,0,0.0
+AS25_clean,baseline,23,20,Romanesque architecture,Palladian architecture,0,0.0
+AS25_clean,baseline,23,21,Romanesque architecture,Postmodern architecture,0,0.0
+AS25_clean,baseline,23,22,Romanesque architecture,Queen Anne architecture,0,0.0
+AS25_clean,baseline,23,23,Romanesque architecture,Romanesque architecture,70,0.7865168539325843
+AS25_clean,baseline,23,24,Romanesque architecture,Russian Revival architecture,1,0.011235955056179775
+AS25_clean,baseline,23,25,Romanesque architecture,Tudor Revival architecture,1,0.011235955056179775
+AS25_clean,baseline,24,1,Russian Revival architecture,Achaemenid architecture,0,0.0
+AS25_clean,baseline,24,2,Russian Revival architecture,American Foursquare architecture,0,0.0
+AS25_clean,baseline,24,3,Russian Revival architecture,American craftsman style,0,0.0
+AS25_clean,baseline,24,4,Russian Revival architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,24,5,Russian Revival architecture,Art Deco architecture,0,0.0
+AS25_clean,baseline,24,6,Russian Revival architecture,Art Nouveau architecture,2,0.019801980198019802
+AS25_clean,baseline,24,7,Russian Revival architecture,Baroque architecture,1,0.009900990099009901
+AS25_clean,baseline,24,8,Russian Revival architecture,Bauhaus architecture,0,0.0
+AS25_clean,baseline,24,9,Russian Revival architecture,Beaux-Arts architecture,0,0.0
+AS25_clean,baseline,24,10,Russian Revival architecture,Byzantine architecture,6,0.0594059405940594
+AS25_clean,baseline,24,11,Russian Revival architecture,Chicago school architecture,0,0.0
+AS25_clean,baseline,24,12,Russian Revival architecture,Colonial architecture,4,0.039603960396039604
+AS25_clean,baseline,24,13,Russian Revival architecture,Deconstructivism,0,0.0
+AS25_clean,baseline,24,14,Russian Revival architecture,Edwardian architecture,0,0.0
+AS25_clean,baseline,24,15,Russian Revival architecture,Georgian architecture,0,0.0
+AS25_clean,baseline,24,16,Russian Revival architecture,Gothic architecture,0,0.0
+AS25_clean,baseline,24,17,Russian Revival architecture,Greek Revival architecture,0,0.0
+AS25_clean,baseline,24,18,Russian Revival architecture,International style,0,0.0
+AS25_clean,baseline,24,19,Russian Revival architecture,Novelty architecture,1,0.009900990099009901
+AS25_clean,baseline,24,20,Russian Revival architecture,Palladian architecture,0,0.0
+AS25_clean,baseline,24,21,Russian Revival architecture,Postmodern architecture,0,0.0
+AS25_clean,baseline,24,22,Russian Revival architecture,Queen Anne architecture,1,0.009900990099009901
+AS25_clean,baseline,24,23,Russian Revival architecture,Romanesque architecture,5,0.04950495049504951
+AS25_clean,baseline,24,24,Russian Revival architecture,Russian Revival architecture,78,0.7722772277227723
+AS25_clean,baseline,24,25,Russian Revival architecture,Tudor Revival architecture,3,0.0297029702970297
+AS25_clean,baseline,25,1,Tudor Revival architecture,Achaemenid architecture,0,0.0
+AS25_clean,baseline,25,2,Tudor Revival architecture,American Foursquare architecture,1,0.007751937984496124
+AS25_clean,baseline,25,3,Tudor Revival architecture,American craftsman style,7,0.05426356589147287
+AS25_clean,baseline,25,4,Tudor Revival architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,baseline,25,5,Tudor Revival architecture,Art Deco architecture,0,0.0
+AS25_clean,baseline,25,6,Tudor Revival architecture,Art Nouveau architecture,2,0.015503875968992248
+AS25_clean,baseline,25,7,Tudor Revival architecture,Baroque architecture,0,0.0
+AS25_clean,baseline,25,8,Tudor Revival architecture,Bauhaus architecture,0,0.0
+AS25_clean,baseline,25,9,Tudor Revival architecture,Beaux-Arts architecture,1,0.007751937984496124
+AS25_clean,baseline,25,10,Tudor Revival architecture,Byzantine architecture,0,0.0
+AS25_clean,baseline,25,11,Tudor Revival architecture,Chicago school architecture,0,0.0
+AS25_clean,baseline,25,12,Tudor Revival architecture,Colonial architecture,2,0.015503875968992248
+AS25_clean,baseline,25,13,Tudor Revival architecture,Deconstructivism,1,0.007751937984496124
+AS25_clean,baseline,25,14,Tudor Revival architecture,Edwardian architecture,4,0.031007751937984496
+AS25_clean,baseline,25,15,Tudor Revival architecture,Georgian architecture,0,0.0
+AS25_clean,baseline,25,16,Tudor Revival architecture,Gothic architecture,0,0.0
+AS25_clean,baseline,25,17,Tudor Revival architecture,Greek Revival architecture,0,0.0
+AS25_clean,baseline,25,18,Tudor Revival architecture,International style,0,0.0
+AS25_clean,baseline,25,19,Tudor Revival architecture,Novelty architecture,0,0.0
+AS25_clean,baseline,25,20,Tudor Revival architecture,Palladian architecture,0,0.0
+AS25_clean,baseline,25,21,Tudor Revival architecture,Postmodern architecture,0,0.0
+AS25_clean,baseline,25,22,Tudor Revival architecture,Queen Anne architecture,8,0.06201550387596899
+AS25_clean,baseline,25,23,Tudor Revival architecture,Romanesque architecture,3,0.023255813953488372
+AS25_clean,baseline,25,24,Tudor Revival architecture,Russian Revival architecture,0,0.0
+AS25_clean,baseline,25,25,Tudor Revival architecture,Tudor Revival architecture,100,0.7751937984496124
+AS25_clean,aafnet,1,1,Achaemenid architecture,Achaemenid architecture,103,0.8956521739130435
+AS25_clean,aafnet,1,2,Achaemenid architecture,American Foursquare architecture,0,0.0
+AS25_clean,aafnet,1,3,Achaemenid architecture,American craftsman style,0,0.0
+AS25_clean,aafnet,1,4,Achaemenid architecture,Ancient Egyptian architecture,4,0.034782608695652174
+AS25_clean,aafnet,1,5,Achaemenid architecture,Art Deco architecture,0,0.0
+AS25_clean,aafnet,1,6,Achaemenid architecture,Art Nouveau architecture,1,0.008695652173913044
+AS25_clean,aafnet,1,7,Achaemenid architecture,Baroque architecture,0,0.0
+AS25_clean,aafnet,1,8,Achaemenid architecture,Bauhaus architecture,1,0.008695652173913044
+AS25_clean,aafnet,1,9,Achaemenid architecture,Beaux-Arts architecture,0,0.0
+AS25_clean,aafnet,1,10,Achaemenid architecture,Byzantine architecture,2,0.017391304347826087
+AS25_clean,aafnet,1,11,Achaemenid architecture,Chicago school architecture,0,0.0
+AS25_clean,aafnet,1,12,Achaemenid architecture,Colonial architecture,0,0.0
+AS25_clean,aafnet,1,13,Achaemenid architecture,Deconstructivism,1,0.008695652173913044
+AS25_clean,aafnet,1,14,Achaemenid architecture,Edwardian architecture,0,0.0
+AS25_clean,aafnet,1,15,Achaemenid architecture,Georgian architecture,0,0.0
+AS25_clean,aafnet,1,16,Achaemenid architecture,Gothic architecture,0,0.0
+AS25_clean,aafnet,1,17,Achaemenid architecture,Greek Revival architecture,0,0.0
+AS25_clean,aafnet,1,18,Achaemenid architecture,International style,0,0.0
+AS25_clean,aafnet,1,19,Achaemenid architecture,Novelty architecture,1,0.008695652173913044
+AS25_clean,aafnet,1,20,Achaemenid architecture,Palladian architecture,0,0.0
+AS25_clean,aafnet,1,21,Achaemenid architecture,Postmodern architecture,0,0.0
+AS25_clean,aafnet,1,22,Achaemenid architecture,Queen Anne architecture,0,0.0
+AS25_clean,aafnet,1,23,Achaemenid architecture,Romanesque architecture,2,0.017391304347826087
+AS25_clean,aafnet,1,24,Achaemenid architecture,Russian Revival architecture,0,0.0
+AS25_clean,aafnet,1,25,Achaemenid architecture,Tudor Revival architecture,0,0.0
+AS25_clean,aafnet,2,1,American Foursquare architecture,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,2,2,American Foursquare architecture,American Foursquare architecture,56,0.5185185185185185
+AS25_clean,aafnet,2,3,American Foursquare architecture,American craftsman style,26,0.24074074074074073
+AS25_clean,aafnet,2,4,American Foursquare architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,2,5,American Foursquare architecture,Art Deco architecture,0,0.0
+AS25_clean,aafnet,2,6,American Foursquare architecture,Art Nouveau architecture,0,0.0
+AS25_clean,aafnet,2,7,American Foursquare architecture,Baroque architecture,0,0.0
+AS25_clean,aafnet,2,8,American Foursquare architecture,Bauhaus architecture,0,0.0
+AS25_clean,aafnet,2,9,American Foursquare architecture,Beaux-Arts architecture,0,0.0
+AS25_clean,aafnet,2,10,American Foursquare architecture,Byzantine architecture,0,0.0
+AS25_clean,aafnet,2,11,American Foursquare architecture,Chicago school architecture,0,0.0
+AS25_clean,aafnet,2,12,American Foursquare architecture,Colonial architecture,5,0.046296296296296294
+AS25_clean,aafnet,2,13,American Foursquare architecture,Deconstructivism,0,0.0
+AS25_clean,aafnet,2,14,American Foursquare architecture,Edwardian architecture,2,0.018518518518518517
+AS25_clean,aafnet,2,15,American Foursquare architecture,Georgian architecture,2,0.018518518518518517
+AS25_clean,aafnet,2,16,American Foursquare architecture,Gothic architecture,0,0.0
+AS25_clean,aafnet,2,17,American Foursquare architecture,Greek Revival architecture,3,0.027777777777777776
+AS25_clean,aafnet,2,18,American Foursquare architecture,International style,0,0.0
+AS25_clean,aafnet,2,19,American Foursquare architecture,Novelty architecture,0,0.0
+AS25_clean,aafnet,2,20,American Foursquare architecture,Palladian architecture,0,0.0
+AS25_clean,aafnet,2,21,American Foursquare architecture,Postmodern architecture,0,0.0
+AS25_clean,aafnet,2,22,American Foursquare architecture,Queen Anne architecture,13,0.12037037037037036
+AS25_clean,aafnet,2,23,American Foursquare architecture,Romanesque architecture,0,0.0
+AS25_clean,aafnet,2,24,American Foursquare architecture,Russian Revival architecture,0,0.0
+AS25_clean,aafnet,2,25,American Foursquare architecture,Tudor Revival architecture,1,0.009259259259259259
+AS25_clean,aafnet,3,1,American craftsman style,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,3,2,American craftsman style,American Foursquare architecture,23,0.21100917431192662
+AS25_clean,aafnet,3,3,American craftsman style,American craftsman style,68,0.6238532110091743
+AS25_clean,aafnet,3,4,American craftsman style,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,3,5,American craftsman style,Art Deco architecture,0,0.0
+AS25_clean,aafnet,3,6,American craftsman style,Art Nouveau architecture,0,0.0
+AS25_clean,aafnet,3,7,American craftsman style,Baroque architecture,0,0.0
+AS25_clean,aafnet,3,8,American craftsman style,Bauhaus architecture,2,0.01834862385321101
+AS25_clean,aafnet,3,9,American craftsman style,Beaux-Arts architecture,0,0.0
+AS25_clean,aafnet,3,10,American craftsman style,Byzantine architecture,0,0.0
+AS25_clean,aafnet,3,11,American craftsman style,Chicago school architecture,0,0.0
+AS25_clean,aafnet,3,12,American craftsman style,Colonial architecture,1,0.009174311926605505
+AS25_clean,aafnet,3,13,American craftsman style,Deconstructivism,0,0.0
+AS25_clean,aafnet,3,14,American craftsman style,Edwardian architecture,2,0.01834862385321101
+AS25_clean,aafnet,3,15,American craftsman style,Georgian architecture,0,0.0
+AS25_clean,aafnet,3,16,American craftsman style,Gothic architecture,0,0.0
+AS25_clean,aafnet,3,17,American craftsman style,Greek Revival architecture,2,0.01834862385321101
+AS25_clean,aafnet,3,18,American craftsman style,International style,1,0.009174311926605505
+AS25_clean,aafnet,3,19,American craftsman style,Novelty architecture,0,0.0
+AS25_clean,aafnet,3,20,American craftsman style,Palladian architecture,0,0.0
+AS25_clean,aafnet,3,21,American craftsman style,Postmodern architecture,0,0.0
+AS25_clean,aafnet,3,22,American craftsman style,Queen Anne architecture,4,0.03669724770642202
+AS25_clean,aafnet,3,23,American craftsman style,Romanesque architecture,0,0.0
+AS25_clean,aafnet,3,24,American craftsman style,Russian Revival architecture,0,0.0
+AS25_clean,aafnet,3,25,American craftsman style,Tudor Revival architecture,6,0.05504587155963303
+AS25_clean,aafnet,4,1,Ancient Egyptian architecture,Achaemenid architecture,12,0.125
+AS25_clean,aafnet,4,2,Ancient Egyptian architecture,American Foursquare architecture,0,0.0
+AS25_clean,aafnet,4,3,Ancient Egyptian architecture,American craftsman style,0,0.0
+AS25_clean,aafnet,4,4,Ancient Egyptian architecture,Ancient Egyptian architecture,83,0.8645833333333334
+AS25_clean,aafnet,4,5,Ancient Egyptian architecture,Art Deco architecture,1,0.010416666666666666
+AS25_clean,aafnet,4,6,Ancient Egyptian architecture,Art Nouveau architecture,0,0.0
+AS25_clean,aafnet,4,7,Ancient Egyptian architecture,Baroque architecture,0,0.0
+AS25_clean,aafnet,4,8,Ancient Egyptian architecture,Bauhaus architecture,0,0.0
+AS25_clean,aafnet,4,9,Ancient Egyptian architecture,Beaux-Arts architecture,0,0.0
+AS25_clean,aafnet,4,10,Ancient Egyptian architecture,Byzantine architecture,0,0.0
+AS25_clean,aafnet,4,11,Ancient Egyptian architecture,Chicago school architecture,0,0.0
+AS25_clean,aafnet,4,12,Ancient Egyptian architecture,Colonial architecture,0,0.0
+AS25_clean,aafnet,4,13,Ancient Egyptian architecture,Deconstructivism,0,0.0
+AS25_clean,aafnet,4,14,Ancient Egyptian architecture,Edwardian architecture,0,0.0
+AS25_clean,aafnet,4,15,Ancient Egyptian architecture,Georgian architecture,0,0.0
+AS25_clean,aafnet,4,16,Ancient Egyptian architecture,Gothic architecture,0,0.0
+AS25_clean,aafnet,4,17,Ancient Egyptian architecture,Greek Revival architecture,0,0.0
+AS25_clean,aafnet,4,18,Ancient Egyptian architecture,International style,0,0.0
+AS25_clean,aafnet,4,19,Ancient Egyptian architecture,Novelty architecture,0,0.0
+AS25_clean,aafnet,4,20,Ancient Egyptian architecture,Palladian architecture,0,0.0
+AS25_clean,aafnet,4,21,Ancient Egyptian architecture,Postmodern architecture,0,0.0
+AS25_clean,aafnet,4,22,Ancient Egyptian architecture,Queen Anne architecture,0,0.0
+AS25_clean,aafnet,4,23,Ancient Egyptian architecture,Romanesque architecture,0,0.0
+AS25_clean,aafnet,4,24,Ancient Egyptian architecture,Russian Revival architecture,0,0.0
+AS25_clean,aafnet,4,25,Ancient Egyptian architecture,Tudor Revival architecture,0,0.0
+AS25_clean,aafnet,5,1,Art Deco architecture,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,5,2,Art Deco architecture,American Foursquare architecture,0,0.0
+AS25_clean,aafnet,5,3,Art Deco architecture,American craftsman style,0,0.0
+AS25_clean,aafnet,5,4,Art Deco architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,5,5,Art Deco architecture,Art Deco architecture,99,0.592814371257485
+AS25_clean,aafnet,5,6,Art Deco architecture,Art Nouveau architecture,6,0.03592814371257485
+AS25_clean,aafnet,5,7,Art Deco architecture,Baroque architecture,1,0.005988023952095809
+AS25_clean,aafnet,5,8,Art Deco architecture,Bauhaus architecture,14,0.08383233532934131
+AS25_clean,aafnet,5,9,Art Deco architecture,Beaux-Arts architecture,1,0.005988023952095809
+AS25_clean,aafnet,5,10,Art Deco architecture,Byzantine architecture,2,0.011976047904191617
+AS25_clean,aafnet,5,11,Art Deco architecture,Chicago school architecture,11,0.0658682634730539
+AS25_clean,aafnet,5,12,Art Deco architecture,Colonial architecture,2,0.011976047904191617
+AS25_clean,aafnet,5,13,Art Deco architecture,Deconstructivism,1,0.005988023952095809
+AS25_clean,aafnet,5,14,Art Deco architecture,Edwardian architecture,5,0.029940119760479042
+AS25_clean,aafnet,5,15,Art Deco architecture,Georgian architecture,4,0.023952095808383235
+AS25_clean,aafnet,5,16,Art Deco architecture,Gothic architecture,1,0.005988023952095809
+AS25_clean,aafnet,5,17,Art Deco architecture,Greek Revival architecture,1,0.005988023952095809
+AS25_clean,aafnet,5,18,Art Deco architecture,International style,5,0.029940119760479042
+AS25_clean,aafnet,5,19,Art Deco architecture,Novelty architecture,1,0.005988023952095809
+AS25_clean,aafnet,5,20,Art Deco architecture,Palladian architecture,0,0.0
+AS25_clean,aafnet,5,21,Art Deco architecture,Postmodern architecture,8,0.04790419161676647
+AS25_clean,aafnet,5,22,Art Deco architecture,Queen Anne architecture,2,0.011976047904191617
+AS25_clean,aafnet,5,23,Art Deco architecture,Romanesque architecture,1,0.005988023952095809
+AS25_clean,aafnet,5,24,Art Deco architecture,Russian Revival architecture,2,0.011976047904191617
+AS25_clean,aafnet,5,25,Art Deco architecture,Tudor Revival architecture,0,0.0
+AS25_clean,aafnet,6,1,Art Nouveau architecture,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,6,2,Art Nouveau architecture,American Foursquare architecture,0,0.0
+AS25_clean,aafnet,6,3,Art Nouveau architecture,American craftsman style,0,0.0
+AS25_clean,aafnet,6,4,Art Nouveau architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,6,5,Art Nouveau architecture,Art Deco architecture,7,0.03932584269662921
+AS25_clean,aafnet,6,6,Art Nouveau architecture,Art Nouveau architecture,108,0.6067415730337079
+AS25_clean,aafnet,6,7,Art Nouveau architecture,Baroque architecture,4,0.02247191011235955
+AS25_clean,aafnet,6,8,Art Nouveau architecture,Bauhaus architecture,0,0.0
+AS25_clean,aafnet,6,9,Art Nouveau architecture,Beaux-Arts architecture,14,0.07865168539325842
+AS25_clean,aafnet,6,10,Art Nouveau architecture,Byzantine architecture,1,0.0056179775280898875
+AS25_clean,aafnet,6,11,Art Nouveau architecture,Chicago school architecture,3,0.016853932584269662
+AS25_clean,aafnet,6,12,Art Nouveau architecture,Colonial architecture,2,0.011235955056179775
+AS25_clean,aafnet,6,13,Art Nouveau architecture,Deconstructivism,1,0.0056179775280898875
+AS25_clean,aafnet,6,14,Art Nouveau architecture,Edwardian architecture,16,0.0898876404494382
+AS25_clean,aafnet,6,15,Art Nouveau architecture,Georgian architecture,2,0.011235955056179775
+AS25_clean,aafnet,6,16,Art Nouveau architecture,Gothic architecture,3,0.016853932584269662
+AS25_clean,aafnet,6,17,Art Nouveau architecture,Greek Revival architecture,0,0.0
+AS25_clean,aafnet,6,18,Art Nouveau architecture,International style,0,0.0
+AS25_clean,aafnet,6,19,Art Nouveau architecture,Novelty architecture,1,0.0056179775280898875
+AS25_clean,aafnet,6,20,Art Nouveau architecture,Palladian architecture,0,0.0
+AS25_clean,aafnet,6,21,Art Nouveau architecture,Postmodern architecture,0,0.0
+AS25_clean,aafnet,6,22,Art Nouveau architecture,Queen Anne architecture,3,0.016853932584269662
+AS25_clean,aafnet,6,23,Art Nouveau architecture,Romanesque architecture,5,0.028089887640449437
+AS25_clean,aafnet,6,24,Art Nouveau architecture,Russian Revival architecture,4,0.02247191011235955
+AS25_clean,aafnet,6,25,Art Nouveau architecture,Tudor Revival architecture,4,0.02247191011235955
+AS25_clean,aafnet,7,1,Baroque architecture,Achaemenid architecture,1,0.007407407407407408
+AS25_clean,aafnet,7,2,Baroque architecture,American Foursquare architecture,0,0.0
+AS25_clean,aafnet,7,3,Baroque architecture,American craftsman style,0,0.0
+AS25_clean,aafnet,7,4,Baroque architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,7,5,Baroque architecture,Art Deco architecture,1,0.007407407407407408
+AS25_clean,aafnet,7,6,Baroque architecture,Art Nouveau architecture,4,0.02962962962962963
+AS25_clean,aafnet,7,7,Baroque architecture,Baroque architecture,90,0.6666666666666666
+AS25_clean,aafnet,7,8,Baroque architecture,Bauhaus architecture,0,0.0
+AS25_clean,aafnet,7,9,Baroque architecture,Beaux-Arts architecture,12,0.08888888888888889
+AS25_clean,aafnet,7,10,Baroque architecture,Byzantine architecture,1,0.007407407407407408
+AS25_clean,aafnet,7,11,Baroque architecture,Chicago school architecture,0,0.0
+AS25_clean,aafnet,7,12,Baroque architecture,Colonial architecture,5,0.037037037037037035
+AS25_clean,aafnet,7,13,Baroque architecture,Deconstructivism,0,0.0
+AS25_clean,aafnet,7,14,Baroque architecture,Edwardian architecture,2,0.014814814814814815
+AS25_clean,aafnet,7,15,Baroque architecture,Georgian architecture,2,0.014814814814814815
+AS25_clean,aafnet,7,16,Baroque architecture,Gothic architecture,2,0.014814814814814815
+AS25_clean,aafnet,7,17,Baroque architecture,Greek Revival architecture,1,0.007407407407407408
+AS25_clean,aafnet,7,18,Baroque architecture,International style,0,0.0
+AS25_clean,aafnet,7,19,Baroque architecture,Novelty architecture,0,0.0
+AS25_clean,aafnet,7,20,Baroque architecture,Palladian architecture,1,0.007407407407407408
+AS25_clean,aafnet,7,21,Baroque architecture,Postmodern architecture,0,0.0
+AS25_clean,aafnet,7,22,Baroque architecture,Queen Anne architecture,0,0.0
+AS25_clean,aafnet,7,23,Baroque architecture,Romanesque architecture,4,0.02962962962962963
+AS25_clean,aafnet,7,24,Baroque architecture,Russian Revival architecture,9,0.06666666666666667
+AS25_clean,aafnet,7,25,Baroque architecture,Tudor Revival architecture,0,0.0
+AS25_clean,aafnet,8,1,Bauhaus architecture,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,8,2,Bauhaus architecture,American Foursquare architecture,2,0.02197802197802198
+AS25_clean,aafnet,8,3,Bauhaus architecture,American craftsman style,0,0.0
+AS25_clean,aafnet,8,4,Bauhaus architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,8,5,Bauhaus architecture,Art Deco architecture,7,0.07692307692307693
+AS25_clean,aafnet,8,6,Bauhaus architecture,Art Nouveau architecture,0,0.0
+AS25_clean,aafnet,8,7,Bauhaus architecture,Baroque architecture,0,0.0
+AS25_clean,aafnet,8,8,Bauhaus architecture,Bauhaus architecture,63,0.6923076923076923
+AS25_clean,aafnet,8,9,Bauhaus architecture,Beaux-Arts architecture,1,0.01098901098901099
+AS25_clean,aafnet,8,10,Bauhaus architecture,Byzantine architecture,1,0.01098901098901099
+AS25_clean,aafnet,8,11,Bauhaus architecture,Chicago school architecture,2,0.02197802197802198
+AS25_clean,aafnet,8,12,Bauhaus architecture,Colonial architecture,1,0.01098901098901099
+AS25_clean,aafnet,8,13,Bauhaus architecture,Deconstructivism,1,0.01098901098901099
+AS25_clean,aafnet,8,14,Bauhaus architecture,Edwardian architecture,1,0.01098901098901099
+AS25_clean,aafnet,8,15,Bauhaus architecture,Georgian architecture,1,0.01098901098901099
+AS25_clean,aafnet,8,16,Bauhaus architecture,Gothic architecture,0,0.0
+AS25_clean,aafnet,8,17,Bauhaus architecture,Greek Revival architecture,0,0.0
+AS25_clean,aafnet,8,18,Bauhaus architecture,International style,6,0.06593406593406594
+AS25_clean,aafnet,8,19,Bauhaus architecture,Novelty architecture,0,0.0
+AS25_clean,aafnet,8,20,Bauhaus architecture,Palladian architecture,1,0.01098901098901099
+AS25_clean,aafnet,8,21,Bauhaus architecture,Postmodern architecture,4,0.04395604395604396
+AS25_clean,aafnet,8,22,Bauhaus architecture,Queen Anne architecture,0,0.0
+AS25_clean,aafnet,8,23,Bauhaus architecture,Romanesque architecture,0,0.0
+AS25_clean,aafnet,8,24,Bauhaus architecture,Russian Revival architecture,0,0.0
+AS25_clean,aafnet,8,25,Bauhaus architecture,Tudor Revival architecture,0,0.0
+AS25_clean,aafnet,9,1,Beaux-Arts architecture,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,9,2,Beaux-Arts architecture,American Foursquare architecture,0,0.0
+AS25_clean,aafnet,9,3,Beaux-Arts architecture,American craftsman style,0,0.0
+AS25_clean,aafnet,9,4,Beaux-Arts architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,9,5,Beaux-Arts architecture,Art Deco architecture,3,0.02459016393442623
+AS25_clean,aafnet,9,6,Beaux-Arts architecture,Art Nouveau architecture,8,0.06557377049180328
+AS25_clean,aafnet,9,7,Beaux-Arts architecture,Baroque architecture,12,0.09836065573770492
+AS25_clean,aafnet,9,8,Beaux-Arts architecture,Bauhaus architecture,0,0.0
+AS25_clean,aafnet,9,9,Beaux-Arts architecture,Beaux-Arts architecture,55,0.45081967213114754
+AS25_clean,aafnet,9,10,Beaux-Arts architecture,Byzantine architecture,1,0.00819672131147541
+AS25_clean,aafnet,9,11,Beaux-Arts architecture,Chicago school architecture,7,0.05737704918032787
+AS25_clean,aafnet,9,12,Beaux-Arts architecture,Colonial architecture,2,0.01639344262295082
+AS25_clean,aafnet,9,13,Beaux-Arts architecture,Deconstructivism,0,0.0
+AS25_clean,aafnet,9,14,Beaux-Arts architecture,Edwardian architecture,4,0.03278688524590164
+AS25_clean,aafnet,9,15,Beaux-Arts architecture,Georgian architecture,6,0.04918032786885246
+AS25_clean,aafnet,9,16,Beaux-Arts architecture,Gothic architecture,1,0.00819672131147541
+AS25_clean,aafnet,9,17,Beaux-Arts architecture,Greek Revival architecture,4,0.03278688524590164
+AS25_clean,aafnet,9,18,Beaux-Arts architecture,International style,0,0.0
+AS25_clean,aafnet,9,19,Beaux-Arts architecture,Novelty architecture,0,0.0
+AS25_clean,aafnet,9,20,Beaux-Arts architecture,Palladian architecture,8,0.06557377049180328
+AS25_clean,aafnet,9,21,Beaux-Arts architecture,Postmodern architecture,2,0.01639344262295082
+AS25_clean,aafnet,9,22,Beaux-Arts architecture,Queen Anne architecture,1,0.00819672131147541
+AS25_clean,aafnet,9,23,Beaux-Arts architecture,Romanesque architecture,3,0.02459016393442623
+AS25_clean,aafnet,9,24,Beaux-Arts architecture,Russian Revival architecture,4,0.03278688524590164
+AS25_clean,aafnet,9,25,Beaux-Arts architecture,Tudor Revival architecture,1,0.00819672131147541
+AS25_clean,aafnet,10,1,Byzantine architecture,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,10,2,Byzantine architecture,American Foursquare architecture,0,0.0
+AS25_clean,aafnet,10,3,Byzantine architecture,American craftsman style,0,0.0
+AS25_clean,aafnet,10,4,Byzantine architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,10,5,Byzantine architecture,Art Deco architecture,1,0.011111111111111112
+AS25_clean,aafnet,10,6,Byzantine architecture,Art Nouveau architecture,0,0.0
+AS25_clean,aafnet,10,7,Byzantine architecture,Baroque architecture,4,0.044444444444444446
+AS25_clean,aafnet,10,8,Byzantine architecture,Bauhaus architecture,0,0.0
+AS25_clean,aafnet,10,9,Byzantine architecture,Beaux-Arts architecture,0,0.0
+AS25_clean,aafnet,10,10,Byzantine architecture,Byzantine architecture,63,0.7
+AS25_clean,aafnet,10,11,Byzantine architecture,Chicago school architecture,0,0.0
+AS25_clean,aafnet,10,12,Byzantine architecture,Colonial architecture,1,0.011111111111111112
+AS25_clean,aafnet,10,13,Byzantine architecture,Deconstructivism,0,0.0
+AS25_clean,aafnet,10,14,Byzantine architecture,Edwardian architecture,0,0.0
+AS25_clean,aafnet,10,15,Byzantine architecture,Georgian architecture,0,0.0
+AS25_clean,aafnet,10,16,Byzantine architecture,Gothic architecture,0,0.0
+AS25_clean,aafnet,10,17,Byzantine architecture,Greek Revival architecture,0,0.0
+AS25_clean,aafnet,10,18,Byzantine architecture,International style,0,0.0
+AS25_clean,aafnet,10,19,Byzantine architecture,Novelty architecture,0,0.0
+AS25_clean,aafnet,10,20,Byzantine architecture,Palladian architecture,0,0.0
+AS25_clean,aafnet,10,21,Byzantine architecture,Postmodern architecture,0,0.0
+AS25_clean,aafnet,10,22,Byzantine architecture,Queen Anne architecture,0,0.0
+AS25_clean,aafnet,10,23,Byzantine architecture,Romanesque architecture,9,0.1
+AS25_clean,aafnet,10,24,Byzantine architecture,Russian Revival architecture,12,0.13333333333333333
+AS25_clean,aafnet,10,25,Byzantine architecture,Tudor Revival architecture,0,0.0
+AS25_clean,aafnet,11,1,Chicago school architecture,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,11,2,Chicago school architecture,American Foursquare architecture,1,0.012345679012345678
+AS25_clean,aafnet,11,3,Chicago school architecture,American craftsman style,0,0.0
+AS25_clean,aafnet,11,4,Chicago school architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,11,5,Chicago school architecture,Art Deco architecture,4,0.04938271604938271
+AS25_clean,aafnet,11,6,Chicago school architecture,Art Nouveau architecture,2,0.024691358024691357
+AS25_clean,aafnet,11,7,Chicago school architecture,Baroque architecture,0,0.0
+AS25_clean,aafnet,11,8,Chicago school architecture,Bauhaus architecture,3,0.037037037037037035
+AS25_clean,aafnet,11,9,Chicago school architecture,Beaux-Arts architecture,3,0.037037037037037035
+AS25_clean,aafnet,11,10,Chicago school architecture,Byzantine architecture,0,0.0
+AS25_clean,aafnet,11,11,Chicago school architecture,Chicago school architecture,58,0.7160493827160493
+AS25_clean,aafnet,11,12,Chicago school architecture,Colonial architecture,0,0.0
+AS25_clean,aafnet,11,13,Chicago school architecture,Deconstructivism,0,0.0
+AS25_clean,aafnet,11,14,Chicago school architecture,Edwardian architecture,4,0.04938271604938271
+AS25_clean,aafnet,11,15,Chicago school architecture,Georgian architecture,0,0.0
+AS25_clean,aafnet,11,16,Chicago school architecture,Gothic architecture,0,0.0
+AS25_clean,aafnet,11,17,Chicago school architecture,Greek Revival architecture,0,0.0
+AS25_clean,aafnet,11,18,Chicago school architecture,International style,2,0.024691358024691357
+AS25_clean,aafnet,11,19,Chicago school architecture,Novelty architecture,0,0.0
+AS25_clean,aafnet,11,20,Chicago school architecture,Palladian architecture,0,0.0
+AS25_clean,aafnet,11,21,Chicago school architecture,Postmodern architecture,2,0.024691358024691357
+AS25_clean,aafnet,11,22,Chicago school architecture,Queen Anne architecture,0,0.0
+AS25_clean,aafnet,11,23,Chicago school architecture,Romanesque architecture,1,0.012345679012345678
+AS25_clean,aafnet,11,24,Chicago school architecture,Russian Revival architecture,0,0.0
+AS25_clean,aafnet,11,25,Chicago school architecture,Tudor Revival architecture,1,0.012345679012345678
+AS25_clean,aafnet,12,1,Colonial architecture,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,12,2,Colonial architecture,American Foursquare architecture,3,0.022556390977443608
+AS25_clean,aafnet,12,3,Colonial architecture,American craftsman style,7,0.05263157894736842
+AS25_clean,aafnet,12,4,Colonial architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,12,5,Colonial architecture,Art Deco architecture,1,0.007518796992481203
+AS25_clean,aafnet,12,6,Colonial architecture,Art Nouveau architecture,1,0.007518796992481203
+AS25_clean,aafnet,12,7,Colonial architecture,Baroque architecture,11,0.08270676691729323
+AS25_clean,aafnet,12,8,Colonial architecture,Bauhaus architecture,0,0.0
+AS25_clean,aafnet,12,9,Colonial architecture,Beaux-Arts architecture,9,0.06766917293233082
+AS25_clean,aafnet,12,10,Colonial architecture,Byzantine architecture,1,0.007518796992481203
+AS25_clean,aafnet,12,11,Colonial architecture,Chicago school architecture,0,0.0
+AS25_clean,aafnet,12,12,Colonial architecture,Colonial architecture,52,0.39097744360902253
+AS25_clean,aafnet,12,13,Colonial architecture,Deconstructivism,0,0.0
+AS25_clean,aafnet,12,14,Colonial architecture,Edwardian architecture,6,0.045112781954887216
+AS25_clean,aafnet,12,15,Colonial architecture,Georgian architecture,6,0.045112781954887216
+AS25_clean,aafnet,12,16,Colonial architecture,Gothic architecture,2,0.015037593984962405
+AS25_clean,aafnet,12,17,Colonial architecture,Greek Revival architecture,4,0.03007518796992481
+AS25_clean,aafnet,12,18,Colonial architecture,International style,0,0.0
+AS25_clean,aafnet,12,19,Colonial architecture,Novelty architecture,1,0.007518796992481203
+AS25_clean,aafnet,12,20,Colonial architecture,Palladian architecture,4,0.03007518796992481
+AS25_clean,aafnet,12,21,Colonial architecture,Postmodern architecture,1,0.007518796992481203
+AS25_clean,aafnet,12,22,Colonial architecture,Queen Anne architecture,3,0.022556390977443608
+AS25_clean,aafnet,12,23,Colonial architecture,Romanesque architecture,9,0.06766917293233082
+AS25_clean,aafnet,12,24,Colonial architecture,Russian Revival architecture,7,0.05263157894736842
+AS25_clean,aafnet,12,25,Colonial architecture,Tudor Revival architecture,5,0.03759398496240601
+AS25_clean,aafnet,13,1,Deconstructivism,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,13,2,Deconstructivism,American Foursquare architecture,0,0.0
+AS25_clean,aafnet,13,3,Deconstructivism,American craftsman style,1,0.011111111111111112
+AS25_clean,aafnet,13,4,Deconstructivism,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,13,5,Deconstructivism,Art Deco architecture,1,0.011111111111111112
+AS25_clean,aafnet,13,6,Deconstructivism,Art Nouveau architecture,1,0.011111111111111112
+AS25_clean,aafnet,13,7,Deconstructivism,Baroque architecture,0,0.0
+AS25_clean,aafnet,13,8,Deconstructivism,Bauhaus architecture,1,0.011111111111111112
+AS25_clean,aafnet,13,9,Deconstructivism,Beaux-Arts architecture,0,0.0
+AS25_clean,aafnet,13,10,Deconstructivism,Byzantine architecture,0,0.0
+AS25_clean,aafnet,13,11,Deconstructivism,Chicago school architecture,3,0.03333333333333333
+AS25_clean,aafnet,13,12,Deconstructivism,Colonial architecture,0,0.0
+AS25_clean,aafnet,13,13,Deconstructivism,Deconstructivism,70,0.7777777777777778
+AS25_clean,aafnet,13,14,Deconstructivism,Edwardian architecture,0,0.0
+AS25_clean,aafnet,13,15,Deconstructivism,Georgian architecture,0,0.0
+AS25_clean,aafnet,13,16,Deconstructivism,Gothic architecture,0,0.0
+AS25_clean,aafnet,13,17,Deconstructivism,Greek Revival architecture,0,0.0
+AS25_clean,aafnet,13,18,Deconstructivism,International style,3,0.03333333333333333
+AS25_clean,aafnet,13,19,Deconstructivism,Novelty architecture,1,0.011111111111111112
+AS25_clean,aafnet,13,20,Deconstructivism,Palladian architecture,0,0.0
+AS25_clean,aafnet,13,21,Deconstructivism,Postmodern architecture,9,0.1
+AS25_clean,aafnet,13,22,Deconstructivism,Queen Anne architecture,0,0.0
+AS25_clean,aafnet,13,23,Deconstructivism,Romanesque architecture,0,0.0
+AS25_clean,aafnet,13,24,Deconstructivism,Russian Revival architecture,0,0.0
+AS25_clean,aafnet,13,25,Deconstructivism,Tudor Revival architecture,0,0.0
+AS25_clean,aafnet,14,1,Edwardian architecture,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,14,2,Edwardian architecture,American Foursquare architecture,0,0.0
+AS25_clean,aafnet,14,3,Edwardian architecture,American craftsman style,4,0.04878048780487805
+AS25_clean,aafnet,14,4,Edwardian architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,14,5,Edwardian architecture,Art Deco architecture,5,0.06097560975609756
+AS25_clean,aafnet,14,6,Edwardian architecture,Art Nouveau architecture,3,0.036585365853658534
+AS25_clean,aafnet,14,7,Edwardian architecture,Baroque architecture,3,0.036585365853658534
+AS25_clean,aafnet,14,8,Edwardian architecture,Bauhaus architecture,0,0.0
+AS25_clean,aafnet,14,9,Edwardian architecture,Beaux-Arts architecture,3,0.036585365853658534
+AS25_clean,aafnet,14,10,Edwardian architecture,Byzantine architecture,0,0.0
+AS25_clean,aafnet,14,11,Edwardian architecture,Chicago school architecture,1,0.012195121951219513
+AS25_clean,aafnet,14,12,Edwardian architecture,Colonial architecture,5,0.06097560975609756
+AS25_clean,aafnet,14,13,Edwardian architecture,Deconstructivism,0,0.0
+AS25_clean,aafnet,14,14,Edwardian architecture,Edwardian architecture,32,0.3902439024390244
+AS25_clean,aafnet,14,15,Edwardian architecture,Georgian architecture,9,0.10975609756097561
+AS25_clean,aafnet,14,16,Edwardian architecture,Gothic architecture,0,0.0
+AS25_clean,aafnet,14,17,Edwardian architecture,Greek Revival architecture,0,0.0
+AS25_clean,aafnet,14,18,Edwardian architecture,International style,1,0.012195121951219513
+AS25_clean,aafnet,14,19,Edwardian architecture,Novelty architecture,0,0.0
+AS25_clean,aafnet,14,20,Edwardian architecture,Palladian architecture,0,0.0
+AS25_clean,aafnet,14,21,Edwardian architecture,Postmodern architecture,0,0.0
+AS25_clean,aafnet,14,22,Edwardian architecture,Queen Anne architecture,8,0.0975609756097561
+AS25_clean,aafnet,14,23,Edwardian architecture,Romanesque architecture,2,0.024390243902439025
+AS25_clean,aafnet,14,24,Edwardian architecture,Russian Revival architecture,0,0.0
+AS25_clean,aafnet,14,25,Edwardian architecture,Tudor Revival architecture,6,0.07317073170731707
+AS25_clean,aafnet,15,1,Georgian architecture,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,15,2,Georgian architecture,American Foursquare architecture,3,0.026785714285714284
+AS25_clean,aafnet,15,3,Georgian architecture,American craftsman style,0,0.0
+AS25_clean,aafnet,15,4,Georgian architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,15,5,Georgian architecture,Art Deco architecture,1,0.008928571428571428
+AS25_clean,aafnet,15,6,Georgian architecture,Art Nouveau architecture,0,0.0
+AS25_clean,aafnet,15,7,Georgian architecture,Baroque architecture,0,0.0
+AS25_clean,aafnet,15,8,Georgian architecture,Bauhaus architecture,1,0.008928571428571428
+AS25_clean,aafnet,15,9,Georgian architecture,Beaux-Arts architecture,3,0.026785714285714284
+AS25_clean,aafnet,15,10,Georgian architecture,Byzantine architecture,2,0.017857142857142856
+AS25_clean,aafnet,15,11,Georgian architecture,Chicago school architecture,1,0.008928571428571428
+AS25_clean,aafnet,15,12,Georgian architecture,Colonial architecture,11,0.09821428571428571
+AS25_clean,aafnet,15,13,Georgian architecture,Deconstructivism,0,0.0
+AS25_clean,aafnet,15,14,Georgian architecture,Edwardian architecture,9,0.08035714285714286
+AS25_clean,aafnet,15,15,Georgian architecture,Georgian architecture,59,0.5267857142857143
+AS25_clean,aafnet,15,16,Georgian architecture,Gothic architecture,0,0.0
+AS25_clean,aafnet,15,17,Georgian architecture,Greek Revival architecture,5,0.044642857142857144
+AS25_clean,aafnet,15,18,Georgian architecture,International style,0,0.0
+AS25_clean,aafnet,15,19,Georgian architecture,Novelty architecture,0,0.0
+AS25_clean,aafnet,15,20,Georgian architecture,Palladian architecture,10,0.08928571428571429
+AS25_clean,aafnet,15,21,Georgian architecture,Postmodern architecture,0,0.0
+AS25_clean,aafnet,15,22,Georgian architecture,Queen Anne architecture,2,0.017857142857142856
+AS25_clean,aafnet,15,23,Georgian architecture,Romanesque architecture,1,0.008928571428571428
+AS25_clean,aafnet,15,24,Georgian architecture,Russian Revival architecture,1,0.008928571428571428
+AS25_clean,aafnet,15,25,Georgian architecture,Tudor Revival architecture,3,0.026785714285714284
+AS25_clean,aafnet,16,1,Gothic architecture,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,16,2,Gothic architecture,American Foursquare architecture,0,0.0
+AS25_clean,aafnet,16,3,Gothic architecture,American craftsman style,0,0.0
+AS25_clean,aafnet,16,4,Gothic architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,16,5,Gothic architecture,Art Deco architecture,1,0.010309278350515464
+AS25_clean,aafnet,16,6,Gothic architecture,Art Nouveau architecture,0,0.0
+AS25_clean,aafnet,16,7,Gothic architecture,Baroque architecture,0,0.0
+AS25_clean,aafnet,16,8,Gothic architecture,Bauhaus architecture,0,0.0
+AS25_clean,aafnet,16,9,Gothic architecture,Beaux-Arts architecture,0,0.0
+AS25_clean,aafnet,16,10,Gothic architecture,Byzantine architecture,3,0.030927835051546393
+AS25_clean,aafnet,16,11,Gothic architecture,Chicago school architecture,0,0.0
+AS25_clean,aafnet,16,12,Gothic architecture,Colonial architecture,0,0.0
+AS25_clean,aafnet,16,13,Gothic architecture,Deconstructivism,0,0.0
+AS25_clean,aafnet,16,14,Gothic architecture,Edwardian architecture,1,0.010309278350515464
+AS25_clean,aafnet,16,15,Gothic architecture,Georgian architecture,0,0.0
+AS25_clean,aafnet,16,16,Gothic architecture,Gothic architecture,85,0.8762886597938144
+AS25_clean,aafnet,16,17,Gothic architecture,Greek Revival architecture,0,0.0
+AS25_clean,aafnet,16,18,Gothic architecture,International style,0,0.0
+AS25_clean,aafnet,16,19,Gothic architecture,Novelty architecture,0,0.0
+AS25_clean,aafnet,16,20,Gothic architecture,Palladian architecture,0,0.0
+AS25_clean,aafnet,16,21,Gothic architecture,Postmodern architecture,0,0.0
+AS25_clean,aafnet,16,22,Gothic architecture,Queen Anne architecture,0,0.0
+AS25_clean,aafnet,16,23,Gothic architecture,Romanesque architecture,5,0.05154639175257732
+AS25_clean,aafnet,16,24,Gothic architecture,Russian Revival architecture,1,0.010309278350515464
+AS25_clean,aafnet,16,25,Gothic architecture,Tudor Revival architecture,1,0.010309278350515464
+AS25_clean,aafnet,17,1,Greek Revival architecture,Achaemenid architecture,1,0.0064516129032258064
+AS25_clean,aafnet,17,2,Greek Revival architecture,American Foursquare architecture,3,0.01935483870967742
+AS25_clean,aafnet,17,3,Greek Revival architecture,American craftsman style,5,0.03225806451612903
+AS25_clean,aafnet,17,4,Greek Revival architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,17,5,Greek Revival architecture,Art Deco architecture,0,0.0
+AS25_clean,aafnet,17,6,Greek Revival architecture,Art Nouveau architecture,2,0.012903225806451613
+AS25_clean,aafnet,17,7,Greek Revival architecture,Baroque architecture,4,0.025806451612903226
+AS25_clean,aafnet,17,8,Greek Revival architecture,Bauhaus architecture,0,0.0
+AS25_clean,aafnet,17,9,Greek Revival architecture,Beaux-Arts architecture,6,0.03870967741935484
+AS25_clean,aafnet,17,10,Greek Revival architecture,Byzantine architecture,0,0.0
+AS25_clean,aafnet,17,11,Greek Revival architecture,Chicago school architecture,2,0.012903225806451613
+AS25_clean,aafnet,17,12,Greek Revival architecture,Colonial architecture,5,0.03225806451612903
+AS25_clean,aafnet,17,13,Greek Revival architecture,Deconstructivism,0,0.0
+AS25_clean,aafnet,17,14,Greek Revival architecture,Edwardian architecture,1,0.0064516129032258064
+AS25_clean,aafnet,17,15,Greek Revival architecture,Georgian architecture,0,0.0
+AS25_clean,aafnet,17,16,Greek Revival architecture,Gothic architecture,0,0.0
+AS25_clean,aafnet,17,17,Greek Revival architecture,Greek Revival architecture,114,0.7354838709677419
+AS25_clean,aafnet,17,18,Greek Revival architecture,International style,0,0.0
+AS25_clean,aafnet,17,19,Greek Revival architecture,Novelty architecture,0,0.0
+AS25_clean,aafnet,17,20,Greek Revival architecture,Palladian architecture,7,0.04516129032258064
+AS25_clean,aafnet,17,21,Greek Revival architecture,Postmodern architecture,2,0.012903225806451613
+AS25_clean,aafnet,17,22,Greek Revival architecture,Queen Anne architecture,3,0.01935483870967742
+AS25_clean,aafnet,17,23,Greek Revival architecture,Romanesque architecture,0,0.0
+AS25_clean,aafnet,17,24,Greek Revival architecture,Russian Revival architecture,0,0.0
+AS25_clean,aafnet,17,25,Greek Revival architecture,Tudor Revival architecture,0,0.0
+AS25_clean,aafnet,18,1,International style,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,18,2,International style,American Foursquare architecture,2,0.016260162601626018
+AS25_clean,aafnet,18,3,International style,American craftsman style,3,0.024390243902439025
+AS25_clean,aafnet,18,4,International style,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,18,5,International style,Art Deco architecture,4,0.032520325203252036
+AS25_clean,aafnet,18,6,International style,Art Nouveau architecture,0,0.0
+AS25_clean,aafnet,18,7,International style,Baroque architecture,0,0.0
+AS25_clean,aafnet,18,8,International style,Bauhaus architecture,23,0.18699186991869918
+AS25_clean,aafnet,18,9,International style,Beaux-Arts architecture,0,0.0
+AS25_clean,aafnet,18,10,International style,Byzantine architecture,0,0.0
+AS25_clean,aafnet,18,11,International style,Chicago school architecture,2,0.016260162601626018
+AS25_clean,aafnet,18,12,International style,Colonial architecture,1,0.008130081300813009
+AS25_clean,aafnet,18,13,International style,Deconstructivism,7,0.056910569105691054
+AS25_clean,aafnet,18,14,International style,Edwardian architecture,0,0.0
+AS25_clean,aafnet,18,15,International style,Georgian architecture,0,0.0
+AS25_clean,aafnet,18,16,International style,Gothic architecture,0,0.0
+AS25_clean,aafnet,18,17,International style,Greek Revival architecture,0,0.0
+AS25_clean,aafnet,18,18,International style,International style,64,0.5203252032520326
+AS25_clean,aafnet,18,19,International style,Novelty architecture,1,0.008130081300813009
+AS25_clean,aafnet,18,20,International style,Palladian architecture,0,0.0
+AS25_clean,aafnet,18,21,International style,Postmodern architecture,16,0.13008130081300814
+AS25_clean,aafnet,18,22,International style,Queen Anne architecture,0,0.0
+AS25_clean,aafnet,18,23,International style,Romanesque architecture,0,0.0
+AS25_clean,aafnet,18,24,International style,Russian Revival architecture,0,0.0
+AS25_clean,aafnet,18,25,International style,Tudor Revival architecture,0,0.0
+AS25_clean,aafnet,19,1,Novelty architecture,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,19,2,Novelty architecture,American Foursquare architecture,0,0.0
+AS25_clean,aafnet,19,3,Novelty architecture,American craftsman style,0,0.0
+AS25_clean,aafnet,19,4,Novelty architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,19,5,Novelty architecture,Art Deco architecture,1,0.009174311926605505
+AS25_clean,aafnet,19,6,Novelty architecture,Art Nouveau architecture,0,0.0
+AS25_clean,aafnet,19,7,Novelty architecture,Baroque architecture,0,0.0
+AS25_clean,aafnet,19,8,Novelty architecture,Bauhaus architecture,1,0.009174311926605505
+AS25_clean,aafnet,19,9,Novelty architecture,Beaux-Arts architecture,0,0.0
+AS25_clean,aafnet,19,10,Novelty architecture,Byzantine architecture,0,0.0
+AS25_clean,aafnet,19,11,Novelty architecture,Chicago school architecture,0,0.0
+AS25_clean,aafnet,19,12,Novelty architecture,Colonial architecture,0,0.0
+AS25_clean,aafnet,19,13,Novelty architecture,Deconstructivism,7,0.06422018348623854
+AS25_clean,aafnet,19,14,Novelty architecture,Edwardian architecture,0,0.0
+AS25_clean,aafnet,19,15,Novelty architecture,Georgian architecture,0,0.0
+AS25_clean,aafnet,19,16,Novelty architecture,Gothic architecture,0,0.0
+AS25_clean,aafnet,19,17,Novelty architecture,Greek Revival architecture,0,0.0
+AS25_clean,aafnet,19,18,Novelty architecture,International style,2,0.01834862385321101
+AS25_clean,aafnet,19,19,Novelty architecture,Novelty architecture,92,0.8440366972477065
+AS25_clean,aafnet,19,20,Novelty architecture,Palladian architecture,0,0.0
+AS25_clean,aafnet,19,21,Novelty architecture,Postmodern architecture,4,0.03669724770642202
+AS25_clean,aafnet,19,22,Novelty architecture,Queen Anne architecture,0,0.0
+AS25_clean,aafnet,19,23,Novelty architecture,Romanesque architecture,1,0.009174311926605505
+AS25_clean,aafnet,19,24,Novelty architecture,Russian Revival architecture,0,0.0
+AS25_clean,aafnet,19,25,Novelty architecture,Tudor Revival architecture,1,0.009174311926605505
+AS25_clean,aafnet,20,1,Palladian architecture,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,20,2,Palladian architecture,American Foursquare architecture,1,0.01020408163265306
+AS25_clean,aafnet,20,3,Palladian architecture,American craftsman style,1,0.01020408163265306
+AS25_clean,aafnet,20,4,Palladian architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,20,5,Palladian architecture,Art Deco architecture,0,0.0
+AS25_clean,aafnet,20,6,Palladian architecture,Art Nouveau architecture,2,0.02040816326530612
+AS25_clean,aafnet,20,7,Palladian architecture,Baroque architecture,6,0.061224489795918366
+AS25_clean,aafnet,20,8,Palladian architecture,Bauhaus architecture,0,0.0
+AS25_clean,aafnet,20,9,Palladian architecture,Beaux-Arts architecture,3,0.030612244897959183
+AS25_clean,aafnet,20,10,Palladian architecture,Byzantine architecture,1,0.01020408163265306
+AS25_clean,aafnet,20,11,Palladian architecture,Chicago school architecture,0,0.0
+AS25_clean,aafnet,20,12,Palladian architecture,Colonial architecture,7,0.07142857142857142
+AS25_clean,aafnet,20,13,Palladian architecture,Deconstructivism,0,0.0
+AS25_clean,aafnet,20,14,Palladian architecture,Edwardian architecture,1,0.01020408163265306
+AS25_clean,aafnet,20,15,Palladian architecture,Georgian architecture,7,0.07142857142857142
+AS25_clean,aafnet,20,16,Palladian architecture,Gothic architecture,0,0.0
+AS25_clean,aafnet,20,17,Palladian architecture,Greek Revival architecture,16,0.16326530612244897
+AS25_clean,aafnet,20,18,Palladian architecture,International style,0,0.0
+AS25_clean,aafnet,20,19,Palladian architecture,Novelty architecture,0,0.0
+AS25_clean,aafnet,20,20,Palladian architecture,Palladian architecture,50,0.5102040816326531
+AS25_clean,aafnet,20,21,Palladian architecture,Postmodern architecture,0,0.0
+AS25_clean,aafnet,20,22,Palladian architecture,Queen Anne architecture,1,0.01020408163265306
+AS25_clean,aafnet,20,23,Palladian architecture,Romanesque architecture,1,0.01020408163265306
+AS25_clean,aafnet,20,24,Palladian architecture,Russian Revival architecture,1,0.01020408163265306
+AS25_clean,aafnet,20,25,Palladian architecture,Tudor Revival architecture,0,0.0
+AS25_clean,aafnet,21,1,Postmodern architecture,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,21,2,Postmodern architecture,American Foursquare architecture,0,0.0
+AS25_clean,aafnet,21,3,Postmodern architecture,American craftsman style,0,0.0
+AS25_clean,aafnet,21,4,Postmodern architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,21,5,Postmodern architecture,Art Deco architecture,5,0.054945054945054944
+AS25_clean,aafnet,21,6,Postmodern architecture,Art Nouveau architecture,2,0.02197802197802198
+AS25_clean,aafnet,21,7,Postmodern architecture,Baroque architecture,0,0.0
+AS25_clean,aafnet,21,8,Postmodern architecture,Bauhaus architecture,6,0.06593406593406594
+AS25_clean,aafnet,21,9,Postmodern architecture,Beaux-Arts architecture,0,0.0
+AS25_clean,aafnet,21,10,Postmodern architecture,Byzantine architecture,1,0.01098901098901099
+AS25_clean,aafnet,21,11,Postmodern architecture,Chicago school architecture,4,0.04395604395604396
+AS25_clean,aafnet,21,12,Postmodern architecture,Colonial architecture,0,0.0
+AS25_clean,aafnet,21,13,Postmodern architecture,Deconstructivism,4,0.04395604395604396
+AS25_clean,aafnet,21,14,Postmodern architecture,Edwardian architecture,0,0.0
+AS25_clean,aafnet,21,15,Postmodern architecture,Georgian architecture,0,0.0
+AS25_clean,aafnet,21,16,Postmodern architecture,Gothic architecture,0,0.0
+AS25_clean,aafnet,21,17,Postmodern architecture,Greek Revival architecture,1,0.01098901098901099
+AS25_clean,aafnet,21,18,Postmodern architecture,International style,17,0.18681318681318682
+AS25_clean,aafnet,21,19,Postmodern architecture,Novelty architecture,1,0.01098901098901099
+AS25_clean,aafnet,21,20,Postmodern architecture,Palladian architecture,0,0.0
+AS25_clean,aafnet,21,21,Postmodern architecture,Postmodern architecture,50,0.5494505494505495
+AS25_clean,aafnet,21,22,Postmodern architecture,Queen Anne architecture,0,0.0
+AS25_clean,aafnet,21,23,Postmodern architecture,Romanesque architecture,0,0.0
+AS25_clean,aafnet,21,24,Postmodern architecture,Russian Revival architecture,0,0.0
+AS25_clean,aafnet,21,25,Postmodern architecture,Tudor Revival architecture,0,0.0
+AS25_clean,aafnet,22,1,Queen Anne architecture,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,22,2,Queen Anne architecture,American Foursquare architecture,6,0.027906976744186046
+AS25_clean,aafnet,22,3,Queen Anne architecture,American craftsman style,18,0.08372093023255814
+AS25_clean,aafnet,22,4,Queen Anne architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,22,5,Queen Anne architecture,Art Deco architecture,1,0.004651162790697674
+AS25_clean,aafnet,22,6,Queen Anne architecture,Art Nouveau architecture,1,0.004651162790697674
+AS25_clean,aafnet,22,7,Queen Anne architecture,Baroque architecture,0,0.0
+AS25_clean,aafnet,22,8,Queen Anne architecture,Bauhaus architecture,0,0.0
+AS25_clean,aafnet,22,9,Queen Anne architecture,Beaux-Arts architecture,0,0.0
+AS25_clean,aafnet,22,10,Queen Anne architecture,Byzantine architecture,0,0.0
+AS25_clean,aafnet,22,11,Queen Anne architecture,Chicago school architecture,0,0.0
+AS25_clean,aafnet,22,12,Queen Anne architecture,Colonial architecture,2,0.009302325581395349
+AS25_clean,aafnet,22,13,Queen Anne architecture,Deconstructivism,0,0.0
+AS25_clean,aafnet,22,14,Queen Anne architecture,Edwardian architecture,15,0.06976744186046512
+AS25_clean,aafnet,22,15,Queen Anne architecture,Georgian architecture,1,0.004651162790697674
+AS25_clean,aafnet,22,16,Queen Anne architecture,Gothic architecture,0,0.0
+AS25_clean,aafnet,22,17,Queen Anne architecture,Greek Revival architecture,6,0.027906976744186046
+AS25_clean,aafnet,22,18,Queen Anne architecture,International style,0,0.0
+AS25_clean,aafnet,22,19,Queen Anne architecture,Novelty architecture,0,0.0
+AS25_clean,aafnet,22,20,Queen Anne architecture,Palladian architecture,1,0.004651162790697674
+AS25_clean,aafnet,22,21,Queen Anne architecture,Postmodern architecture,0,0.0
+AS25_clean,aafnet,22,22,Queen Anne architecture,Queen Anne architecture,144,0.6697674418604651
+AS25_clean,aafnet,22,23,Queen Anne architecture,Romanesque architecture,3,0.013953488372093023
+AS25_clean,aafnet,22,24,Queen Anne architecture,Russian Revival architecture,3,0.013953488372093023
+AS25_clean,aafnet,22,25,Queen Anne architecture,Tudor Revival architecture,14,0.06511627906976744
+AS25_clean,aafnet,23,1,Romanesque architecture,Achaemenid architecture,1,0.011235955056179775
+AS25_clean,aafnet,23,2,Romanesque architecture,American Foursquare architecture,0,0.0
+AS25_clean,aafnet,23,3,Romanesque architecture,American craftsman style,0,0.0
+AS25_clean,aafnet,23,4,Romanesque architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,23,5,Romanesque architecture,Art Deco architecture,0,0.0
+AS25_clean,aafnet,23,6,Romanesque architecture,Art Nouveau architecture,1,0.011235955056179775
+AS25_clean,aafnet,23,7,Romanesque architecture,Baroque architecture,2,0.02247191011235955
+AS25_clean,aafnet,23,8,Romanesque architecture,Bauhaus architecture,0,0.0
+AS25_clean,aafnet,23,9,Romanesque architecture,Beaux-Arts architecture,2,0.02247191011235955
+AS25_clean,aafnet,23,10,Romanesque architecture,Byzantine architecture,4,0.0449438202247191
+AS25_clean,aafnet,23,11,Romanesque architecture,Chicago school architecture,0,0.0
+AS25_clean,aafnet,23,12,Romanesque architecture,Colonial architecture,0,0.0
+AS25_clean,aafnet,23,13,Romanesque architecture,Deconstructivism,0,0.0
+AS25_clean,aafnet,23,14,Romanesque architecture,Edwardian architecture,0,0.0
+AS25_clean,aafnet,23,15,Romanesque architecture,Georgian architecture,1,0.011235955056179775
+AS25_clean,aafnet,23,16,Romanesque architecture,Gothic architecture,9,0.10112359550561797
+AS25_clean,aafnet,23,17,Romanesque architecture,Greek Revival architecture,0,0.0
+AS25_clean,aafnet,23,18,Romanesque architecture,International style,0,0.0
+AS25_clean,aafnet,23,19,Romanesque architecture,Novelty architecture,0,0.0
+AS25_clean,aafnet,23,20,Romanesque architecture,Palladian architecture,0,0.0
+AS25_clean,aafnet,23,21,Romanesque architecture,Postmodern architecture,0,0.0
+AS25_clean,aafnet,23,22,Romanesque architecture,Queen Anne architecture,0,0.0
+AS25_clean,aafnet,23,23,Romanesque architecture,Romanesque architecture,66,0.7415730337078652
+AS25_clean,aafnet,23,24,Romanesque architecture,Russian Revival architecture,2,0.02247191011235955
+AS25_clean,aafnet,23,25,Romanesque architecture,Tudor Revival architecture,1,0.011235955056179775
+AS25_clean,aafnet,24,1,Russian Revival architecture,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,24,2,Russian Revival architecture,American Foursquare architecture,0,0.0
+AS25_clean,aafnet,24,3,Russian Revival architecture,American craftsman style,0,0.0
+AS25_clean,aafnet,24,4,Russian Revival architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,24,5,Russian Revival architecture,Art Deco architecture,0,0.0
+AS25_clean,aafnet,24,6,Russian Revival architecture,Art Nouveau architecture,0,0.0
+AS25_clean,aafnet,24,7,Russian Revival architecture,Baroque architecture,2,0.019801980198019802
+AS25_clean,aafnet,24,8,Russian Revival architecture,Bauhaus architecture,0,0.0
+AS25_clean,aafnet,24,9,Russian Revival architecture,Beaux-Arts architecture,0,0.0
+AS25_clean,aafnet,24,10,Russian Revival architecture,Byzantine architecture,6,0.0594059405940594
+AS25_clean,aafnet,24,11,Russian Revival architecture,Chicago school architecture,0,0.0
+AS25_clean,aafnet,24,12,Russian Revival architecture,Colonial architecture,1,0.009900990099009901
+AS25_clean,aafnet,24,13,Russian Revival architecture,Deconstructivism,0,0.0
+AS25_clean,aafnet,24,14,Russian Revival architecture,Edwardian architecture,2,0.019801980198019802
+AS25_clean,aafnet,24,15,Russian Revival architecture,Georgian architecture,0,0.0
+AS25_clean,aafnet,24,16,Russian Revival architecture,Gothic architecture,0,0.0
+AS25_clean,aafnet,24,17,Russian Revival architecture,Greek Revival architecture,0,0.0
+AS25_clean,aafnet,24,18,Russian Revival architecture,International style,0,0.0
+AS25_clean,aafnet,24,19,Russian Revival architecture,Novelty architecture,0,0.0
+AS25_clean,aafnet,24,20,Russian Revival architecture,Palladian architecture,0,0.0
+AS25_clean,aafnet,24,21,Russian Revival architecture,Postmodern architecture,0,0.0
+AS25_clean,aafnet,24,22,Russian Revival architecture,Queen Anne architecture,1,0.009900990099009901
+AS25_clean,aafnet,24,23,Russian Revival architecture,Romanesque architecture,4,0.039603960396039604
+AS25_clean,aafnet,24,24,Russian Revival architecture,Russian Revival architecture,83,0.8217821782178217
+AS25_clean,aafnet,24,25,Russian Revival architecture,Tudor Revival architecture,2,0.019801980198019802
+AS25_clean,aafnet,25,1,Tudor Revival architecture,Achaemenid architecture,0,0.0
+AS25_clean,aafnet,25,2,Tudor Revival architecture,American Foursquare architecture,1,0.007751937984496124
+AS25_clean,aafnet,25,3,Tudor Revival architecture,American craftsman style,8,0.06201550387596899
+AS25_clean,aafnet,25,4,Tudor Revival architecture,Ancient Egyptian architecture,0,0.0
+AS25_clean,aafnet,25,5,Tudor Revival architecture,Art Deco architecture,0,0.0
+AS25_clean,aafnet,25,6,Tudor Revival architecture,Art Nouveau architecture,0,0.0
+AS25_clean,aafnet,25,7,Tudor Revival architecture,Baroque architecture,0,0.0
+AS25_clean,aafnet,25,8,Tudor Revival architecture,Bauhaus architecture,0,0.0
+AS25_clean,aafnet,25,9,Tudor Revival architecture,Beaux-Arts architecture,1,0.007751937984496124
+AS25_clean,aafnet,25,10,Tudor Revival architecture,Byzantine architecture,0,0.0
+AS25_clean,aafnet,25,11,Tudor Revival architecture,Chicago school architecture,0,0.0
+AS25_clean,aafnet,25,12,Tudor Revival architecture,Colonial architecture,2,0.015503875968992248
+AS25_clean,aafnet,25,13,Tudor Revival architecture,Deconstructivism,0,0.0
+AS25_clean,aafnet,25,14,Tudor Revival architecture,Edwardian architecture,18,0.13953488372093023
+AS25_clean,aafnet,25,15,Tudor Revival architecture,Georgian architecture,1,0.007751937984496124
+AS25_clean,aafnet,25,16,Tudor Revival architecture,Gothic architecture,0,0.0
+AS25_clean,aafnet,25,17,Tudor Revival architecture,Greek Revival architecture,0,0.0
+AS25_clean,aafnet,25,18,Tudor Revival architecture,International style,0,0.0
+AS25_clean,aafnet,25,19,Tudor Revival architecture,Novelty architecture,0,0.0
+AS25_clean,aafnet,25,20,Tudor Revival architecture,Palladian architecture,0,0.0
+AS25_clean,aafnet,25,21,Tudor Revival architecture,Postmodern architecture,1,0.007751937984496124
+AS25_clean,aafnet,25,22,Tudor Revival architecture,Queen Anne architecture,2,0.015503875968992248
+AS25_clean,aafnet,25,23,Tudor Revival architecture,Romanesque architecture,2,0.015503875968992248
+AS25_clean,aafnet,25,24,Tudor Revival architecture,Russian Revival architecture,0,0.0
+AS25_clean,aafnet,25,25,Tudor Revival architecture,Tudor Revival architecture,93,0.7209302325581395

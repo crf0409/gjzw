@@ -14,8 +14,8 @@ class MobileNetV3Classifier(BaseClassifier):
 
     def build_model(self):
         """构建 MobileNetV3 模型架构"""
-        backbone = models.mobilenet_v3_large(weights='IMAGENET1K_V1')
-        print("MobileNetV3Large pre-trained weights loaded (ImageNet)")
+        backbone = models.mobilenet_v3_large(weights='IMAGENET1K_V2')
+        print("MobileNetV3Large pre-trained weights loaded (ImageNet V2, cached)")
 
         # 微调策略：冻结前 80% 的参数
         all_params = list(backbone.named_parameters())

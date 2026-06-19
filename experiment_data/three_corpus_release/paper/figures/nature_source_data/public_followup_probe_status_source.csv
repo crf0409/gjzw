@@ -1,0 +1,5 @@
+dataset,role,task,robustness_complete,calibration_complete,rotation_complete,target_cells
+ASP_clean,baseline,asp_baseline,15,15,15,15
+ASP_clean,aafnet,asp_aafnet,15,15,15,15
+AS25_clean,baseline,as25_baseline,15,15,15,15
+AS25_clean,aafnet,as25_aafnet,15,15,15,15

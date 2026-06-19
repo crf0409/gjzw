@@ -1,0 +1,133 @@
+{
+  "all_complete": true,
+  "smoke_complete": true,
+  "rows": [
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "output_subdir": "cv_asp_baseline",
+      "status": "complete",
+      "summary_path": "outputs/cv_asp_baseline/public_cv_parity_v1/resnet50/cv_summary.json",
+      "run_id": "public_cv_parity_v1",
+      "n_folds_completed": 15,
+      "n_folds_total": 15,
+      "test_accuracy_mean": 0.7303665910808769,
+      "test_accuracy_std": 0.004732192635258565,
+      "macro_f1_mean": 0.7301722236306191,
+      "macro_f1_std": 0.0040380387388783325
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "output_subdir": "cv_asp_aafnet",
+      "status": "complete",
+      "summary_path": "outputs/cv_asp_aafnet/public_cv_parity_v1/resnet50/cv_summary.json",
+      "run_id": "public_cv_parity_v1",
+      "n_folds_completed": 15,
+      "n_folds_total": 15,
+      "test_accuracy_mean": 0.7358843537414967,
+      "test_accuracy_std": 0.005206168468897441,
+      "macro_f1_mean": 0.7362816521268122,
+      "macro_f1_std": 0.005170876769392236
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "output_subdir": "cv_as25_baseline",
+      "status": "complete",
+      "summary_path": "outputs/cv_as25_baseline/public_cv_parity_v1/resnet50/cv_summary.json",
+      "run_id": "public_cv_parity_v1",
+      "n_folds_completed": 15,
+      "n_folds_total": 15,
+      "test_accuracy_mean": 0.6681527206218564,
+      "test_accuracy_std": 0.00679170131573523,
+      "macro_f1_mean": 0.6663185824550484,
+      "macro_f1_std": 0.007130737766492625
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "output_subdir": "cv_as25_aafnet",
+      "status": "complete",
+      "summary_path": "outputs/cv_as25_aafnet/public_cv_parity_v1/resnet50/cv_summary.json",
+      "run_id": "public_cv_parity_v1",
+      "n_folds_completed": 15,
+      "n_folds_total": 15,
+      "test_accuracy_mean": 0.6766117969821673,
+      "test_accuracy_std": 0.005967472355049701,
+      "macro_f1_mean": 0.6747497031405969,
+      "macro_f1_std": 0.006367669126546731
+    }
+  ],
+  "smoke_rows": [
+    {
+      "dataset": "ASP_clean",
+      "role": "baseline",
+      "output_subdir": "cv_smoke_asp_baseline",
+      "status": "complete",
+      "summary_path": "outputs/cv_smoke_asp_baseline/20260619_114248/resnet50/cv_summary.json",
+      "run_id": "20260619_114248",
+      "n_folds_completed": 2,
+      "n_folds_total": 2,
+      "test_accuracy_mean": 0.5501842925999433,
+      "test_accuracy_std": 0.01403459030337395,
+      "macro_f1_mean": 0.5433345180111332,
+      "macro_f1_std": 0.015220621038585236
+    },
+    {
+      "dataset": "ASP_clean",
+      "role": "aafnet",
+      "output_subdir": "cv_smoke_asp_aafnet",
+      "status": "complete",
+      "summary_path": "outputs/cv_smoke_asp_aafnet/20260619_114434/resnet50/cv_summary.json",
+      "run_id": "20260619_114434",
+      "n_folds_completed": 2,
+      "n_folds_total": 2,
+      "test_accuracy_mean": 0.49985823646158206,
+      "test_accuracy_std": 0.009072866458746776,
+      "macro_f1_mean": 0.48164899937800276,
+      "macro_f1_std": 0.011553567671367199
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "baseline",
+      "output_subdir": "cv_smoke_as25_baseline",
+      "status": "complete",
+      "summary_path": "outputs/cv_smoke_as25_baseline/20260619_114622/resnet50/cv_summary.json",
+      "run_id": "20260619_114622",
+      "n_folds_completed": 2,
+      "n_folds_total": 2,
+      "test_accuracy_mean": 0.3407064471879287,
+      "test_accuracy_std": 0.03172153635116598,
+      "macro_f1_mean": 0.31692587829466157,
+      "macro_f1_std": 0.03447346620271827
+    },
+    {
+      "dataset": "AS25_clean",
+      "role": "aafnet",
+      "output_subdir": "cv_smoke_as25_aafnet",
+      "status": "complete",
+      "summary_path": "outputs/cv_smoke_as25_aafnet/20260619_114745/resnet50/cv_summary.json",
+      "run_id": "20260619_114745",
+      "n_folds_completed": 2,
+      "n_folds_total": 2,
+      "test_accuracy_mean": 0.30795610425240055,
+      "test_accuracy_std": 0.02400548696844995,
+      "macro_f1_mean": 0.2793747426028159,
+      "macro_f1_std": 0.026526458982752993
+    }
+  ],
+  "active_runs": [
+    {
+      "run_id": "public_cv_parity_v1",
+      "pid": 3815493,
+      "alive": false,
+      "log_path": "outputs/public_cv_parity/logs/public_cv_parity_v1_20260619_121840.log"
+    },
+    {
+      "run_id": "watch_public_cv_progress",
+      "pid": 3970840,
+      "alive": false
+    }
+  ]
+}

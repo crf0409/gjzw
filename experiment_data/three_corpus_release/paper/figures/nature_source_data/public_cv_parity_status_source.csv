@@ -1,0 +1,5 @@
+dataset,role,output_subdir,status,summary_path,run_id,n_folds_completed,n_folds_total,test_accuracy_mean,test_accuracy_std,macro_f1_mean,macro_f1_std
+ASP_clean,baseline,cv_asp_baseline,complete,outputs/cv_asp_baseline/public_cv_parity_v1/resnet50/cv_summary.json,public_cv_parity_v1,15,15,0.7303665910808769,0.004732192635258565,0.7301722236306191,0.0040380387388783325
+ASP_clean,aafnet,cv_asp_aafnet,complete,outputs/cv_asp_aafnet/public_cv_parity_v1/resnet50/cv_summary.json,public_cv_parity_v1,15,15,0.7358843537414967,0.005206168468897441,0.7362816521268122,0.005170876769392236
+AS25_clean,baseline,cv_as25_baseline,complete,outputs/cv_as25_baseline/public_cv_parity_v1/resnet50/cv_summary.json,public_cv_parity_v1,15,15,0.6681527206218564,0.00679170131573523,0.6663185824550484,0.007130737766492625
+AS25_clean,aafnet,cv_as25_aafnet,complete,outputs/cv_as25_aafnet/public_cv_parity_v1/resnet50/cv_summary.json,public_cv_parity_v1,15,15,0.6766117969821673,0.005967472355049701,0.6747497031405969,0.006367669126546731

@@ -1,0 +1,5 @@
+dataset,role,cv_status,cv_completed,cv_total,cv_missing,test_accuracy,macro_f1,robustness_ready,robustness_complete,robustness_pending_ready,calibration_ready,calibration_complete,calibration_pending_ready,rotation_ready,rotation_complete,rotation_pending_ready,waiting_for_cv
+ASP_clean,baseline,complete,15,15,0,73.04% +/- 0.47%,73.02% +/- 0.40%,15,15,0,15,15,0,15,15,0,0
+ASP_clean,aafnet,complete,15,15,0,73.59% +/- 0.52%,73.63% +/- 0.52%,15,15,0,15,15,0,15,15,0,0
+AS25_clean,baseline,complete,15,15,0,66.82% +/- 0.68%,66.63% +/- 0.71%,15,15,0,15,15,0,15,15,0,0
+AS25_clean,aafnet,complete,15,15,0,67.66% +/- 0.60%,67.47% +/- 0.64%,15,15,0,15,15,0,15,15,0,0

@@ -1,0 +1,9 @@
+case,index,dataset,selection_note,display_rotation_deg,true,true_name,baseline_pred,baseline_pred_name,baseline_conf,baseline_correct,aafnet_pred,aafnet_pred_name,aafnet_conf,aafnet_correct
+both_correct,500,ASP_clean,automatic full-test selection,0,7,Renaissance_and_Colonialism,7,Renaissance_and_Colonialism,0.9997249245643616,True,7,Renaissance_and_Colonialism,0.9444143176078796,True
+aafnet_fix,2788,ASP_clean,automatic full-test selection,0,8,Revivalism,4,Eclecticism,0.33804643154144287,False,8,Revivalism,0.6994217038154602,True
+rn50_fix,629,ASP_clean,automatic full-test selection,0,7,Renaissance_and_Colonialism,7,Renaissance_and_Colonialism,0.9647641777992249,True,0,21st_Century,0.21474452316761017,False
+both_wrong,3120,ASP_clean,automatic full-test selection,0,8,Revivalism,5,Modernism,0.999968409538269,False,5,Modernism,0.7789182662963867,False
+both_correct,1964,AS25_clean,automatic full-test selection,0,18,Novelty architecture,18,Novelty architecture,0.998333752155304,True,18,Novelty architecture,0.9308115839958191,True
+aafnet_fix,1106,AS25_clean,automatic full-test selection,270,5,Art Nouveau architecture,6,Baroque architecture,0.37712255120277405,False,5,Art Nouveau architecture,0.8241090178489685,True
+rn50_fix,859,AS25_clean,automatic full-test selection,270,10,Chicago school architecture,10,Chicago school architecture,0.9593594074249268,True,22,Romanesque architecture,0.139616459608078,False
+both_wrong,1008,AS25_clean,automatic full-test selection,0,11,Colonial architecture,24,Tudor Revival architecture,0.9994134902954102,False,24,Tudor Revival architecture,0.6819188594818115,False

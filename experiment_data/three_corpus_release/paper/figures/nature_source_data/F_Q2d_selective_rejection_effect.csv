@@ -1,0 +1,3 @@
+figure,model,dataset,sample_index,true_label,pred_label,confidence,confidence_threshold_90pct_coverage,decision,correct,noise_sigma,display_rotation_deg
+F_Q2d_selective_rejection_effect,baseline,AL6,412,3,0,1.0,0.9993205070495605,accept,False,0.05,90
+F_Q2d_selective_rejection_effect,aafnet,AL6,412,3,3,0.9385166168212891,0.6322066783905029,accept,True,0.05,90

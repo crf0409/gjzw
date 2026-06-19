@@ -1,0 +1,412 @@
+{
+  "audit_rows": [
+    {
+      "raw_dataset": "AL6",
+      "analysis_variant": "AL6",
+      "n_train": 1815,
+      "n_test": 454,
+      "n_total": 2269,
+      "n_classes": 6,
+      "class_imbalance_max_min": 4.025316455696203,
+      "exact_cross_split_duplicates_raw": 0,
+      "near_duplicate_pairs_raw": 7,
+      "clean_train_dropped": 0,
+      "clean_test_dropped": 0,
+      "strict_train_dropped": 0,
+      "strict_test_dropped": 7
+    },
+    {
+      "raw_dataset": "AL6",
+      "analysis_variant": "AL6_strict",
+      "n_train": 1815,
+      "n_test": 447,
+      "n_total": 2262,
+      "n_classes": 6,
+      "class_imbalance_max_min": 4.038216560509555,
+      "exact_cross_split_duplicates_raw": 0,
+      "near_duplicate_pairs_raw": 7,
+      "clean_train_dropped": 0,
+      "clean_test_dropped": 0,
+      "strict_train_dropped": 0,
+      "strict_test_dropped": 7
+    },
+    {
+      "raw_dataset": "ASP",
+      "analysis_variant": "ASP",
+      "n_train": 8603,
+      "n_test": 3688,
+      "n_total": 12291,
+      "n_classes": 9,
+      "class_imbalance_max_min": 1.8776908023483365,
+      "exact_cross_split_duplicates_raw": 137,
+      "near_duplicate_pairs_raw": 200,
+      "clean_train_dropped": 161,
+      "clean_test_dropped": 161,
+      "strict_train_dropped": 161,
+      "strict_test_dropped": 241
+    },
+    {
+      "raw_dataset": "ASP",
+      "analysis_variant": "ASP_clean",
+      "n_train": 8442,
+      "n_test": 3527,
+      "n_total": 11969,
+      "n_classes": 9,
+      "class_imbalance_max_min": 1.9239465570400822,
+      "exact_cross_split_duplicates_raw": 137,
+      "near_duplicate_pairs_raw": 200,
+      "clean_train_dropped": 161,
+      "clean_test_dropped": 161,
+      "strict_train_dropped": 161,
+      "strict_test_dropped": 241
+    },
+    {
+      "raw_dataset": "ASP",
+      "analysis_variant": "ASP_strict",
+      "n_train": 8442,
+      "n_test": 3447,
+      "n_total": 11889,
+      "n_classes": 9,
+      "class_imbalance_max_min": 1.927685950413223,
+      "exact_cross_split_duplicates_raw": 137,
+      "near_duplicate_pairs_raw": 200,
+      "clean_train_dropped": 161,
+      "clean_test_dropped": 161,
+      "strict_train_dropped": 161,
+      "strict_test_dropped": 241
+    },
+    {
+      "raw_dataset": "AS25",
+      "analysis_variant": "AS25",
+      "n_train": 7079,
+      "n_test": 3034,
+      "n_total": 10113,
+      "n_classes": 25,
+      "class_imbalance_max_min": 2.5899280575539567,
+      "exact_cross_split_duplicates_raw": 103,
+      "near_duplicate_pairs_raw": 170,
+      "clean_train_dropped": 137,
+      "clean_test_dropped": 118,
+      "strict_train_dropped": 137,
+      "strict_test_dropped": 175
+    },
+    {
+      "raw_dataset": "AS25",
+      "analysis_variant": "AS25_clean",
+      "n_train": 6942,
+      "n_test": 2916,
+      "n_total": 9858,
+      "n_classes": 25,
+      "class_imbalance_max_min": 2.624087591240876,
+      "exact_cross_split_duplicates_raw": 103,
+      "near_duplicate_pairs_raw": 170,
+      "clean_train_dropped": 137,
+      "clean_test_dropped": 118,
+      "strict_train_dropped": 137,
+      "strict_test_dropped": 175
+    },
+    {
+      "raw_dataset": "AS25",
+      "analysis_variant": "AS25_strict",
+      "n_train": 6942,
+      "n_test": 2859,
+      "n_total": 9801,
+      "n_classes": 25,
+      "class_imbalance_max_min": 2.662962962962963,
+      "exact_cross_split_duplicates_raw": 103,
+      "near_duplicate_pairs_raw": 170,
+      "clean_train_dropped": 137,
+      "clean_test_dropped": 118,
+      "strict_train_dropped": 137,
+      "strict_test_dropped": 175
+    }
+  ],
+  "performance_rows": [
+    {
+      "dataset": "AL6",
+      "model": "baseline",
+      "test_acc_mean": 0.9868421052631577,
+      "test_acc_std": 0.004083111123909052,
+      "macro_f1_mean": 0.9933033296007364,
+      "macro_f1_std": null,
+      "n_repeats": 15,
+      "raw_accs": "0.9824561403508771;0.9912280701754386;0.9890350877192983;0.9912280701754386;0.9890350877192983;0.9868421052631579;0.9824561403508771;0.9868421052631579;0.9824561403508771;0.9868421052631579;0.9846491228070176;0.9780701754385965;0.9868421052631579;0.993421052631579;0.9912280701754386",
+      "source": "5-fold x 3-seed CV for accuracy; single headline ckpt for macro-F1"
+    },
+    {
+      "dataset": "AL6",
+      "model": "aafnet",
+      "test_acc_mean": 0.9913742690058478,
+      "test_acc_std": 0.0029385601231347795,
+      "macro_f1_mean": 0.9938186810804361,
+      "macro_f1_std": null,
+      "n_repeats": 15,
+      "raw_accs": "0.993421052631579;0.9956140350877193;0.9912280701754386;0.9868421052631579;0.9890350877192983;0.9956140350877193;0.993421052631579;0.993421052631579;0.9890350877192983;0.9868421052631579;0.9868421052631579;0.9912280701754386;0.9912280701754386;0.993421052631579;0.993421052631579",
+      "source": "5-fold x 3-seed CV for accuracy; single headline ckpt for macro-F1"
+    },
+    {
+      "dataset": "ASP_clean",
+      "model": "baseline",
+      "test_acc_mean": 0.7303665910808769,
+      "test_acc_std": 0.004732192635258565,
+      "macro_f1_mean": 0.7301722236306191,
+      "macro_f1_std": 0.0040380387388783325,
+      "n_repeats": 15,
+      "raw_accs": "0.7349773242630385;0.7307256235827665;0.7264739229024944;0.7256235827664399;0.7208049886621315;0.7225056689342404;0.7315759637188208;0.7329931972789115;0.7324263038548753;0.7281746031746031;0.7361111111111112;0.7380952380952381;0.7329931972789115;0.7327097505668935;0.7293083900226758",
+      "source": "5-fold x 3-seed CV",
+      "source_path": "outputs/cv_asp_baseline/public_cv_parity_v1/resnet50/cv_summary.json"
+    },
+    {
+      "dataset": "ASP_clean",
+      "model": "aafnet",
+      "test_acc_mean": 0.7358843537414967,
+      "test_acc_std": 0.005206168468897441,
+      "macro_f1_mean": 0.7362816521268122,
+      "macro_f1_std": 0.005170876769392236,
+      "n_repeats": 15,
+      "raw_accs": "0.7429138321995464;0.7361111111111112;0.7420634920634921;0.7276077097505669;0.7321428571428571;0.7389455782312925;0.7315759637188208;0.73781179138322;0.7451814058956916;0.7264739229024944;0.7366780045351474;0.7321428571428571;0.7366780045351474;0.7332766439909297;0.7386621315192744",
+      "source": "5-fold x 3-seed CV",
+      "source_path": "outputs/cv_asp_aafnet/public_cv_parity_v1/resnet50/cv_summary.json"
+    },
+    {
+      "dataset": "AS25_clean",
+      "model": "baseline",
+      "test_acc_mean": 0.6681527206218564,
+      "test_acc_std": 0.00679170131573523,
+      "macro_f1_mean": 0.6663185824550484,
+      "macro_f1_std": 0.007130737766492625,
+      "n_repeats": 15,
+      "raw_accs": "0.6697530864197531;0.6670096021947873;0.6560356652949245;0.663923182441701;0.6618655692729767;0.6772976680384087;0.6745541838134431;0.6759259259259259;0.6646090534979424;0.6800411522633745;0.6724965706447188;0.668724279835391;0.6611796982167353;0.6694101508916324;0.6594650205761317",
+      "source": "5-fold x 3-seed CV",
+      "source_path": "outputs/cv_as25_baseline/public_cv_parity_v1/resnet50/cv_summary.json"
+    },
+    {
+      "dataset": "AS25_clean",
+      "model": "aafnet",
+      "test_acc_mean": 0.6766117969821673,
+      "test_acc_std": 0.005967472355049701,
+      "macro_f1_mean": 0.6747497031405969,
+      "macro_f1_std": 0.006367669126546731,
+      "n_repeats": 15,
+      "raw_accs": "0.6793552812071331;0.6807270233196159;0.6786694101508917;0.6676954732510288;0.6700960219478738;0.6831275720164609;0.6796982167352538;0.6762688614540466;0.6676954732510288;0.6796982167352538;0.6776406035665294;0.684156378600823;0.6820987654320988;0.6642661179698217;0.6779835390946503",
+      "source": "5-fold x 3-seed CV",
+      "source_path": "outputs/cv_as25_aafnet/public_cv_parity_v1/resnet50/cv_summary.json"
+    },
+    {
+      "dataset": "AL6",
+      "model": "baseline",
+      "split_type": "clean",
+      "strict_eval_dataset": "AL6",
+      "strict_eval_accuracy": 0.9933920704845814,
+      "strict_eval_macro_f1": 0.9933033296007364,
+      "n_test": 454,
+      "source": "single seed=42 strict evaluation"
+    },
+    {
+      "dataset": "AL6",
+      "model": "baseline",
+      "split_type": "strict",
+      "strict_eval_dataset": "AL6_strict",
+      "strict_eval_accuracy": 0.9932885906040269,
+      "strict_eval_macro_f1": 0.993269061826792,
+      "n_test": 447,
+      "source": "single seed=42 strict evaluation"
+    },
+    {
+      "dataset": "AL6",
+      "model": "aafnet",
+      "split_type": "clean",
+      "strict_eval_dataset": "AL6",
+      "strict_eval_accuracy": 0.9933920704845814,
+      "strict_eval_macro_f1": 0.9937863969803554,
+      "n_test": 454,
+      "source": "single seed=42 strict evaluation"
+    },
+    {
+      "dataset": "AL6",
+      "model": "aafnet",
+      "split_type": "strict",
+      "strict_eval_dataset": "AL6_strict",
+      "strict_eval_accuracy": 0.9932885906040269,
+      "strict_eval_macro_f1": 0.9937769031442284,
+      "n_test": 447,
+      "source": "single seed=42 strict evaluation"
+    },
+    {
+      "dataset": "ASP_clean",
+      "model": "baseline",
+      "split_type": "clean",
+      "strict_eval_dataset": "ASP_clean",
+      "strict_eval_accuracy": 0.704564785937057,
+      "strict_eval_macro_f1": 0.7056890832404669,
+      "n_test": 3527,
+      "source": "single seed=42 strict evaluation"
+    },
+    {
+      "dataset": "ASP_clean",
+      "model": "baseline",
+      "split_type": "strict",
+      "strict_eval_dataset": "ASP_strict",
+      "strict_eval_accuracy": 0.70147954743255,
+      "strict_eval_macro_f1": 0.7023188876895647,
+      "n_test": 3447,
+      "source": "single seed=42 strict evaluation"
+    },
+    {
+      "dataset": "ASP_clean",
+      "model": "aafnet",
+      "split_type": "clean",
+      "strict_eval_dataset": "ASP_clean",
+      "strict_eval_accuracy": 0.7241281542387298,
+      "strict_eval_macro_f1": 0.7257135976984341,
+      "n_test": 3527,
+      "source": "single seed=42 strict evaluation"
+    },
+    {
+      "dataset": "ASP_clean",
+      "model": "aafnet",
+      "split_type": "strict",
+      "strict_eval_dataset": "ASP_strict",
+      "strict_eval_accuracy": 0.7220771685523644,
+      "strict_eval_macro_f1": 0.7236730609592072,
+      "n_test": 3447,
+      "source": "single seed=42 strict evaluation"
+    },
+    {
+      "dataset": "AS25_clean",
+      "model": "baseline",
+      "split_type": "clean",
+      "strict_eval_dataset": "AS25_clean",
+      "strict_eval_accuracy": 0.635116598079561,
+      "strict_eval_macro_f1": 0.631511084628045,
+      "n_test": 2916,
+      "source": "single seed=42 strict evaluation"
+    },
+    {
+      "dataset": "AS25_clean",
+      "model": "baseline",
+      "split_type": "strict",
+      "strict_eval_dataset": "AS25_strict",
+      "strict_eval_accuracy": 0.6302903112976566,
+      "strict_eval_macro_f1": 0.6275872811290423,
+      "n_test": 2859,
+      "source": "single seed=42 strict evaluation"
+    },
+    {
+      "dataset": "AS25_clean",
+      "model": "aafnet",
+      "split_type": "clean",
+      "strict_eval_dataset": "AS25_clean",
+      "strict_eval_accuracy": 0.6515775034293553,
+      "strict_eval_macro_f1": 0.6501257287762178,
+      "n_test": 2916,
+      "source": "single seed=42 strict evaluation"
+    },
+    {
+      "dataset": "AS25_clean",
+      "model": "aafnet",
+      "split_type": "strict",
+      "strict_eval_dataset": "AS25_strict",
+      "strict_eval_accuracy": 0.6474291710388248,
+      "strict_eval_macro_f1": 0.647000595673845,
+      "n_test": 2859,
+      "source": "single seed=42 strict evaluation"
+    }
+  ],
+  "training_support_audit": [
+    {
+      "requirement": "Three-corpus data audit and representative samples",
+      "status": "supported",
+      "evidence": "outputs/data_audit/{AL6,ASP,AS25}/audit.json; data/processed/*_mapping.csv",
+      "boundary": "Source AL6 images include some orientation variation; paper sample panel uses fixed upright display examples."
+    },
+    {
+      "requirement": "Three-corpus clean performance comparison",
+      "status": "partially supported",
+      "evidence": "outputs/sig_collect_v2/significance.json; outputs/p1_asp_as25_summary.json; outputs/public_cv_parity/status.json",
+      "boundary": "Public corpora use completed or partial public-CV summaries where available, with partial rows explicitly labeled by completed fold count; otherwise they remain 3-seed single-split fallbacks."
+    },
+    {
+      "requirement": "Three-corpus confusion matrices",
+      "status": "supported",
+      "evidence": "outputs/ddp_{baseline,aafnet_v2}/*/test_metrics.json; outputs/asp_as25_*/*/test_metrics.json",
+      "boundary": "AL6 confusion uses the headline single checkpoint; ASP/AS25 use seed-42 reference checkpoints."
+    },
+    {
+      "requirement": "Three-corpus training dynamics",
+      "status": "supported",
+      "evidence": "training_curve.csv files for AL6 headline checkpoints and ASP/AS25 seed-42 runs",
+      "boundary": "Reference curves only, not fold-averaged curves."
+    },
+    {
+      "requirement": "Three-corpus strict-test stability",
+      "status": "supported",
+      "evidence": "outputs/p2_strict_extended.json",
+      "boundary": "Single seed=42 checkpoint evaluation."
+    },
+    {
+      "requirement": "Three-corpus downstream feature probes",
+      "status": "partially supported",
+      "evidence": "outputs/downstream/20260509_005735/results.json",
+      "boundary": "Retrieval and near-duplicate probes cover all three corpora; OOD/few-shot are defined only for ASP_clean/AS25_clean as external corpora."
+    },
+    {
+      "requirement": "ASP/AS25 seed-42 robustness, calibration and rotation parity",
+      "status": "partially supported",
+      "evidence": "outputs/three_corpus_parity/latest/results.json; paper/figures/F_TC6_three_corpus_parity.png; outputs/public_calibration_rotation/queue.md; outputs/public_followup_probes/summary.md",
+      "boundary": "Existing checkpoints support paired seed-42 probes; fold-level calibration/rotation is now queued and has a result aggregator for completed public-CV checkpoints, but fold-level probe JSON outputs are not yet complete."
+    },
+    {
+      "requirement": "ASP/AS25 seed-42 inference and GradCAM parity",
+      "status": "partially supported",
+      "evidence": "paper/figures/F_TC7_public_interpretability.png; paper/figures/nature_source_data/F_TC7_public_interpretability_predictions_source.csv; paper/figures/figure_rotation_audit.md",
+      "boundary": "Existing checkpoints support qualitative public-corpus inference traces. Display-only rotations are audited separately; this is not a multi-seed interpretability study."
+    },
+    {
+      "requirement": "Full AL6-level public-corpus validation",
+      "status": "in progress",
+      "evidence": "outputs/public_cv_parity/status.md; outputs/public_cv_parity/remaining_queue.md; outputs/public_cv_parity/smoke_status.md; outputs/cv_asp_baseline/public_cv_parity_v1/resnet50/seed42_fold*_train/*/resnet50/test_metrics.json",
+      "boundary": "Public CV launcher/status scanner, remaining-cell queue, resumable fold skipping, 2-fold smoke checks, and the completed ASP_clean baseline full-CV summary now exist; the remaining public-corpus baseline/AAFNet summaries are still required before claiming identical statistical depth across all three corpora."
+    },
+    {
+      "requirement": "ASP/AS25 full robustness attribution and multi-seed interpretability parity",
+      "status": "in progress",
+      "evidence": "scripts/run_public_robustness_attribution.py; outputs/public_robustness_attribution/queue.md; paper/figures/nature_source_data/public_robustness_attribution_queue_source.csv",
+      "boundary": "Fold-level public-corpus robustness attribution is now queued and resumable for completed CV checkpoints; matched multi-seed GradCAM/activation panels remain to be generated."
+    }
+  ],
+  "figures": [
+    "F_TC0_three_corpus_samples.png",
+    "F_TC1_three_corpus_audit.png",
+    "F_TC2_three_corpus_performance.png",
+    "F_TC3_three_corpus_confusions.png",
+    "F_TC4_three_corpus_training.png",
+    "F_TC5_three_corpus_probe_matrix.png",
+    "F_TC6_three_corpus_parity.png",
+    "F_TC7_public_interpretability.png",
+    "F_TC8_public_experiment_coverage.png"
+  ],
+  "source_csv": [
+    "F_TC0_three_corpus_samples_source.csv",
+    "F_TC1_three_corpus_audit_source.csv",
+    "F_TC2_three_corpus_performance_source.csv",
+    "F_TC3_three_corpus_confusions_source.csv",
+    "F_TC4_three_corpus_training_source.csv",
+    "F_TC5_three_corpus_probe_matrix_source.csv",
+    "F_TC6_three_corpus_parity_source.csv",
+    "F_TC7_public_interpretability_selected_source.csv",
+    "F_TC7_public_interpretability_predictions_source.csv",
+    "F_TC8_public_experiment_coverage_source.csv",
+    "figure_rotation_audit.csv",
+    "public_cv_remaining_queue_source.csv",
+    "public_robustness_attribution_queue_source.csv",
+    "public_calibration_rotation_queue_source.csv",
+    "public_followup_probe_status_source.csv",
+    "public_robustness_fold_metrics_source.csv",
+    "public_calibration_fold_metrics_source.csv",
+    "public_rotation_fold_metrics_source.csv",
+    "public_robustness_summary_source.csv",
+    "public_calibration_summary_source.csv",
+    "public_rotation_summary_source.csv"
+  ]
+}

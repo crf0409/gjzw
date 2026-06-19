@@ -1,0 +1,11 @@
+figure,model,dataset,query_index,true_label,class_label,prototype_position,cosine_to_query,predicted,true_class,support_indices,support_display_rotation_degs,displayed_support_index,displayed_support_rotation_deg,query_display_rotation_deg
+F_Q2h_fewshot_as25_effect,baseline,AS25_clean,2347,7,7,0,0.7667378187179565,True,True,2594;2082;657;913;90,0;0;0;0;0,2594,0,0
+F_Q2h_fewshot_as25_effect,baseline,AS25_clean,2347,7,12,1,0.7638276219367981,False,False,584;1571;2867;2323;956,0;0;0;0;0,584,0,0
+F_Q2h_fewshot_as25_effect,baseline,AS25_clean,2347,7,24,2,0.7273313403129578,False,False,1339;1134;1823;626;1836,0;0;0;0;0,1339,0,0
+F_Q2h_fewshot_as25_effect,baseline,AS25_clean,2347,7,0,3,0.7251976728439331,False,False,97;1553;1261;1231;1163,0;0;0;0;0,97,0,0
+F_Q2h_fewshot_as25_effect,baseline,AS25_clean,2347,7,18,4,0.6715643405914307,False,False,449;469;409;198;355,270;0;0;0;0,449,270,0
+F_Q2h_fewshot_as25_effect,aafnet,AS25_clean,2347,7,7,0,0.8860602378845215,False,True,2594;2082;657;913;90,0;0;0;0;0,2594,0,0
+F_Q2h_fewshot_as25_effect,aafnet,AS25_clean,2347,7,12,1,0.892264723777771,False,False,584;1571;2867;2323;956,0;0;0;0;0,584,0,0
+F_Q2h_fewshot_as25_effect,aafnet,AS25_clean,2347,7,24,2,0.8784262537956238,False,False,1339;1134;1823;626;1836,0;0;0;0;0,1339,0,0
+F_Q2h_fewshot_as25_effect,aafnet,AS25_clean,2347,7,0,3,0.897005558013916,True,False,97;1553;1261;1231;1163,0;0;0;0;0,97,0,0
+F_Q2h_fewshot_as25_effect,aafnet,AS25_clean,2347,7,18,4,0.8628289103507996,False,False,449;469;409;198;355,270;0;0;0;0,449,270,0

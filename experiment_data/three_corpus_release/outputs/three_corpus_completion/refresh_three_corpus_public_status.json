@@ -1,0 +1,69 @@
+{
+  "ok": true,
+  "generated_at_epoch": 1781867058.9307888,
+  "steps": [
+    {
+      "name": "public_cv_status",
+      "command": "/home/siton02/miniconda3/envs/crf_torch/bin/python scripts/summarize_public_cv_parity.py",
+      "returncode": 0,
+      "elapsed_sec": 0.13,
+      "output_tail": "# Public-Corpus CV Parity Status\n\nThis status file tracks whether ASP_clean and AS25_clean have the same 5-fold x 3-seed confirmation depth as AL6.\n\n| Dataset | Role | Status | Folds | Test accuracy | Macro-F1 | Summary |\n|---|---|---|---:|---:|---:|---|\n| ASP_clean | baseline | complete | 15/15 | 73.04 % +/- 0.47 % | 73.02 % +/- 0.40 % | `outputs/cv_asp_baseline/public_cv_parity_v1/resnet50/cv_summary.json` |\n| ASP_clean | aafnet | complete | 15/15 | 73.59 % +/- 0.52 % | 73.63 % +/- 0.52 % | `outputs/cv_asp_aafnet/public_cv_parity_v1/resnet50/cv_summary.json` |\n| AS25_clean | baseline | complete | 15/15 | 66.82 % +/- 0.68 % | 66.63 % +/- 0.71 % | `outputs/cv_as25_baseline/public_cv_parity_v1/resnet50/cv_summary.json` |\n| AS25_clean | aafnet | complete | 15/15 | 67.66 % +/- 0.60 % | 67.47 % +/- 0.64 % | `outputs/cv_as25_aafnet/public_cv_parity_v1/resnet50/cv_summary.json` |\n\nOverall status: **complete**.\n\n\n## Active run monitor\n\n| Run | PID | Alive | Elapsed | Log |\n|---|---:|---|---:|---|\n| public_cv_parity_v1 | 3815493 | False | n/a | `outputs/public_cv_parity/logs/public_cv_parity_v1_20260619_121840.log` |\n| watch_public_cv_progress | 3970840 | False | n/a | `n/a` |\n\n# Public-Corpus CV Smoke Status\n\nSmoke runs use 2 folds x 1 seed x 1 epoch and are only used to verify the training path.\n\n| Dataset | Role | Status | Folds | Test accuracy | Summary |\n|---|---|---|---:|---:|---|\n| ASP_clean | baseline | complete | 2/2 | 55.02 % +/- 1.40 % | `outputs/cv_smoke_asp_baseline/20260619_114248/resnet50/cv_summary.json` |\n| ASP_clean | aafnet | complete | 2/2 | 49.99 % +/- 0.91 % | `outputs/cv_smoke_asp_aafnet/20260619_114434/resnet50/cv_summary.json` |\n| AS25_clean | baseline | complete | 2/2 | 34.07 % +/- 3.17 % | `outputs/cv_smoke_as25_baseline/20260619_114622/resnet50/cv_summary.json` |\n| AS25_clean | aafnet | complete | 2/2 | 30.80 % +/- 2.40 % | `outputs/cv_smoke_as25_aafnet/20260619_114745/resnet50/cv_summary.json` |\n\nSmoke overall status: **complete**."
+    },
+    {
+      "name": "public_cv_remaining",
+      "command": "/home/siton02/miniconda3/envs/crf_torch/bin/python scripts/report_public_cv_remaining.py",
+      "returncode": 0,
+      "elapsed_sec": 0.132,
+      "output_tail": "# Public-Corpus CV Remaining Queue\n\nThis file enumerates the exact 5-fold x 3-seed cells still required before ASP_clean and AS25_clean can be treated as AL6-level statistical peers.\n\n| Dataset | Role | Complete | Missing | Next missing cells |\n|---|---|---:|---:|---|\n| ASP_clean | baseline | 15/15 | 0 | none |\n| ASP_clean | aafnet | 15/15 | 0 | none |\n| AS25_clean | baseline | 15/15 | 0 | none |\n| AS25_clean | aafnet | 15/15 | 0 | none |\n\n## Active Runs\n\n| Run | PID | Alive | Elapsed | Log |\n|---|---:|---|---:|---|\n| public_cv_parity_v1 | 3815493 | False | n/a | `outputs/public_cv_parity/logs/public_cv_parity_v1_20260619_121840.log` |\n| watch_public_cv_progress | 3970840 | False | n/a | `n/a` |"
+    },
+    {
+      "name": "public_robustness_queue",
+      "command": "/home/siton02/miniconda3/envs/crf_torch/bin/python scripts/run_public_robustness_attribution.py --dry-run --limit 0",
+      "returncode": 0,
+      "elapsed_sec": 0.082,
+      "output_tail": "# Public-Corpus Robustness Attribution Queue\n\nThis file tracks fold-level robustness attribution readiness for ASP_clean and AS25_clean.\n\n- CV run id: `public_cv_parity_v1`\n- Source data: `paper/figures/nature_source_data/public_robustness_attribution_queue_source.csv`\n\n| Dataset | Role | CV checkpoints ready | Robustness complete | Waiting for CV |\n|---|---|---:|---:|---:|\n| ASP_clean | baseline | 15/15 | 15/15 | 0/15 |\n| ASP_clean | aafnet | 15/15 | 15/15 | 0/15 |\n| AS25_clean | baseline | 15/15 | 15/15 | 0/15 |\n| AS25_clean | aafnet | 15/15 | 15/15 | 0/15 |"
+    },
+    {
+      "name": "public_calibration_rotation_queue",
+      "command": "/home/siton02/miniconda3/envs/crf_torch/bin/python scripts/run_public_calibration_rotation.py --dry-run --limit 0",
+      "returncode": 0,
+      "elapsed_sec": 1.97,
+      "output_tail": "# Public-Corpus Calibration/Rotation Queue\n\nThis file tracks fold-level calibration and 24-angle rotation readiness for ASP_clean and AS25_clean.\n\n- CV run id: `public_cv_parity_v1`\n- Source data: `paper/figures/nature_source_data/public_calibration_rotation_queue_source.csv`\n\n| Dataset | Role | CV checkpoints ready | Calibration complete | Rotation complete | Waiting for CV |\n|---|---|---:|---:|---:|---:|\n| ASP_clean | baseline | 15/15 | 15/15 | 15/15 | 0/15 |\n| ASP_clean | aafnet | 15/15 | 15/15 | 15/15 | 0/15 |\n| AS25_clean | baseline | 15/15 | 15/15 | 15/15 | 0/15 |\n| AS25_clean | aafnet | 15/15 | 15/15 | 15/15 | 0/15 |"
+    },
+    {
+      "name": "public_followup_summary",
+      "command": "/home/siton02/miniconda3/envs/crf_torch/bin/python scripts/summarize_public_followup_probes.py",
+      "returncode": 0,
+      "elapsed_sec": 0.191,
+      "output_tail": "# Public Follow-Up Probe Summary\n\n- CV run id: `public_cv_parity_v1`\n- This summary only aggregates completed fold-level probe JSON files.\n\n| Dataset | Role | Robustness | Calibration | Rotation |\n|---|---|---:|---:|---:|\n| ASP_clean | baseline | 15/15 | 15/15 | 15/15 |\n| ASP_clean | aafnet | 15/15 | 15/15 | 15/15 |\n| AS25_clean | baseline | 15/15 | 15/15 | 15/15 |\n| AS25_clean | aafnet | 15/15 | 15/15 | 15/15 |\n\n## Source Data\n\n- `public_followup_probe_status_source.csv`\n- `public_robustness_fold_metrics_source.csv`\n- `public_calibration_fold_metrics_source.csv`\n- `public_rotation_fold_metrics_source.csv`\n- `public_robustness_summary_source.csv`\n- `public_calibration_summary_source.csv`\n- `public_rotation_summary_source.csv`"
+    },
+    {
+      "name": "three_corpus_runbook_status",
+      "command": "/home/siton02/miniconda3/envs/crf_torch/bin/python scripts/sync_three_corpus_runbook_status.py",
+      "returncode": 0,
+      "elapsed_sec": 0.131,
+      "output_tail": "wrote: outputs/three_corpus_completion/missing_experiment_runbook.md\nwrote: paper/figures/nature_source_data/three_corpus_live_status_source.csv"
+    },
+    {
+      "name": "three_corpus_figures",
+      "command": "/home/siton02/miniconda3/envs/crf_torch/bin/python scripts/complete_three_corpus_figures.py",
+      "returncode": 0,
+      "elapsed_sec": 15.548,
+      "output_tail": "[completing three-corpus figures]\n  -> /home/siton02/disk_sdg/md0_backup_2026-04-28/crf/gjzw/paper/figures/F_TC0_three_corpus_samples.png\n  -> /home/siton02/disk_sdg/md0_backup_2026-04-28/crf/gjzw/paper/figures/F_TC1_three_corpus_audit.png\n  -> /home/siton02/disk_sdg/md0_backup_2026-04-28/crf/gjzw/paper/figures/F_TC2_three_corpus_performance.png\n  -> /home/siton02/disk_sdg/md0_backup_2026-04-28/crf/gjzw/paper/figures/F_TC3_three_corpus_confusions.png\n  -> /home/siton02/disk_sdg/md0_backup_2026-04-28/crf/gjzw/paper/figures/F_TC4_three_corpus_training.png\n  -> /home/siton02/disk_sdg/md0_backup_2026-04-28/crf/gjzw/paper/figures/F_TC5_three_corpus_probe_matrix.png\n  -> /home/siton02/disk_sdg/md0_backup_2026-04-28/crf/gjzw/paper/figures/F_TC8_public_experiment_coverage.png\n[ok] QA written to /home/siton02/disk_sdg/md0_backup_2026-04-28/crf/gjzw/paper/figures/three_corpus_completion_qa.md"
+    },
+    {
+      "name": "figure_rotation_audit",
+      "command": "/home/siton02/miniconda3/envs/crf_torch/bin/python scripts/audit_figure_rotations.py",
+      "returncode": 0,
+      "elapsed_sec": 0.194,
+      "output_tail": "rotation rows: 46\nerrors: 0\nwrote: paper/figures/figure_rotation_audit.md\nwrote: paper/figures/nature_source_data/figure_rotation_audit.csv"
+    },
+    {
+      "name": "three_corpus_completion_audit",
+      "command": "/home/siton02/miniconda3/envs/crf_torch/bin/python scripts/audit_three_corpus_parity_completion.py",
+      "returncode": 0,
+      "elapsed_sec": 0.332,
+      "output_tail": "wrote: outputs/three_corpus_completion/three_corpus_parity_completion_audit.md\ncomplete: True"
+    }
+  ]
+}

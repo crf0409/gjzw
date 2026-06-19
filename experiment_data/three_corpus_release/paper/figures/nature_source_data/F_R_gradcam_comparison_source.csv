@@ -1,0 +1,2 @@
+source,note,column_rotations_deg
+existing_gradcam_plate_tiles,"Reformatted from the cached GradCAM comparison image; Class 2, 3 and 4 tiles were rotated 90 degrees counter-clockwise and Class 5 tiles 90 degrees clockwise for visual orientation consistency. No local contrast manipulation was applied.",0;0;90;90;90;270

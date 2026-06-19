@@ -1,39 +1,139 @@
-# gjzw | 甲骨文字符分类系统
+# gjzw | 古建筑物图像分类系统 (Ancient-Building Image Classification)
 
-基于深度学习的甲骨文古文字自动识别与分类系统，支持多骨格类别的高精度图像分类。
+基于深度学习的古建筑物自动识别与分类系统, 包含 AAFNet、多主干对比、
+鲁棒性评估、跨数据集泛化和 INR 探索实验代码.
+
+本开源仓库只包含代码、配置与必要入口说明; 原始/处理后数据集、模型权重、训练输出、
+文档草稿、Office/PDF 文档及其生成脚本不随仓库发布.
 
 ## 功能特性
 
-- 甲骨文图像预处理与增强（旋转、翻转、对比度）
-- 主干网络对比（ResNet / ViT / ConvNeXt）
-- 测试集分层划分（30% 独立测试）
-- 分类报告与混淆矩阵可视化
+- 三个公开数据集 (AL6 / ASP / AS25), 配套数据审计 (MD5 + pHash 重复检测) 与
+  脱重 cleaned 变体
+- 多主干网络对比 (ResNet-50 / VGG / Inception / EfficientNet / MobileNet-V3 /
+  ViT / ConvNeXt-Tiny / Swin-V2-Tiny / EfficientNetV2-S 等)
+- AAFNet 框架: 多尺度风格注意力 MSSA + 跨尺度门控融合 CSGF + 监督对比蒸馏
+  SASC-KD + 多样性加权专家混合 DW-MoE + 域内增强 ArchAug
+- 5-fold × 3-seed 交叉验证 + Wilcoxon 配对显著性检验
+- 鲁棒性套件 (5 类扰动 × 3 严重度) + Grad-CAM 可解释性 + Pareto 效率分析
+- INR-AncientArch (探索性): 基于 SIREN 的隐式神经压缩, 与剪枝的存储/延迟对照
 
 ## 快速开始
 
+### 1. 安装依赖
+
 ```bash
 pip install -r requirements.txt
-
-# 数据预处理
-python src/data/preprocess.py --config config/default.yaml
-
-# 训练
-python src/training/train.py --config config/default.yaml
-
-# 评估
-python src/evaluation/evaluate.py --config config/default.yaml
 ```
+
+### 2. 数据准备
+
+```bash
+# 下载 Kaggle 数据 (需要 kaggle credentials, 见 scripts/download_datasets.sh)
+bash scripts/download_datasets.sh
+
+# 统一三个数据集到 data/processed/{AL6,ASP,AS25}/{train,test}/
+python -m src.data.dataset_unifier --dataset all
+
+# 数据审计 + 输出 outputs/data_audit/<dataset>/duplicate_report.md
+python scripts/data_audit.py --dataset AL6
+python scripts/data_audit.py --dataset ASP
+python scripts/data_audit.py --dataset AS25
+
+# 生成脱重 cleaned 变体 (移除 MD5 重复 + 跨集泄漏)
+python scripts/dedup_dataset.py --dataset ASP
+python scripts/dedup_dataset.py --dataset AS25
+# 可选: 进一步移除 pHash 近似重复 (生成 *_strict 变体)
+# python scripts/dedup_dataset.py --dataset AS25 --strict
+
+# 预生成 PT 缓存 (uint8 [N,C,H,W] tensor, 训练时 GPU 端归一化)
+python scripts/build_pt_cache.py --dataset all --sizes 224x224
+```
+
+### 3. 训练
+
+DDP 单机 4 卡训练 (默认 RTX 3090):
+
+```bash
+# Baseline ResNet-50 (无 AAFNet 增强)
+EPOCHS=30 BS=32 NPROC=4 bash scripts/train_ddp.sh resnet50 224 \
+    --output-subdir ddp_baseline
+
+# AAFNet v2 (MSSA + SupCon + ArchAug + Gaussian noise aug)
+EPOCHS=30 BS=32 NPROC=4 bash scripts/train_ddp.sh resnet50 224 \
+    --mssa --loss-type focalls_supcon --supcon-weight 0.3 \
+    --archaug --gauss-noise 0.5 \
+    --output-subdir ddp_aafnet_v2
+```
+
+### 4. 评估与结果复现
+
+```bash
+# 5-fold × 3-seed CV
+python scripts/run_cv.py --model resnet50 --dataset AL6 \
+    --folds 5 --seeds 42 1337 2024 --epochs 30
+
+# 鲁棒性套件
+python scripts/run_robustness.py --model resnet50 \
+    --ckpt outputs/ddp_aafnet_v2/latest/resnet50/best_resnet50.pth
+
+# 跨数据集分析
+python scripts/run_cross_dataset.py --mode transfer \
+    --source ASP_clean --target AL6
+
+# 消融矩阵
+python scripts/run_ablations.py --base-model resnet50 --epochs 30
+
+# INR 探索性实验
+python scripts/fit_inr_dataset.py --dataset AL6 --split train --hidden 256 --layers 4
+python scripts/train_inr_classifier.py --hidden 256 --layers 4 --head mlp
+python scripts/benchmark_inr_vs_pruning.py --dataset AS25_clean
+
+# DW-MoE 集成
+python scripts/collect_member_predictions.py --dataset AL6 --img-size 224 224 \
+    --members resnet50:CKPT:224 mobilenet_v3:CKPT:224 ... \
+    --output-subdir ensemble_inputs
+python scripts/train_ensemble.py --inputs outputs/ensemble_inputs/latest/members.npz \
+    --output-subdir ensemble
+
+# 显著性分析
+python -m src.evaluation.significance --in outputs/cv_baseline outputs/cv_aafnet_v2
+
+# 聚合实验数字到本地输出目录
+python scripts/aggregate_results.py
+```
+
+## Three-Corpus Experiment Release
+
+The completed three-corpus experiment metadata is organized under
+`experiment_data/three_corpus_release/`. It contains the final completion audit,
+public CV and follow-up probe summaries, figure source CSVs, package manifest,
+and SHA256 checksum.
+
+The full experiment package is larger than GitHub's normal git file-size limit
+and is published as a GitHub Release asset:
+
+- Asset: `three_corpus_release_final_manual.zip`
+- SHA256: `d39a9f5683dc7348599104d3640533c73bfa59b6994eedccdae3889bd5d19748`
+- Completion: public CV 60/60, robustness 60/60, calibration 60/60, rotation 60/60
 
 ## 目录结构
 
 ```
 gjzw/
 ├── src/
-│   ├── models/      # 分类器与主干网络
-│   ├── data/        # 数据加载与增强
-│   ├── training/    # 训练循环
-│   └── evaluation/  # 评估指标
-├── config/          # YAML 配置文件
-├── data/            # 甲骨文图像数据集
-└── outputs/         # 训练结果与可视化
+│   ├── models/           # backbones / MSSA / DW-MoE / INR
+│   ├── data/             # dataset_unifier / arch_aug / cached_dataset
+│   ├── training/         # ddp_trainer / losses / cv_runner
+│   └── evaluation/       # robustness / efficiency / significance / interpret
+├── scripts/              # 全部入口脚本 (上面 quickstart 调用的)
+├── config/               # YAML 配置 (default + 消融变体)
+├── data/                 # 本地数据目录, 不纳入 Git
+└── outputs/              # 本地训练结果目录, 不纳入 Git
 ```
+
+## 开源边界
+
+- 本项目代码以 MIT License 发布, 见 `LICENSE`.
+- `data/`, `dataset/`, `outputs/`, 模型权重、缓存、压缩包和 Office/PDF 文档均被忽略.
+- 如需复现实验, 请按数据集原始许可自行下载数据, 并在本地生成缓存与权重.

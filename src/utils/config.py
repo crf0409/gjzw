@@ -50,25 +50,50 @@ def deep_merge(base: dict, override: dict) -> dict:
     return result
 
 
+def _lookup_dotted(cfg: dict, dotted: str):
+    """从配置字典按 'data.dataset' 形式查找."""
+    cur = cfg
+    for part in dotted.split('.'):
+        if not isinstance(cur, dict) or part not in cur:
+            return None
+        cur = cur[part]
+    return cur
+
+
 def resolve_paths(config: dict, root: Path = None) -> dict:
-    """解析配置中的路径占位符"""
+    """解析配置中的占位符:
+       - ${PROJECT_ROOT} / ${ROOT} -> 项目根目录
+       - ${data.dataset} 等 -> 同一配置树中按点号路径查找
+    多次迭代直到稳定 (最多 5 次)。
+    """
     root = root or paths.root
 
-    def resolve(value):
+    def resolve(value, full_cfg):
         if isinstance(value, str):
-            # 替换路径占位符
             value = value.replace('${PROJECT_ROOT}', str(root))
             value = value.replace('${ROOT}', str(root))
-            # 解析相对路径
+            # 替换 ${a.b.c} 形式
+            import re
+            def sub(m):
+                key = m.group(1)
+                got = _lookup_dotted(full_cfg, key)
+                return str(got) if got is not None else m.group(0)
+            value = re.sub(r'\$\{([a-zA-Z0-9_.]+)\}', sub, value)
             if value.startswith('./'):
                 value = str(root / value[2:])
         elif isinstance(value, dict):
-            value = {k: resolve(v) for k, v in value.items()}
+            value = {k: resolve(v, full_cfg) for k, v in value.items()}
         elif isinstance(value, list):
-            value = [resolve(v) for v in value]
+            value = [resolve(v, full_cfg) for v in value]
         return value
 
-    return resolve(config)
+    cfg = config
+    for _ in range(5):
+        new_cfg = resolve(cfg, cfg)
+        if new_cfg == cfg:
+            break
+        cfg = new_cfg
+    return cfg
 
 
 def load_config(config_path: str = None, overrides: dict = None) -> DictConfig:
@@ -85,17 +110,19 @@ def load_config(config_path: str = None, overrides: dict = None) -> DictConfig:
     # 默认配置
     default_config = {
         'project': {
-            'name': 'ancient-character-classification',
+            'name': 'ancient-architecture-classification',
             'seed': 42,
         },
         'paths': {
             'root': str(paths.root),
-            'data': str(paths.images_dir),
+            # 注意: 实际 data 路径由 ${data.dataset} 插值, 见 config/default.yaml
+            'data': '${PROJECT_ROOT}/data/processed/${data.dataset}',
             'weights': str(paths.weights_dir),
             'outputs': str(paths.outputs_dir),
         },
         'data': {
-            'img_height': None,  # 自动检测
+            'dataset': 'AL6',     # AL6 | ASP | AS25
+            'img_height': None,   # 自动检测
             'img_width': None,
             'test_split': 0.3,
             'train_mapping': 'train_mapping.csv',
@@ -107,6 +134,15 @@ def load_config(config_path: str = None, overrides: dict = None) -> DictConfig:
                 'brightness': 0.1,
                 'contrast_lower': 0.9,
                 'contrast_upper': 1.1,
+                'arch_aug': {
+                    'enabled': False,
+                    'perspective': 0.0,
+                    'arch_occlusion': 0.0,
+                    'weather': 0.0,
+                    'mixup': 0.0,
+                    'cutmix': 0.0,
+                    'randaugment': False,
+                },
             },
         },
         'training': {
@@ -131,9 +167,49 @@ def load_config(config_path: str = None, overrides: dict = None) -> DictConfig:
             'type': 'adam',
             'learning_rate': 0.0001,
             'momentum': 0.9,
-            'schedule': 'cosine',  # 'cosine', 'exponential', 'constant'
+            'schedule': 'cosine',  # cosine | exponential | constant | plateau
+        },
+        # AAFNet 框架开关（消融时切此处）
+        'aafnet': {
+            'msa': {
+                'enabled': False,
+                'fused_dim': 512,
+                'style_dim': 128,
+                'placement': 'after_layer4',
+            },
+            'loss': {
+                'type': 'ce',
+                'focal_gamma': 2.0,
+                'label_smoothing': 0.05,
+                'supcon_weight': 0.0,
+                'supcon_temp': 0.07,
+                'proj_dim': 128,
+                'kd_weight': 0.0,
+                'kd_temp': 4.0,
+                'teacher_ckpt': None,
+            },
+            'ensemble': {
+                'enabled': False,
+                'mode': 'soft_vote',
+                'members': [],
+            },
+        },
+        'cv': {
+            'enabled': False,
+            'n_folds': 5,
+            'seeds': [42, 1337, 2024],
         },
     }
+
+    # 优先从 config/default.yaml 加载（如果存在），与硬编码默认 deep_merge
+    auto_default_yaml = paths.config_dir / 'default.yaml'
+    if auto_default_yaml.exists() and config_path is None:
+        try:
+            with open(auto_default_yaml, 'r', encoding='utf-8') as f:
+                yaml_default = yaml.safe_load(f) or {}
+            default_config = deep_merge(default_config, yaml_default)
+        except Exception as e:
+            print(f"Warning: failed to load {auto_default_yaml}: {e}")
 
     # 如果指定了配置文件，加载并合并
     if config_path:
