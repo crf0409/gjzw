@@ -57,6 +57,9 @@ build/
 *.so
 .eggs/
 
+# Node / frontend
+node_modules/
+
 # Virtual environments
 .env
 venv/
